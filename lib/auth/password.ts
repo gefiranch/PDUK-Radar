@@ -1,0 +1,9 @@
+import {timingSafeEqual} from 'node:crypto';
+const ITERATIONS=100000;
+const encode=(bytes:Uint8Array)=>btoa(String.fromCharCode(...bytes));
+const decode=(value:string)=>Uint8Array.from(atob(value),c=>c.charCodeAt(0));
+export async function hashPassword(password:string){const salt=crypto.getRandomValues(new Uint8Array(16));const key=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveBits']);const derived=await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:salt as BufferSource,iterations:ITERATIONS},key,256);return `pbkdf2-sha256$${ITERATIONS}$${encode(salt)}$${encode(new Uint8Array(derived))}`;}
+export async function verifyPassword(password:string,stored:string|null){let salt=new Uint8Array(16),expected=new Uint8Array(32),valid=false;try{const parts=(stored||'').split('$');if(parts.length===4&&parts[0]==='pbkdf2-sha256'&&+parts[1]===ITERATIONS){salt=decode(parts[2]);expected=decode(parts[3]);valid=salt.length===16&&expected.length===32;}}catch{}if(!valid){salt=new Uint8Array(16);expected=new Uint8Array(32);}const key=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveBits']);const derived=new Uint8Array(await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:salt as BufferSource,iterations:ITERATIONS},key,256));return timingSafeEqual(derived,expected)&&valid;}
+export const createToken=()=>encode(crypto.getRandomValues(new Uint8Array(32))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+export async function hashToken(token:string){const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token));return [...new Uint8Array(digest)].map(x=>x.toString(16).padStart(2,'0')).join('');}
+export function sessionCookie(token:string,request:Request,clear=false){return `pduk_session=${clear?'':token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${clear?0:28800}${new URL(request.url).protocol==='https:'?'; Secure':''}`;}

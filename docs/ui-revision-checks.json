@@ -1,0 +1,222 @@
+[
+  {
+    "viewport": 390,
+    "path": "/overview",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 375,
+    "solidIcons": 5,
+    "width": 375
+  },
+  {
+    "viewport": 390,
+    "path": "/ranking",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Peringkat risiko perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 375,
+    "solidIcons": 5,
+    "width": 375
+  },
+  {
+    "viewport": 390,
+    "path": "/detail/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Detail perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 375,
+    "solidIcons": 5,
+    "width": 375
+  },
+  {
+    "viewport": 390,
+    "path": "/explain/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 375,
+    "solidIcons": 5,
+    "width": 375
+  },
+  {
+    "viewport": 390,
+    "path": "/verification/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ruang kerja verifikasi",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 375,
+    "solidIcons": 5,
+    "width": 375
+  },
+  {
+    "viewport": 768,
+    "path": "/overview",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 753,
+    "solidIcons": 5,
+    "width": 753
+  },
+  {
+    "viewport": 768,
+    "path": "/ranking",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Peringkat risiko perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 753,
+    "solidIcons": 5,
+    "width": 753
+  },
+  {
+    "viewport": 768,
+    "path": "/detail/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Detail perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 753,
+    "solidIcons": 5,
+    "width": 753
+  },
+  {
+    "viewport": 768,
+    "path": "/explain/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 753,
+    "solidIcons": 5,
+    "width": 753
+  },
+  {
+    "viewport": 768,
+    "path": "/verification/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ruang kerja verifikasi",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 753,
+    "solidIcons": 5,
+    "width": 753
+  },
+  {
+    "viewport": 1071,
+    "path": "/overview",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1056,
+    "solidIcons": 5,
+    "width": 1056
+  },
+  {
+    "viewport": 1071,
+    "path": "/ranking",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Peringkat risiko perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1056,
+    "solidIcons": 5,
+    "width": 1056
+  },
+  {
+    "viewport": 1071,
+    "path": "/detail/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Detail perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1056,
+    "solidIcons": 5,
+    "width": 1056
+  },
+  {
+    "viewport": 1071,
+    "path": "/explain/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1056,
+    "solidIcons": 5,
+    "width": 1056
+  },
+  {
+    "viewport": 1071,
+    "path": "/verification/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ruang kerja verifikasi",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1056,
+    "solidIcons": 5,
+    "width": 1056
+  },
+  {
+    "viewport": 1440,
+    "path": "/overview",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1425,
+    "solidIcons": 5,
+    "width": 1425
+  },
+  {
+    "viewport": 1440,
+    "path": "/ranking",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Peringkat risiko perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1425,
+    "solidIcons": 5,
+    "width": 1425
+  },
+  {
+    "viewport": 1440,
+    "path": "/detail/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Detail perusahaan",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1425,
+    "solidIcons": 5,
+    "width": 1425
+  },
+  {
+    "viewport": 1440,
+    "path": "/explain/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1425,
+    "solidIcons": 5,
+    "width": 1425
+  },
+  {
+    "viewport": 1440,
+    "path": "/verification/EMP-0221",
+    "font": "Rubik, \"Segoe UI\", Arial, sans-serif",
+    "heading": "Ruang kerja verifikasi",
+    "removedBadge": true,
+    "removedStrip": true,
+    "scrollWidth": 1425,
+    "solidIcons": 5,
+    "width": 1425
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "passed": 28,
+  "total": 28,
+  "checks": [
+    {
+      "name": "Anonymous session denied",
+      "passed": true
+    },
+    {
+      "name": "Anonymous dataset denied",
+      "passed": true
+    },
+    {
+      "name": "Anonymous user list denied",
+      "passed": true
+    },
+    {
+      "name": "ChatGPT identity headers alone cannot authenticate",
+      "passed": true
+    },
+    {
+      "name": "Incorrect password rejected",
+      "passed": true
+    },
+    {
+      "name": "Admin testing account logs in",
+      "passed": true
+    },
+    {
+      "name": "Session persists on a later request",
+      "passed": true
+    },
+    {
+      "name": "Admin sees users including both testing accounts",
+      "passed": true
+    },
+    {
+      "name": "Password hashes and session tokens are not exposed",
+      "passed": true
+    },
+    {
+      "name": "Admin creates a new user with a password",
+      "passed": true
+    },
+    {
+      "name": "Duplicate email rejected",
+      "passed": true
+    },
+    {
+      "name": "Role escalation rejected",
+      "passed": true
+    },
+    {
+      "name": "Password required for new accounts",
+      "passed": true
+    },
+    {
+      "name": "Non-JSON mutation rejected",
+      "passed": true
+    },
+    {
+      "name": "Logout invalidates current session",
+      "passed": true
+    },
+    {
+      "name": "Newly created user can log in",
+      "passed": true
+    },
+    {
+      "name": "User cannot list accounts",
+      "passed": true
+    },
+    {
+      "name": "User cannot create accounts",
+      "passed": true
+    },
+    {
+      "name": "User cannot change account status",
+      "passed": true
+    },
+    {
+      "name": "User gets protected dataset",
+      "passed": true
+    },
+    {
+      "name": "Non-whitelisted dataset rejected",
+      "passed": true
+    },
+    {
+      "name": "Admin deactivates user",
+      "passed": true
+    },
+    {
+      "name": "Inactive account cannot log in",
+      "passed": true
+    },
+    {
+      "name": "Admin reactivates user",
+      "passed": true
+    },
+    {
+      "name": "Administrator cannot be deactivated",
+      "passed": true
+    },
+    {
+      "name": "Reactivated account can log in",
+      "passed": true
+    },
+    {
+      "name": "Regular testing account logs in",
+      "passed": true
+    },
+    {
+      "name": "Repeated incorrect attempts are rate limited",
+      "passed": true
+    }
+  ],
+  "localOnly": true,
+  "identityHeadersSimulated": false,
+  "authentication": "email-password-cookie-session"
+}

@@ -1,0 +1,31 @@
+{
+  "passed": 16,
+  "checks": [
+    "500 rows and unique IDs",
+    "CSV SHA-256 matches provenance",
+    "Every CSV value retained",
+    "Risk levels match score boundaries",
+    "KPI matches all rows",
+    "Reference risk counts",
+    "Histogram sums to 500",
+    "Histogram buckets exact",
+    "Sector totals sum to 500",
+    "Every sector category exact",
+    "Top ten exact",
+    "Missing workers retained as null",
+    "Peer group min 12",
+    "Data completeness equals available weights",
+    "No invented historical data",
+    "No QA internal labels served"
+  ],
+  "limitations": [
+    "24 month histories, peer percentile, official contribution totals, and original flags cannot be validated: source files not attached."
+  ],
+  "risk_counts": {
+    "Low": 369,
+    "Medium": 109,
+    "High": 16,
+    "Critical": 6
+  },
+  "high_critical": 22
+}

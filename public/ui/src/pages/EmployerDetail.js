@@ -1,0 +1,16 @@
+import {peerPanel} from '../components/assessment.js';
+import {verificationPanel} from '../components/verification.js';
+import {esc,num,pct} from '../utils/formatters.js';
+import {icon,badge,statusBadge,metric,cardHead,empty,link} from '../components/ui.js';
+import {historyLine,mutationBars} from '../components/charts.js';
+export const profile=(r,actions='')=>`<section class="card employer-profile"><div class="profile-main"><div class="company-avatar">${icon('building')}</div><div><div class="profile-title"><h2>${esc(r.employer_id)}</h2>${badge(r.risk_level)}</div><p>${esc(r.sector)}<span>·</span>${esc(r.region)}<span>·</span>Skala ${esc(r.company_scale)}</p><div class="profile-status">${statusBadge(r.verification_status)}<span class="tag">${r.data_quality==='complete'?'Data lengkap':'Data parsial'} · ${pct(r.data_completeness)}</span></div></div></div><div class="profile-score"><span>Skor risiko</span><strong>${num(r.risk_score,2)}<small>/ 100</small></strong><span>Indikasi · bukan putusan</span></div>${actions?`<div class="profile-actions">${actions}</div>`:''}</section>`;
+export function EmployerDetail(store,id){
+ const r=store.getEmployer(id);if(!r)return `<section class="card selection-empty">${empty('Pilih perusahaan terlebih dahulu','Temukan perusahaan melalui peringkat risiko untuk melihat detailnya.','building')}${link('Pilih perusahaan','/ranking','btn primary')}</section>`;
+ const trends=store.getTrends(id),valid=trends.months.length===24&&trends.history?.active?.length===24;
+ return `<div class="page-heading"><div><h1>Detail Risiko Perusahaan</h1><p>Lihat kondisi kepesertaan dan hasil pemeriksaan perusahaan.</p></div>${link('Kembali ke peringkat','/ranking','btn')}</div>
+ ${profile(r,link('Penjelasan skor','/explain/'+id,'btn')+link('Buka verifikasi','/verification/'+id,'btn primary'))}
+ <div class="company-context-grid"><section class="card worker-context">${cardHead('Pendaftaran pekerja','Peserta PPU dalam program JKN · Desember 2025')}<div class="worker-metrics">${metric('Peserta aktif',num(r.active_participant),'Peserta PPU terdaftar')}${metric('Jumlah pekerja',num(r.actual_workers),'Pada data periode ini')}${metric('Kesenjangan pendaftaran',pct(r.coverage_gap),'Perlu diklarifikasi')}</div><p class="context-caption">Bandingkan jumlah pekerja dengan peserta yang terdaftar. Selisih merupakan bahan klarifikasi, bukan bukti pelanggaran.</p></section>${peerPanel(r)}</div>
+ <section class="card history-context">${cardHead('Perkembangan kepesertaan',valid?'Perubahan peserta selama 24 bulan':'Indikator perkembangan dari data yang tersedia')}<div class="worker-metrics">${metric('Tidak ada perubahan peserta',num(r.stagnation_months)+' bulan')}${metric('Pertumbuhan peserta',pct(r.participant_growth_12m),'Dalam 12 bulan')}${metric('Pertumbuhan aktivitas usaha',pct(r.company_growth_12m),'Dalam 12 bulan')}</div>${valid?historyLine(trends.months,trends.history.active,r.peer_median):`<div class="compact-data-note">${icon('info')}<p>Histori bulanan belum tersedia. Angka di atas berasal dari data periode Desember 2025.</p></div>`}${valid&&trends.history.new?.length===24&&trends.history.inactive?.length===24?mutationBars(trends.months,trends.history.new,trends.history.inactive):''}</section>
+ ${verificationPanel(store,r)}
+ `;
+}

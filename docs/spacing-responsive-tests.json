@@ -1,0 +1,370 @@
+[
+  {
+    "page": "users",
+    "width": 390,
+    "bodyWidth": 375,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 375
+  },
+  {
+    "page": "users",
+    "width": 768,
+    "bodyWidth": 753,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 753
+  },
+  {
+    "page": "users",
+    "width": 1071,
+    "bodyWidth": 1056,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 1056
+  },
+  {
+    "page": "users",
+    "width": 1440,
+    "bodyWidth": 1440,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 1440
+  },
+  {
+    "page": "overview",
+    "width": 390,
+    "bodyWidth": 375,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 375
+  },
+  {
+    "page": "overview",
+    "width": 768,
+    "bodyWidth": 753,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 753
+  },
+  {
+    "page": "overview",
+    "width": 1071,
+    "bodyWidth": 1056,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1056
+  },
+  {
+    "page": "overview",
+    "width": 1440,
+    "bodyWidth": 1425,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1425
+  },
+  {
+    "page": "ranking",
+    "width": 390,
+    "bodyWidth": 375,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 375
+  },
+  {
+    "page": "ranking",
+    "width": 768,
+    "bodyWidth": 753,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 753
+  },
+  {
+    "page": "ranking",
+    "width": 1071,
+    "bodyWidth": 1056,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1056
+  },
+  {
+    "page": "ranking",
+    "width": 1440,
+    "bodyWidth": 1425,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1425
+  },
+  {
+    "page": "detail/EMP-0221",
+    "width": 390,
+    "bodyWidth": 375,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 375
+  },
+  {
+    "page": "detail/EMP-0221",
+    "width": 768,
+    "bodyWidth": 753,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 753
+  },
+  {
+    "page": "detail/EMP-0221",
+    "width": 1071,
+    "bodyWidth": 1056,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1056
+  },
+  {
+    "page": "detail/EMP-0221",
+    "width": 1440,
+    "bodyWidth": 1425,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1425
+  },
+  {
+    "page": "explain/EMP-0221",
+    "width": 390,
+    "bodyWidth": 375,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 375
+  },
+  {
+    "page": "explain/EMP-0221",
+    "width": 768,
+    "bodyWidth": 753,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 753
+  },
+  {
+    "page": "explain/EMP-0221",
+    "width": 1071,
+    "bodyWidth": 1056,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1056
+  },
+  {
+    "page": "explain/EMP-0221",
+    "width": 1440,
+    "bodyWidth": 1425,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [],
+    "formButtonsContained": true,
+    "minFieldHeight": null,
+    "noOverflow": true,
+    "viewport": 1425
+  },
+  {
+    "page": "verification/EMP-0221",
+    "width": 390,
+    "bodyWidth": 375,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 375
+  },
+  {
+    "page": "verification/EMP-0221",
+    "width": 768,
+    "bodyWidth": 753,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 753
+  },
+  {
+    "page": "verification/EMP-0221",
+    "width": 1071,
+    "bodyWidth": 1056,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 1056
+  },
+  {
+    "page": "verification/EMP-0221",
+    "width": 1440,
+    "bodyWidth": 1425,
+    "directionMax": 14,
+    "emptyErrorsHidden": true,
+    "fieldGaps": [
+      "8px"
+    ],
+    "formButtonsContained": true,
+    "minFieldHeight": 44,
+    "noOverflow": true,
+    "viewport": 1425
+  },
+  {
+    "page": "login",
+    "width": 390,
+    "bodyWidth": 390,
+    "decorationCount": 0,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldHeights": [
+      49,
+      49
+    ],
+    "formButtonsContained": true,
+    "formGap": "21px",
+    "noOverflow": true,
+    "viewport": 390
+  },
+  {
+    "page": "login",
+    "width": 768,
+    "bodyWidth": 768,
+    "decorationCount": 0,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldHeights": [
+      49,
+      49
+    ],
+    "formButtonsContained": true,
+    "formGap": "20px",
+    "noOverflow": true,
+    "viewport": 768
+  },
+  {
+    "page": "login",
+    "width": 1071,
+    "bodyWidth": 1071,
+    "decorationCount": 0,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldHeights": [
+      49,
+      49
+    ],
+    "formButtonsContained": true,
+    "formGap": "20px",
+    "noOverflow": true,
+    "viewport": 1071
+  },
+  {
+    "page": "login",
+    "width": 1440,
+    "bodyWidth": 1440,
+    "decorationCount": 0,
+    "directionMax": 13,
+    "emptyErrorsHidden": true,
+    "fieldHeights": [
+      49,
+      49
+    ],
+    "formButtonsContained": true,
+    "formGap": "20px",
+    "noOverflow": true,
+    "viewport": 1440
+  }
+]

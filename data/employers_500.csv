@@ -1,0 +1,501 @@
+﻿employer_id,sector,region,company_scale,active_participant,actual_workers,risk_score,risk_level,verification_status,coverage_ratio,coverage_gap,peer_median,peer_count,peer_group_level,peer_deviation,stagnation_months,company_growth_12m,participant_growth_12m,growth_mismatch,mutation_rate,mutation_score,historical_compliance_score,anomaly_score_norm,data_completeness,data_quality
+EMP-0001,Kesehatan,Sumatera Utara,Mikro,45,47,5.9,Low,Pending,0.96,0.04,41.0,15,sector_scale,-0.1,1,0.18,0.13,0.05,0.09,0.13,0.07,0.15,1.0,complete
+EMP-0002,Konstruksi,Jawa Barat,Besar,833,841,4.25,Low,Pending,0.99,0.01,728.5,20,sector_scale,-0.14,0,0.17,0.11,0.06,0.12,0.17,0.02,0.13,1.0,complete
+EMP-0003,Konstruksi,Jawa Timur,Menengah,196,205,5.9,Low,Pending,0.96,0.04,209.0,19,sector_scale,0.06,0,0.08,0.05,0.03,0.11,0.16,0.11,0.02,1.0,complete
+EMP-0004,Perdagangan,Kalimantan Timur,Besar,789,826,29.0,Low,Pending,0.96,0.04,645.5,30,sector_scale,-0.22,18,0.23,0.0,0.23,0.07,0.1,0.69,0.82,1.0,complete
+EMP-0005,Perdagangan,Jawa Barat,Besar,572,,48.71,Medium,Verified Non-Compliant,,,651.0,30,sector_scale,0.12,16,0.43,0.0,0.43,0.07,0.1,0.69,1.0,0.7,partial
+EMP-0006,Kesehatan,Jawa Timur,Besar,727,788,5.89,Low,Pending,0.92,0.08,698.0,15,sector_scale,-0.04,0,0.18,0.13,0.05,0.1,0.14,,0.09,0.9,partial
+EMP-0007,Perhotelan & Restoran,Jawa Timur,Mikro,37,40,5.5,Low,Pending,0.93,0.08,35.0,25,sector_scale,-0.06,0,0.13,0.16,0.0,0.13,0.19,0.01,0.11,1.0,complete
+EMP-0008,Perdagangan,DKI Jakarta,Mikro,19,36,46.6,Medium,Pending,0.53,0.47,35.5,20,sector_scale,0.46,1,0.32,0.06,0.26,0.2,0.29,0.56,0.89,1.0,complete
+EMP-0009,Perdagangan,Jawa Timur,Besar,802,850,4.8,Low,Pending,0.94,0.06,645.5,30,sector_scale,-0.24,0,0.09,0.06,0.03,0.1,0.14,0.08,0.05,1.0,complete
+EMP-0010,Konstruksi,Jawa Timur,Besar,558,611,14.3,Low,Pending,0.91,0.09,746.5,20,sector_scale,0.25,0,0.07,0.03,0.04,0.11,0.16,0.0,0.33,1.0,complete
+EMP-0011,Kesehatan,Jawa Barat,Menengah,219,227,7.45,Low,Pending,0.96,0.04,241.0,17,sector_scale,0.09,0,0.07,0.1,0.0,0.09,0.13,0.21,0.06,1.0,complete
+EMP-0012,Jasa Keuangan,DKI Jakarta,Mikro,29,30,8.15,Low,Pending,0.97,0.03,30.0,19,sector_scale,0.03,0,0.11,0.12,0.0,0.2,0.29,0.04,0.32,1.0,complete
+EMP-0013,Jasa Keuangan,Jawa Barat,Besar,224,505,59.2,Medium,Verified Non-Compliant,0.44,0.56,560.0,27,sector_scale,0.6,0,0.1,0.0,0.1,0.85,1.0,0.73,0.89,1.0,complete
+EMP-0014,Manufaktur,Jawa Barat,Besar,919,978,5.4,Low,Pending,0.94,0.06,762.0,21,sector_scale,-0.21,0,0.11,0.11,0.0,0.09,0.13,0.06,0.17,1.0,complete
+EMP-0015,Konstruksi,Jawa Timur,Besar,691,,11.79,Low,Pending,,,746.5,20,sector_scale,0.07,0,0.18,0.16,0.02,0.09,0.13,0.01,0.48,0.7,partial
+EMP-0016,Kesehatan,Jawa Barat,Kecil,24,90,62.4,High,Need More Data,0.27,0.73,81.5,20,sector_scale,0.71,1,0.27,0.0,0.27,0.19,0.27,0.63,1.0,1.0,complete
+EMP-0017,Konstruksi,Jawa Timur,Menengah,217,230,4.6,Low,Pending,0.94,0.06,208.0,19,sector_scale,-0.04,0,0.08,0.06,0.02,0.09,0.13,0.12,0.0,1.0,complete
+EMP-0018,Kesehatan,Jawa Barat,Kecil,43,,54.93,Medium,Under Review,,,81.5,20,sector_scale,0.47,1,0.12,0.02,0.1,0.86,1.0,0.58,0.91,0.7,partial
+EMP-0019,Jasa Keuangan,DKI Jakarta,Besar,519,559,7.39,Low,Pending,0.93,0.07,560.0,27,sector_scale,0.07,0,0.13,0.1,0.03,0.11,0.16,,0.09,0.9,partial
+EMP-0020,Kesehatan,DKI Jakarta,Menengah,240,248,28.1,Low,Pending,0.97,0.03,241.0,17,sector_scale,0.0,13,0.39,0.0,0.39,0.08,0.11,0.69,0.81,1.0,complete
+EMP-0021,Perdagangan,Kalimantan Timur,Kecil,76,80,4.8,Low,Pending,0.95,0.05,71.5,18,sector_scale,-0.06,0,0.09,0.09,0.0,0.13,0.19,0.14,0.0,1.0,complete
+EMP-0022,Konstruksi,Jawa Timur,Menengah,234,257,5.55,Low,Pending,0.91,0.09,208.0,19,sector_scale,-0.12,0,0.11,0.07,0.04,0.09,0.13,0.04,0.07,1.0,complete
+EMP-0023,Konstruksi,Jawa Timur,Menengah,233,241,2.9,Low,Pending,0.97,0.03,208.0,19,sector_scale,-0.12,0,0.11,0.09,0.02,0.09,0.13,0.04,0.0,1.0,complete
+EMP-0024,Perhotelan & Restoran,Kalimantan Timur,Mikro,28,29,33.1,Medium,Pending,0.97,0.03,37.0,25,sector_scale,0.24,17,0.32,0.0,0.32,0.07,0.1,0.29,1.0,1.0,complete
+EMP-0025,Jasa Keuangan,Sumatera Utara,Mikro,27,,21.0,Low,Pending,,,30.0,19,sector_scale,0.1,1,0.14,0.08,0.06,0.17,0.24,0.13,0.73,0.7,partial
+EMP-0026,Jasa Keuangan,Jawa Barat,Besar,452,,41.57,Medium,Pending,,,560.0,27,sector_scale,0.19,14,0.38,0.0,0.38,0.08,0.11,0.17,1.0,0.7,partial
+EMP-0027,Perhotelan & Restoran,DKI Jakarta,Menengah,212,220,3.75,Low,Pending,0.96,0.04,173.5,22,sector_scale,-0.22,0,0.19,0.13,0.06,0.11,0.16,0.02,0.0,1.0,complete
+EMP-0028,Kesehatan,DKI Jakarta,Kecil,77,81,5.7,Low,Pending,0.95,0.05,81.5,20,sector_scale,0.06,0,0.07,0.07,0.0,0.1,0.14,0.1,0.03,1.0,complete
+EMP-0029,Konstruksi,Jawa Timur,Kecil,94,97,3.22,Low,Pending,0.97,0.03,77.0,21,sector_scale,-0.22,0,0.18,0.15,0.03,0.12,0.17,,0.0,0.9,partial
+EMP-0030,Kesehatan,Jawa Timur,Kecil,81,88,7.6,Low,Pending,0.92,0.08,81.5,20,sector_scale,0.01,0,0.13,0.07,0.06,0.1,0.14,0.19,0.09,1.0,complete
+EMP-0031,Jasa Keuangan,Jawa Barat,Besar,517,564,8.95,Low,Pending,0.92,0.08,560.0,27,sector_scale,0.08,0,0.1,0.04,0.06,0.1,0.14,0.07,0.17,1.0,complete
+EMP-0032,Manufaktur,Kalimantan Timur,Besar,652,,45.5,Medium,Pending,,,774.0,21,sector_scale,0.16,13,0.54,0.0,0.54,0.08,0.11,0.43,1.0,0.7,partial
+EMP-0033,Konstruksi,Kalimantan Timur,Mikro,37,39,5.22,Low,Pending,0.95,0.05,35.0,19,sector_scale,-0.06,1,0.13,0.16,0.0,0.11,0.16,,0.1,0.9,partial
+EMP-0034,Konstruksi,DKI Jakarta,Menengah,94,228,46.6,Medium,Pending,0.41,0.59,209.0,19,sector_scale,0.55,1,0.11,-0.01,0.12,0.09,0.13,0.44,0.75,1.0,complete
+EMP-0035,Perhotelan & Restoran,Jawa Timur,Besar,593,593,3.4,Low,Pending,1.0,0.0,554.0,15,sector_scale,-0.07,0,0.08,0.05,0.03,0.09,0.13,0.11,0.07,1.0,complete
+EMP-0036,Manufaktur,Jawa Timur,Menengah,207,226,9.85,Low,Pending,0.92,0.08,233.5,18,sector_scale,0.11,0,0.11,0.09,0.02,0.09,0.13,0.21,0.1,1.0,complete
+EMP-0037,Jasa Keuangan,Jawa Timur,Mikro,32,35,8.3,Low,Pending,0.91,0.09,29.0,19,sector_scale,-0.1,0,0.1,0.03,0.07,0.13,0.19,0.06,0.22,1.0,complete
+EMP-0038,Perdagangan,Jawa Barat,Menengah,28,194,88.35,Critical,Need More Data,0.14,0.86,205.0,18,sector_scale,0.86,19,0.31,0.0,0.31,0.86,1.0,0.83,1.0,1.0,complete
+EMP-0039,Perdagangan,Sumatera Utara,Menengah,229,237,2.9,Low,Pending,0.97,0.03,200.5,18,sector_scale,-0.14,0,0.12,0.12,0.0,0.12,0.17,0.03,0.0,1.0,complete
+EMP-0040,Perdagangan,DKI Jakarta,Menengah,204,,6.86,Low,Pending,,,201.5,18,sector_scale,-0.01,0,0.11,0.06,0.05,0.12,0.17,0.01,0.24,0.7,partial
+EMP-0041,Jasa Keuangan,DKI Jakarta,Menengah,57,221,54.65,Medium,Verified Non-Compliant,0.26,0.74,170.5,20,sector_scale,0.67,0,0.2,0.08,0.12,0.13,0.19,0.42,0.81,1.0,complete
+EMP-0042,Manufaktur,DKI Jakarta,Kecil,75,,14.21,Low,Pending,,,88.0,17,sector_scale,0.15,0,0.18,0.21,0.0,0.13,0.19,0.01,0.42,0.7,partial
+EMP-0043,Konstruksi,Jawa Timur,Menengah,223,,7.75,Low,Pending,,,208.0,19,sector_scale,-0.07,0,0.07,0.06,0.01,0.08,0.11,,0.34,0.6,partial
+EMP-0044,Perhotelan & Restoran,Kalimantan Timur,Menengah,222,,42.07,Medium,Pending,,,173.5,22,sector_scale,-0.28,14,0.33,0.0,0.33,0.07,0.1,0.75,1.0,0.7,partial
+EMP-0045,Perhotelan & Restoran,DKI Jakarta,Besar,549,,10.93,Low,Pending,,,593.0,15,sector_scale,0.07,0,0.13,0.14,0.0,0.1,0.14,0.03,0.42,0.7,partial
+EMP-0046,Jasa Keuangan,Jawa Timur,Kecil,52,66,38.35,Medium,Pending,0.79,0.21,62.5,18,sector_scale,0.17,19,0.35,0.0,0.35,0.08,0.11,0.5,0.85,1.0,complete
+EMP-0047,Konstruksi,Sumatera Utara,Besar,855,888,4.2,Low,Pending,0.96,0.04,728.5,20,sector_scale,-0.17,0,0.16,0.13,0.03,0.11,0.16,0.0,0.11,1.0,complete
+EMP-0048,Perdagangan,Sumatera Utara,Besar,164,595,82.25,Critical,Under Review,0.28,0.72,651.0,30,sector_scale,0.75,20,0.4,0.0,0.4,0.74,1.0,0.81,1.0,1.0,complete
+EMP-0049,Kesehatan,DKI Jakarta,Kecil,88,93,3.6,Low,Pending,0.95,0.05,81.0,20,sector_scale,-0.09,0,0.1,0.07,0.03,0.11,0.16,0.02,0.0,1.0,complete
+EMP-0050,Perhotelan & Restoran,Kalimantan Timur,Besar,625,641,3.0,Low,Pending,0.98,0.02,554.0,15,sector_scale,-0.13,0,0.01,0.03,0.0,0.06,0.09,,0.12,0.9,partial
+EMP-0051,Perhotelan & Restoran,Jawa Barat,Mikro,30,30,11.95,Low,Pending,1.0,0.0,37.0,25,sector_scale,0.19,0,0.0,-0.03,0.03,0.13,0.19,0.23,0.27,1.0,complete
+EMP-0052,Konstruksi,Jawa Timur,Kecil,51,53,28.5,Low,Pending,0.96,0.04,78.0,21,sector_scale,0.35,0,0.22,0.13,0.09,0.76,1.0,0.09,0.66,1.0,complete
+EMP-0053,Konstruksi,Jawa Barat,Kecil,82,90,5.95,Low,Pending,0.91,0.09,77.0,21,sector_scale,-0.06,0,0.11,0.05,0.06,0.1,0.14,0.02,0.09,1.0,complete
+EMP-0054,Kesehatan,Jawa Timur,Besar,356,762,41.39,Medium,Pending,0.47,0.53,698.0,15,sector_scale,0.49,0,0.23,0.13,0.1,0.09,0.13,,0.66,0.9,partial
+EMP-0055,Kesehatan,Sumatera Utara,Mikro,41,43,5.0,Low,Pending,0.95,0.05,41.0,15,sector_scale,0.0,1,0.1,0.11,0.0,0.11,0.16,0.04,0.09,1.0,complete
+EMP-0056,Perhotelan & Restoran,Sumatera Utara,Mikro,35,36,6.75,Low,Pending,0.97,0.03,37.0,25,sector_scale,0.05,0,0.11,0.13,0.0,0.13,0.19,0.16,0.11,1.0,complete
+EMP-0057,Perhotelan & Restoran,DKI Jakarta,Menengah,199,208,6.0,Low,Pending,0.96,0.04,173.5,22,sector_scale,-0.15,0,0.11,0.13,0.0,0.14,0.2,0.26,0.02,1.0,complete
+EMP-0058,Konstruksi,Sumatera Utara,Kecil,71,77,9.55,Low,Pending,0.92,0.08,78.0,21,sector_scale,0.09,0,0.18,0.13,0.05,0.13,0.19,0.12,0.12,1.0,complete
+EMP-0059,Konstruksi,Sumatera Utara,Kecil,59,59,27.2,Low,Pending,1.0,0.0,78.0,21,sector_scale,0.24,0,0.44,0.16,0.28,0.79,1.0,0.14,0.65,1.0,complete
+EMP-0060,Jasa Keuangan,Jawa Timur,Mikro,15,,55.57,Medium,Verified Non-Compliant,,,30.0,19,sector_scale,0.5,0,0.05,0.0,0.05,0.87,1.0,0.61,0.97,0.7,partial
+EMP-0061,Manufaktur,Kalimantan Timur,Mikro,14,,56.29,Medium,Under Review,,,38.5,20,sector_scale,0.64,0,0.1,0.0,0.1,0.87,1.0,0.23,0.99,0.7,partial
+EMP-0062,Perhotelan & Restoran,Kalimantan Timur,Mikro,34,37,12.1,Low,Pending,0.92,0.08,37.0,25,sector_scale,0.08,1,0.07,0.1,0.0,0.19,0.27,0.08,0.36,1.0,complete
+EMP-0063,Perhotelan & Restoran,Sumatera Utara,Kecil,77,79,23.05,Low,Pending,0.97,0.03,63.5,22,sector_scale,-0.21,14,0.25,0.0,0.25,0.08,0.11,0.33,0.77,1.0,complete
+EMP-0064,Perhotelan & Restoran,DKI Jakarta,Menengah,106,238,44.35,Medium,Pending,0.45,0.55,183.0,22,sector_scale,0.42,0,0.18,-0.01,0.19,0.12,0.17,0.68,0.66,1.0,complete
+EMP-0065,Manufaktur,Jawa Barat,Menengah,286,296,2.89,Low,Pending,0.97,0.03,226.5,18,sector_scale,-0.26,0,0.1,0.07,0.03,0.1,0.14,,0.0,0.9,partial
+EMP-0066,Jasa Keuangan,Kalimantan Timur,Menengah,214,217,3.9,Low,Pending,0.99,0.01,168.0,20,sector_scale,-0.27,1,0.11,0.1,0.01,0.11,0.16,0.01,0.13,1.0,complete
+EMP-0067,Perdagangan,DKI Jakarta,Kecil,91,95,3.7,Low,Pending,0.96,0.04,71.5,18,sector_scale,-0.27,0,0.12,0.07,0.05,0.12,0.17,0.02,0.0,1.0,complete
+EMP-0068,Perdagangan,DKI Jakarta,Menengah,206,,4.71,Low,Pending,,,200.5,18,sector_scale,-0.03,0,0.09,0.1,0.0,0.1,0.14,0.01,0.18,0.7,partial
+EMP-0069,Jasa Keuangan,DKI Jakarta,Menengah,212,220,4.8,Low,Pending,0.96,0.04,168.0,20,sector_scale,-0.26,1,0.11,0.13,0.0,0.1,0.14,0.05,0.11,1.0,complete
+EMP-0070,Manufaktur,Jawa Timur,Besar,931,,12.29,Low,Pending,,,762.0,21,sector_scale,-0.22,0,0.09,0.1,0.0,0.09,0.13,0.24,0.49,0.7,partial
+EMP-0071,Jasa Keuangan,Kalimantan Timur,Besar,371,697,41.2,Medium,Pending,0.53,0.47,560.0,27,sector_scale,0.34,0,0.29,0.02,0.27,0.11,0.16,0.58,0.79,1.0,complete
+EMP-0072,Perdagangan,Sumatera Utara,Menengah,240,262,8.25,Low,Pending,0.92,0.08,200.5,18,sector_scale,-0.2,0,0.06,0.05,0.01,0.09,0.13,0.39,0.05,1.0,complete
+EMP-0073,Perdagangan,DKI Jakarta,Kecil,85,89,3.11,Low,Pending,0.96,0.04,71.5,18,sector_scale,-0.19,0,0.1,0.13,0.0,0.11,0.16,,0.0,0.9,partial
+EMP-0074,Jasa Keuangan,Jawa Timur,Besar,666,722,4.95,Low,Pending,0.92,0.08,556.0,27,sector_scale,-0.2,0,0.12,0.11,0.01,0.09,0.13,0.03,0.08,1.0,complete
+EMP-0075,Perhotelan & Restoran,Jawa Barat,Kecil,63,,7.57,Low,Pending,,,64.0,22,sector_scale,0.02,0,0.11,0.13,0.0,0.09,0.13,0.05,0.3,0.7,partial
+EMP-0076,Jasa Keuangan,Kalimantan Timur,Kecil,37,72,46.65,Medium,Under Review,0.51,0.49,62.5,18,sector_scale,0.41,0,0.34,-0.03,0.37,0.14,0.2,0.66,0.86,1.0,complete
+EMP-0077,Konstruksi,Jawa Timur,Mikro,46,46,2.3,Low,Pending,1.0,0.0,35.0,19,sector_scale,-0.31,0,0.15,0.18,0.0,0.1,0.14,0.01,0.08,1.0,complete
+EMP-0078,Kesehatan,Sumatera Utara,Menengah,248,264,4.22,Low,Pending,0.94,0.06,240.0,17,sector_scale,-0.03,0,0.13,0.08,0.05,0.1,0.14,,0.0,0.9,partial
+EMP-0079,Kesehatan,Jawa Timur,Besar,723,773,6.25,Low,Pending,0.94,0.06,698.0,15,sector_scale,-0.04,0,0.19,0.15,0.04,0.08,0.11,0.16,0.13,1.0,complete
+EMP-0080,Jasa Keuangan,Jawa Timur,Besar,234,,55.43,Medium,Under Review,,,560.0,27,sector_scale,0.58,0,0.07,-0.0,0.07,0.79,1.0,0.43,0.91,0.7,partial
+EMP-0081,Perhotelan & Restoran,Sumatera Utara,Kecil,90,95,3.3,Low,Pending,0.95,0.05,63.5,22,sector_scale,-0.42,0,0.07,0.08,0.0,0.12,0.17,0.01,0.0,1.0,complete
+EMP-0082,Manufaktur,Jawa Barat,Besar,844,,8.43,Low,Pending,,,762.0,21,sector_scale,-0.11,0,0.05,0.06,0.0,0.11,0.16,0.07,0.36,0.7,partial
+EMP-0083,Perdagangan,Sumatera Utara,Besar,864,,9.86,Low,Pending,,,645.5,30,sector_scale,-0.34,0,0.05,0.07,0.0,0.1,0.14,0.14,0.41,0.7,partial
+EMP-0084,Jasa Keuangan,Jawa Barat,Kecil,58,,9.36,Low,Pending,,,62.5,18,sector_scale,0.07,0,0.11,0.12,0.0,0.11,0.16,0.01,0.31,0.7,partial
+EMP-0085,Konstruksi,Jawa Barat,Mikro,17,,50.64,Medium,Under Review,,,36.0,19,sector_scale,0.53,0,0.16,0.06,0.1,0.94,1.0,0.21,0.89,0.7,partial
+EMP-0086,Perdagangan,Jawa Barat,Menengah,224,,9.0,Low,Pending,,,200.5,18,sector_scale,-0.12,0,0.15,0.1,0.05,0.11,0.16,0.18,0.23,0.7,partial
+EMP-0087,Kesehatan,DKI Jakarta,Kecil,79,82,4.05,Low,Pending,0.96,0.04,81.5,20,sector_scale,0.03,0,0.17,0.14,0.03,0.09,0.13,0.02,0.03,1.0,complete
+EMP-0088,Perhotelan & Restoran,Jawa Timur,Kecil,66,,7.17,Low,Pending,,,63.5,22,sector_scale,-0.04,0,0.1,0.1,0.0,0.08,0.11,,0.32,0.6,partial
+EMP-0089,Kesehatan,DKI Jakarta,Kecil,106,110,3.4,Low,Pending,0.96,0.04,81.0,20,sector_scale,-0.31,0,0.16,0.16,0.0,0.12,0.17,0.05,0.0,1.0,complete
+EMP-0090,Jasa Keuangan,Jawa Timur,Besar,635,695,5.9,Low,Pending,0.91,0.09,556.0,27,sector_scale,-0.14,0,0.13,0.14,0.0,0.1,0.14,0.08,0.1,1.0,complete
+EMP-0091,Perdagangan,Jawa Timur,Menengah,259,266,3.55,Low,Pending,0.97,0.03,200.5,18,sector_scale,-0.29,0,0.14,0.1,0.04,0.12,0.17,0.05,0.0,1.0,complete
+EMP-0092,Kesehatan,Sumatera Utara,Mikro,35,37,10.55,Low,Pending,0.95,0.05,41.0,15,sector_scale,0.15,1,0.14,0.17,0.0,0.1,0.14,0.09,0.24,1.0,complete
+EMP-0093,Perhotelan & Restoran,Sumatera Utara,Besar,511,547,9.28,Low,Pending,0.93,0.07,593.0,15,sector_scale,0.14,0,0.08,0.07,0.01,0.1,0.14,,0.12,0.9,partial
+EMP-0094,Manufaktur,Jawa Timur,Besar,632,679,13.44,Low,Pending,0.93,0.07,774.0,21,sector_scale,0.18,1,0.17,0.17,0.0,0.1,0.14,,0.35,0.9,partial
+EMP-0095,Kesehatan,Sumatera Utara,Menengah,107,228,48.75,Medium,Need More Data,0.47,0.53,241.0,17,sector_scale,0.56,1,0.2,0.06,0.14,0.09,0.13,0.77,0.76,1.0,complete
+EMP-0096,Kesehatan,Kalimantan Timur,Menengah,248,,7.57,Low,Pending,,,240.0,17,sector_scale,-0.03,0,0.02,0.05,0.0,0.08,0.11,0.09,0.33,0.7,partial
+EMP-0097,Perdagangan,DKI Jakarta,Kecil,71,72,5.1,Low,Pending,0.99,0.01,74.0,18,sector_scale,0.04,1,0.12,0.11,0.01,0.12,0.17,0.02,0.13,1.0,complete
+EMP-0098,Perhotelan & Restoran,Sumatera Utara,Mikro,30,36,33.65,Medium,Pending,0.83,0.17,37.0,25,sector_scale,0.19,16,0.28,0.0,0.28,0.07,0.1,0.24,0.9,1.0,complete
+EMP-0099,Jasa Keuangan,Jawa Barat,Besar,710,752,5.72,Low,Pending,0.94,0.06,556.0,27,sector_scale,-0.28,0,0.13,0.07,0.06,0.12,0.17,,0.09,0.9,partial
+EMP-0100,Perhotelan & Restoran,Kalimantan Timur,Kecil,65,,7.17,Low,Pending,,,63.5,22,sector_scale,-0.02,0,0.1,0.1,0.0,0.08,0.11,,0.32,0.6,partial
+EMP-0101,Perhotelan & Restoran,Kalimantan Timur,Besar,687,,8.57,Low,Pending,,,554.0,15,sector_scale,-0.24,0,0.13,0.08,0.05,0.1,0.14,0.08,0.32,0.7,partial
+EMP-0102,Perdagangan,Jawa Timur,Menengah,243,260,6.8,Low,Pending,0.93,0.07,200.5,18,sector_scale,-0.21,0,0.18,0.11,0.07,0.1,0.14,0.17,0.07,1.0,complete
+EMP-0103,Manufaktur,Jawa Timur,Menengah,268,291,5.89,Low,Pending,0.92,0.08,226.5,18,sector_scale,-0.18,0,0.07,0.1,0.0,0.13,0.19,,0.1,0.9,partial
+EMP-0104,Jasa Keuangan,Kalimantan Timur,Kecil,81,83,5.3,Low,Pending,0.98,0.02,59.0,18,sector_scale,-0.37,1,0.11,0.05,0.06,0.1,0.14,0.09,0.12,1.0,complete
+EMP-0105,Jasa Keuangan,DKI Jakarta,Menengah,166,173,5.1,Low,Pending,0.96,0.04,170.5,20,sector_scale,0.03,0,0.2,0.14,0.06,0.09,0.13,0.05,0.06,1.0,complete
+EMP-0106,Jasa Keuangan,Jawa Timur,Menengah,202,208,2.3,Low,Pending,0.97,0.03,168.0,20,sector_scale,-0.2,0,0.05,0.09,0.0,0.1,0.14,0.0,0.0,1.0,complete
+EMP-0107,Konstruksi,Kalimantan Timur,Menengah,212,218,4.7,Low,Pending,0.97,0.03,208.0,19,sector_scale,-0.02,1,0.04,0.04,0.0,0.11,0.16,0.05,0.11,1.0,complete
+EMP-0108,Jasa Keuangan,Sumatera Utara,Menengah,153,,14.86,Low,Pending,,,170.5,20,sector_scale,0.1,0,0.1,0.1,0.0,0.09,0.13,0.29,0.37,0.7,partial
+EMP-0109,Kesehatan,Jawa Barat,Menengah,247,253,2.7,Low,Pending,0.98,0.02,240.0,17,sector_scale,-0.03,0,0.1,0.05,0.05,0.1,0.14,0.01,0.0,1.0,complete
+EMP-0110,Jasa Keuangan,Kalimantan Timur,Mikro,18,,55.79,Medium,Under Review,,,30.0,19,sector_scale,0.4,2,0.19,0.06,0.13,0.88,1.0,0.65,1.0,0.7,partial
+EMP-0111,Kesehatan,Kalimantan Timur,Besar,698,733,4.2,Low,Pending,0.95,0.05,698.0,15,sector_scale,0.0,0,0.06,0.08,0.0,0.13,0.19,0.01,0.07,1.0,complete
+EMP-0112,Kesehatan,Jawa Barat,Mikro,42,43,5.15,Low,Pending,0.98,0.02,41.0,15,sector_scale,-0.02,1,0.06,0.02,0.04,0.1,0.14,0.08,0.13,1.0,complete
+EMP-0113,Kesehatan,Jawa Timur,Mikro,50,50,3.9,Low,Pending,1.0,0.0,41.0,15,sector_scale,-0.22,0,0.07,0.02,0.05,0.14,0.2,0.05,0.08,1.0,complete
+EMP-0114,Jasa Keuangan,Sumatera Utara,Besar,556,,9.21,Low,Pending,,,560.0,27,sector_scale,0.01,0,0.17,0.12,0.05,0.11,0.16,0.03,0.37,0.7,partial
+EMP-0115,Manufaktur,Jawa Barat,Menengah,210,,12.36,Low,Pending,,,233.5,18,sector_scale,0.1,0,0.16,0.12,0.04,0.11,0.16,0.09,0.32,0.7,partial
+EMP-0116,Kesehatan,Sumatera Utara,Mikro,35,37,9.39,Low,Pending,0.95,0.05,41.0,15,sector_scale,0.15,0,0.03,0.06,0.0,0.12,0.17,,0.15,0.9,partial
+EMP-0117,Konstruksi,DKI Jakarta,Besar,615,,18.43,Low,Pending,,,746.5,20,sector_scale,0.18,0,0.08,0.06,0.02,0.12,0.17,0.05,0.59,0.7,partial
+EMP-0118,Manufaktur,Jawa Timur,Menengah,198,,38.5,Medium,Pending,,,233.5,18,sector_scale,0.15,0,0.33,0.08,0.25,0.83,1.0,0.09,0.93,0.7,partial
+EMP-0119,Perhotelan & Restoran,Jawa Barat,Menengah,100,234,51.75,Medium,Under Review,0.43,0.57,183.0,22,sector_scale,0.45,1,0.06,0.01,0.05,0.88,1.0,0.24,0.98,1.0,complete
+EMP-0120,Manufaktur,Kalimantan Timur,Mikro,16,52,75.05,High,Under Review,0.31,0.69,38.5,20,sector_scale,0.58,19,0.29,0.0,0.29,0.75,1.0,0.74,1.0,1.0,complete
+EMP-0121,Konstruksi,Sumatera Utara,Mikro,28,34,35.67,Medium,Pending,0.82,0.18,36.0,19,sector_scale,0.22,16,0.26,0.0,0.26,0.07,0.1,,0.91,0.9,partial
+EMP-0122,Manufaktur,DKI Jakarta,Menengah,200,207,9.4,Low,Pending,0.97,0.03,233.5,18,sector_scale,0.14,1,0.04,0.05,0.0,0.09,0.13,0.07,0.24,1.0,complete
+EMP-0123,Manufaktur,Kalimantan Timur,Besar,762,824,5.89,Low,Pending,0.92,0.08,774.0,21,sector_scale,0.02,0,0.12,0.12,0.0,0.1,0.14,,0.1,0.9,partial
+EMP-0124,Manufaktur,DKI Jakarta,Menengah,264,289,6.6,Low,Pending,0.91,0.09,226.5,18,sector_scale,-0.17,0,0.13,0.13,0.0,0.11,0.16,0.16,0.07,1.0,complete
+EMP-0125,Jasa Keuangan,Jawa Barat,Menengah,159,168,9.05,Low,Pending,0.95,0.05,170.5,20,sector_scale,0.07,1,0.01,0.02,0.0,0.11,0.16,0.21,0.15,1.0,complete
+EMP-0126,Perdagangan,DKI Jakarta,Besar,690,724,3.9,Low,Pending,0.95,0.05,645.5,30,sector_scale,-0.07,0,0.14,0.16,0.0,0.08,0.11,0.03,0.1,1.0,complete
+EMP-0127,Konstruksi,Jawa Barat,Mikro,47,48,6.95,Low,Pending,0.98,0.02,35.0,19,sector_scale,-0.34,2,0.02,0.02,0.0,0.16,0.23,0.03,0.27,1.0,complete
+EMP-0128,Jasa Keuangan,Sumatera Utara,Menengah,166,,7.93,Low,Pending,,,170.5,20,sector_scale,0.03,0,0.04,0.06,0.0,0.1,0.14,0.07,0.27,0.7,partial
+EMP-0129,Perhotelan & Restoran,Jawa Timur,Besar,705,728,6.15,Low,Pending,0.97,0.03,554.0,15,sector_scale,-0.27,0,0.03,0.02,0.01,0.09,0.13,0.36,0.02,1.0,complete
+EMP-0130,Kesehatan,DKI Jakarta,Menengah,130,,53.08,Medium,Need More Data,,,241.0,17,sector_scale,0.46,0,0.26,0.07,0.19,0.84,1.0,,0.81,0.6,partial
+EMP-0131,Perhotelan & Restoran,DKI Jakarta,Menengah,95,207,41.6,Medium,Pending,0.46,0.54,183.0,22,sector_scale,0.48,0,0.1,0.03,0.07,0.08,0.11,0.5,0.64,1.0,complete
+EMP-0132,Jasa Keuangan,Sumatera Utara,Mikro,35,,13.0,Low,Pending,,,29.0,19,sector_scale,-0.21,0,0.04,0.06,0.0,0.19,0.27,0.15,0.49,0.7,partial
+EMP-0133,Konstruksi,Kalimantan Timur,Menengah,180,194,8.7,Low,Pending,0.93,0.07,209.0,19,sector_scale,0.14,0,0.07,0.08,0.0,0.1,0.14,0.1,0.07,1.0,complete
+EMP-0134,Manufaktur,Kalimantan Timur,Kecil,88,,8.43,Low,Pending,,,88.0,17,sector_scale,0.0,0,0.08,0.05,0.03,0.13,0.19,0.1,0.27,0.7,partial
+EMP-0135,Perhotelan & Restoran,Kalimantan Timur,Kecil,62,,8.21,Low,Pending,,,64.0,22,sector_scale,0.03,0,0.12,0.09,0.03,0.11,0.16,0.01,0.3,0.7,partial
+EMP-0136,Jasa Keuangan,Kalimantan Timur,Besar,386,,42.36,Medium,Verified Compliant,,,560.0,27,sector_scale,0.31,0,0.32,0.14,0.18,0.81,1.0,0.02,0.96,0.7,partial
+EMP-0137,Perhotelan & Restoran,Jawa Barat,Besar,259,581,49.8,Medium,Under Review,0.45,0.55,593.0,15,sector_scale,0.56,1,0.28,-0.03,0.31,0.08,0.11,0.48,0.92,1.0,complete
+EMP-0138,Manufaktur,Jawa Barat,Mikro,35,36,10.85,Low,Pending,0.97,0.03,38.5,20,sector_scale,0.09,1,0.08,0.09,0.0,0.16,0.23,0.22,0.26,1.0,complete
+EMP-0139,Perdagangan,Jawa Timur,Kecil,64,68,13.06,Low,Pending,0.94,0.06,74.0,18,sector_scale,0.14,2,0.16,0.1,0.06,0.12,0.17,,0.31,0.9,partial
+EMP-0140,Manufaktur,DKI Jakarta,Kecil,89,90,2.56,Low,Pending,0.99,0.01,88.0,17,sector_scale,-0.01,0,0.1,0.07,0.03,0.12,0.17,,0.0,0.9,partial
+EMP-0141,Kesehatan,DKI Jakarta,Menengah,184,215,36.72,Medium,Pending,0.86,0.14,241.0,17,sector_scale,0.24,16,0.4,0.0,0.4,0.08,0.11,,0.9,0.9,partial
+EMP-0142,Jasa Keuangan,Jawa Timur,Menengah,77,83,35.7,Medium,Pending,0.93,0.07,170.5,20,sector_scale,0.55,0,0.32,0.13,0.19,0.79,1.0,0.04,0.72,1.0,complete
+EMP-0143,Manufaktur,DKI Jakarta,Menengah,276,292,5.5,Low,Pending,0.95,0.05,226.5,18,sector_scale,-0.22,0,0.18,0.11,0.07,0.1,0.14,0.12,0.05,1.0,complete
+EMP-0144,Konstruksi,Sumatera Utara,Kecil,94,102,30.4,Medium,Pending,0.92,0.08,77.0,21,sector_scale,-0.22,17,0.4,0.0,0.4,0.06,0.09,0.59,0.8,1.0,complete
+EMP-0145,Perhotelan & Restoran,Kalimantan Timur,Mikro,10,,61.36,High,Under Review,,,37.0,25,sector_scale,0.73,0,0.14,-0.09,0.23,0.91,1.0,0.2,1.0,0.7,partial
+EMP-0146,Perhotelan & Restoran,Sumatera Utara,Menengah,233,,8.07,Low,Pending,,,173.5,22,sector_scale,-0.34,0,0.19,0.13,0.06,0.11,0.16,0.05,0.28,0.7,partial
+EMP-0147,Perhotelan & Restoran,Jawa Timur,Besar,701,,6.86,Low,Pending,,,554.0,15,sector_scale,-0.27,0,0.06,0.08,0.0,0.11,0.16,0.04,0.28,0.7,partial
+EMP-0148,Jasa Keuangan,Kalimantan Timur,Mikro,33,36,8.22,Low,Pending,0.92,0.08,29.0,19,sector_scale,-0.14,0,0.09,0.06,0.03,0.17,0.24,,0.23,0.9,partial
+EMP-0149,Perdagangan,Sumatera Utara,Kecil,86,93,5.35,Low,Pending,0.92,0.08,71.5,18,sector_scale,-0.2,0,0.08,0.04,0.04,0.09,0.13,0.06,0.06,1.0,complete
+EMP-0150,Jasa Keuangan,DKI Jakarta,Mikro,30,32,31.0,Medium,Pending,0.94,0.06,29.0,19,sector_scale,-0.03,21,0.37,0.0,0.37,0.07,0.1,0.62,0.85,1.0,complete
+EMP-0151,Manufaktur,Sumatera Utara,Mikro,19,41,45.75,Medium,Pending,0.46,0.54,38.5,20,sector_scale,0.51,0,0.08,0.0,0.08,0.22,0.31,0.44,0.84,1.0,complete
+EMP-0152,Jasa Keuangan,DKI Jakarta,Mikro,9,31,57.5,Medium,Under Review,0.29,0.71,30.0,19,sector_scale,0.7,0,0.28,0.29,0.0,0.29,0.41,0.46,1.0,1.0,complete
+EMP-0153,Jasa Keuangan,Jawa Barat,Kecil,16,61,62.5,High,Under Review,0.26,0.74,62.5,18,sector_scale,0.74,1,0.09,0.0,0.09,0.27,0.39,,1.0,0.9,partial
+EMP-0154,Perhotelan & Restoran,DKI Jakarta,Besar,549,,12.07,Low,Pending,,,593.0,15,sector_scale,0.07,0,0.11,0.13,0.0,0.11,0.16,0.1,0.41,0.7,partial
+EMP-0155,Jasa Keuangan,Kalimantan Timur,Besar,691,,8.25,Low,Pending,,,556.0,27,sector_scale,-0.24,0,0.1,0.09,0.01,0.12,0.17,,0.31,0.6,partial
+EMP-0156,Konstruksi,Kalimantan Timur,Menengah,258,,5.67,Low,Pending,,,208.0,19,sector_scale,-0.24,0,0.04,0.04,0.0,0.1,0.14,,0.2,0.6,partial
+EMP-0157,Manufaktur,Jawa Barat,Mikro,43,45,8.55,Low,Pending,0.96,0.04,38.0,20,sector_scale,-0.13,2,0.21,0.16,0.05,0.13,0.19,0.18,0.2,1.0,complete
+EMP-0158,Manufaktur,Sumatera Utara,Kecil,106,110,4.6,Low,Pending,0.96,0.04,88.0,17,sector_scale,-0.2,0,0.05,0.06,0.0,0.12,0.17,0.17,0.0,1.0,complete
+EMP-0159,Perhotelan & Restoran,Sumatera Utara,Menengah,93,222,68.75,High,Under Review,0.42,0.58,183.0,22,sector_scale,0.49,17,0.25,0.0,0.25,0.75,1.0,0.77,1.0,1.0,complete
+EMP-0160,Jasa Keuangan,Jawa Barat,Kecil,77,,8.92,Low,Pending,,,59.0,18,sector_scale,-0.31,0,0.21,0.15,0.06,0.1,0.14,,0.32,0.6,partial
+EMP-0161,Jasa Keuangan,DKI Jakarta,Besar,585,642,5.1,Low,Pending,0.91,0.09,556.0,27,sector_scale,-0.05,0,0.02,0.04,0.0,0.1,0.14,0.01,0.09,1.0,complete
+EMP-0162,Perdagangan,Sumatera Utara,Menengah,62,188,60.55,High,Under Review,0.33,0.67,205.0,18,sector_scale,0.7,0,0.07,0.03,0.04,0.85,1.0,0.25,1.0,1.0,complete
+EMP-0163,Konstruksi,Sumatera Utara,Menengah,209,222,4.3,Low,Pending,0.94,0.06,208.0,19,sector_scale,-0.0,0,0.19,0.14,0.05,0.12,0.17,0.02,0.0,1.0,complete
+EMP-0164,Konstruksi,Kalimantan Timur,Besar,771,844,6.8,Low,Pending,0.91,0.09,728.5,20,sector_scale,-0.06,0,0.12,0.15,0.0,0.12,0.17,0.1,0.14,1.0,complete
+EMP-0165,Perhotelan & Restoran,Kalimantan Timur,Menengah,208,,9.21,Low,Pending,,,173.5,22,sector_scale,-0.2,0,0.2,0.14,0.06,0.12,0.17,0.1,0.3,0.7,partial
+EMP-0166,Manufaktur,Jawa Barat,Mikro,36,37,12.75,Low,Pending,0.97,0.03,38.5,20,sector_scale,0.06,3,0.17,0.16,0.01,0.16,0.23,0.14,0.5,1.0,complete
+EMP-0167,Manufaktur,Kalimantan Timur,Besar,828,844,3.7,Low,Pending,0.98,0.02,762.0,21,sector_scale,-0.09,0,0.18,0.16,0.02,0.11,0.16,0.06,0.06,1.0,complete
+EMP-0168,Kesehatan,Kalimantan Timur,Besar,843,885,4.9,Low,Pending,0.95,0.05,698.0,15,sector_scale,-0.21,0,0.08,0.08,0.0,0.08,0.11,0.07,0.16,1.0,complete
+EMP-0169,Konstruksi,Kalimantan Timur,Besar,556,605,13.6,Low,Pending,0.92,0.08,746.5,20,sector_scale,0.26,0,0.03,0.04,0.0,0.1,0.14,0.0,0.33,1.0,complete
+EMP-0170,Perhotelan & Restoran,Kalimantan Timur,Besar,604,,9.29,Low,Pending,,,554.0,15,sector_scale,-0.09,0,0.13,0.16,0.0,0.13,0.19,0.1,0.36,0.7,partial
+EMP-0171,Perhotelan & Restoran,Jawa Timur,Kecil,90,92,4.4,Low,Pending,0.98,0.02,63.5,22,sector_scale,-0.42,1,0.13,0.1,0.03,0.1,0.14,0.08,0.07,1.0,complete
+EMP-0172,Jasa Keuangan,Jawa Barat,Mikro,35,,10.07,Low,Pending,,,29.0,19,sector_scale,-0.21,0,0.1,0.06,0.04,0.16,0.23,0.01,0.42,0.7,partial
+EMP-0173,Manufaktur,Kalimantan Timur,Menengah,224,242,5.9,Low,Pending,0.93,0.07,233.5,18,sector_scale,0.04,0,0.17,0.15,0.02,0.11,0.16,0.06,0.03,1.0,complete
+EMP-0174,Perhotelan & Restoran,Kalimantan Timur,Mikro,38,,12.5,Low,Pending,,,35.0,25,sector_scale,-0.09,2,0.16,0.15,0.01,0.11,0.16,0.12,0.49,0.7,partial
+EMP-0175,Kesehatan,Jawa Barat,Mikro,35,38,10.75,Low,Pending,0.92,0.08,41.0,15,sector_scale,0.15,0,0.15,0.13,0.02,0.13,0.19,0.04,0.2,1.0,complete
+EMP-0176,Perdagangan,Jawa Timur,Kecil,22,91,57.95,Medium,Under Review,0.24,0.76,74.0,18,sector_scale,0.7,0,0.14,0.1,0.04,0.2,0.29,0.43,1.0,1.0,complete
+EMP-0177,Kesehatan,Sumatera Utara,Besar,787,,10.29,Low,Pending,,,698.0,15,sector_scale,-0.13,0,0.08,0.06,0.02,0.08,0.11,0.12,0.46,0.7,partial
+EMP-0178,Perdagangan,Sumatera Utara,Mikro,44,46,4.8,Low,Pending,0.96,0.04,34.5,20,sector_scale,-0.28,1,0.08,0.1,0.0,0.1,0.14,0.06,0.1,1.0,complete
+EMP-0179,Perhotelan & Restoran,Jawa Barat,Mikro,43,43,4.5,Low,Pending,1.0,0.0,35.0,25,sector_scale,-0.23,1,0.15,0.1,0.05,0.13,0.19,0.01,0.13,1.0,complete
+EMP-0180,Konstruksi,Sumatera Utara,Menengah,122,,46.86,Medium,Verified Non-Compliant,,,209.0,19,sector_scale,0.42,0,0.06,0.01,0.05,0.86,1.0,0.31,0.86,0.7,partial
+EMP-0181,Konstruksi,Jawa Barat,Kecil,71,73,6.8,Low,Pending,0.97,0.03,78.0,21,sector_scale,0.09,0,0.2,0.16,0.04,0.14,0.2,0.04,0.08,1.0,complete
+EMP-0182,Jasa Keuangan,Kalimantan Timur,Besar,652,,6.86,Low,Pending,,,556.0,27,sector_scale,-0.17,0,0.14,0.15,0.0,0.12,0.17,0.01,0.3,0.7,partial
+EMP-0183,Konstruksi,Jawa Barat,Menengah,240,248,4.7,Low,Pending,0.97,0.03,208.0,19,sector_scale,-0.15,0,0.19,0.17,0.02,0.13,0.19,0.16,0.0,1.0,complete
+EMP-0184,Konstruksi,Jawa Barat,Besar,770,,7.5,Low,Pending,,,728.5,20,sector_scale,-0.06,0,0.12,0.11,0.01,0.11,0.16,0.03,0.32,0.7,partial
+EMP-0185,Jasa Keuangan,Jawa Timur,Besar,612,,9.79,Low,Pending,,,556.0,27,sector_scale,-0.1,0,0.17,0.11,0.06,0.12,0.17,0.06,0.38,0.7,partial
+EMP-0186,Perhotelan & Restoran,Sumatera Utara,Menengah,167,182,9.65,Low,Pending,0.92,0.08,183.0,22,sector_scale,0.09,1,0.04,0.08,0.0,0.09,0.13,0.08,0.23,1.0,complete
+EMP-0187,Jasa Keuangan,DKI Jakarta,Menengah,154,159,8.4,Low,Pending,0.97,0.03,170.5,20,sector_scale,0.1,0,0.11,0.08,0.03,0.11,0.16,0.28,0.03,1.0,complete
+EMP-0188,Perhotelan & Restoran,Kalimantan Timur,Mikro,39,42,11.6,Low,Pending,0.93,0.07,35.0,25,sector_scale,-0.11,4,0.09,0.03,0.06,0.14,0.2,0.04,0.44,1.0,complete
+EMP-0189,Kesehatan,DKI Jakarta,Kecil,84,84,3.15,Low,Pending,1.0,0.0,81.0,20,sector_scale,-0.04,0,0.11,0.05,0.06,0.09,0.13,0.04,0.07,1.0,complete
+EMP-0190,Perhotelan & Restoran,Sumatera Utara,Kecil,71,75,4.9,Low,Pending,0.95,0.05,63.5,22,sector_scale,-0.12,0,0.13,0.13,0.0,0.12,0.17,0.17,0.0,1.0,complete
+EMP-0191,Kesehatan,Jawa Barat,Kecil,79,86,7.75,Low,Pending,0.92,0.08,81.5,20,sector_scale,0.03,1,0.09,0.1,0.0,0.1,0.14,0.12,0.14,1.0,complete
+EMP-0192,Jasa Keuangan,Jawa Barat,Menengah,217,227,3.5,Low,Pending,0.96,0.04,168.0,20,sector_scale,-0.29,0,0.15,0.12,0.03,0.1,0.14,0.06,0.0,1.0,complete
+EMP-0193,Manufaktur,DKI Jakarta,Besar,834,912,9.9,Low,Pending,0.91,0.09,762.0,21,sector_scale,-0.09,0,0.1,0.08,0.02,0.09,0.13,0.4,0.16,1.0,complete
+EMP-0194,Konstruksi,Jawa Timur,Mikro,34,36,6.9,Low,Pending,0.94,0.06,36.0,19,sector_scale,0.06,0,0.09,0.1,0.0,0.13,0.19,0.05,0.12,1.0,complete
+EMP-0195,Jasa Keuangan,Jawa Barat,Kecil,76,83,5.0,Low,Pending,0.92,0.08,59.0,18,sector_scale,-0.29,0,0.08,0.1,0.0,0.11,0.16,0.07,0.03,1.0,complete
+EMP-0196,Manufaktur,Jawa Barat,Besar,317,671,54.55,Medium,Under Review,0.47,0.53,774.0,21,sector_scale,0.59,0,0.13,-0.02,0.15,0.78,1.0,0.34,0.87,1.0,complete
+EMP-0197,Perdagangan,Kalimantan Timur,Kecil,90,97,8.25,Low,Pending,0.93,0.07,71.5,18,sector_scale,-0.26,2,0.05,0.02,0.03,0.11,0.16,0.12,0.2,1.0,complete
+EMP-0198,Konstruksi,Kalimantan Timur,Besar,763,,39.86,Medium,Pending,,,728.5,20,sector_scale,-0.05,18,0.57,0.0,0.57,0.08,0.11,0.18,1.0,0.7,partial
+EMP-0199,Manufaktur,DKI Jakarta,Kecil,76,87,31.4,Medium,Pending,0.87,0.13,88.0,17,sector_scale,0.14,13,0.31,0.0,0.31,0.08,0.11,0.44,0.83,1.0,complete
+EMP-0200,Perhotelan & Restoran,Jawa Timur,Mikro,30,38,37.4,Medium,Pending,0.79,0.21,37.0,25,sector_scale,0.19,17,0.33,0.0,0.33,0.07,0.1,0.36,0.93,1.0,complete
+EMP-0201,Jasa Keuangan,Kalimantan Timur,Besar,385,397,31.0,Medium,Pending,0.97,0.03,560.0,27,sector_scale,0.31,0,0.33,0.07,0.26,0.71,1.0,0.21,0.71,1.0,complete
+EMP-0202,Perdagangan,Sumatera Utara,Mikro,36,45,29.65,Low,Pending,0.8,0.2,34.5,20,sector_scale,-0.04,18,0.29,0.0,0.29,0.06,0.09,0.2,0.83,1.0,complete
+EMP-0203,Kesehatan,DKI Jakarta,Kecil,82,83,3.1,Low,Pending,0.99,0.01,81.0,20,sector_scale,-0.01,0,0.17,0.12,0.05,0.09,0.13,0.07,0.02,1.0,complete
+EMP-0204,Manufaktur,Kalimantan Timur,Besar,534,,49.75,Medium,Under Review,,,774.0,21,sector_scale,0.31,0,0.19,0.01,0.18,0.86,1.0,,1.0,0.6,partial
+EMP-0205,Konstruksi,Kalimantan Timur,Kecil,28,97,52.95,Medium,Verified Non-Compliant,0.29,0.71,78.0,21,sector_scale,0.64,0,0.28,0.04,0.24,0.12,0.17,0.27,0.84,1.0,complete
+EMP-0206,Perhotelan & Restoran,DKI Jakarta,Besar,521,558,8.8,Low,Pending,0.93,0.07,593.0,15,sector_scale,0.12,0,0.09,0.12,0.0,0.07,0.1,0.04,0.23,1.0,complete
+EMP-0207,Kesehatan,Kalimantan Timur,Besar,345,662,39.3,Medium,Pending,0.52,0.48,698.0,15,sector_scale,0.51,0,0.22,0.08,0.14,0.09,0.13,0.26,0.66,1.0,complete
+EMP-0208,Perhotelan & Restoran,DKI Jakarta,Kecil,49,51,28.95,Low,Pending,0.96,0.04,64.0,22,sector_scale,0.23,0,0.4,0.07,0.33,0.82,1.0,0.14,0.67,1.0,complete
+EMP-0209,Jasa Keuangan,DKI Jakarta,Menengah,89,173,37.65,Medium,Pending,0.51,0.49,170.5,20,sector_scale,0.48,0,0.11,0.0,0.11,0.1,0.14,0.26,0.56,1.0,complete
+EMP-0210,Perhotelan & Restoran,Sumatera Utara,Mikro,38,39,3.8,Low,Pending,0.97,0.03,35.0,25,sector_scale,-0.09,0,0.17,0.15,0.02,0.11,0.16,0.06,0.04,1.0,complete
+EMP-0211,Manufaktur,DKI Jakarta,Mikro,49,50,6.39,Low,Pending,0.98,0.02,38.0,20,sector_scale,-0.29,2,-0.03,0.0,0.0,0.14,0.2,,0.21,0.9,partial
+EMP-0212,Konstruksi,Kalimantan Timur,Mikro,46,49,4.25,Low,Pending,0.94,0.06,35.0,19,sector_scale,-0.31,0,0.11,0.1,0.01,0.12,0.17,0.03,0.03,1.0,complete
+EMP-0213,Konstruksi,DKI Jakarta,Mikro,18,37,48.45,Medium,Under Review,0.49,0.51,36.0,19,sector_scale,0.5,1,0.29,-0.05,0.34,0.21,0.3,0.33,0.97,1.0,complete
+EMP-0214,Kesehatan,DKI Jakarta,Besar,310,720,55.9,Medium,Under Review,0.43,0.57,698.0,15,sector_scale,0.56,0,0.22,0.07,0.15,0.82,1.0,0.41,0.89,1.0,complete
+EMP-0215,Kesehatan,DKI Jakarta,Besar,590,628,9.8,Low,Pending,0.94,0.06,698.0,15,sector_scale,0.15,0,0.14,0.08,0.06,0.1,0.14,0.04,0.17,1.0,complete
+EMP-0216,Manufaktur,Sumatera Utara,Menengah,238,247,3.9,Low,Pending,0.96,0.04,226.5,18,sector_scale,-0.05,0,0.15,0.13,0.02,0.12,0.17,0.07,0.0,1.0,complete
+EMP-0217,Perdagangan,Sumatera Utara,Besar,276,722,49.35,Medium,Verified Non-Compliant,0.38,0.62,651.0,30,sector_scale,0.58,0,0.31,0.12,0.19,0.1,0.14,0.53,0.73,1.0,complete
+EMP-0218,Manufaktur,Sumatera Utara,Besar,911,,9.5,Low,Pending,,,762.0,21,sector_scale,-0.2,0,0.05,0.06,0.0,0.1,0.14,,0.43,0.6,partial
+EMP-0219,Manufaktur,Jawa Barat,Kecil,93,,9.07,Low,Pending,,,88.0,17,sector_scale,-0.06,0,0.22,0.16,0.06,0.11,0.16,0.1,0.3,0.7,partial
+EMP-0220,Perhotelan & Restoran,Jawa Timur,Kecil,33,73,46.78,Medium,Under Review,0.45,0.55,64.0,22,sector_scale,0.48,0,0.28,0.0,0.28,0.17,0.24,,0.79,0.9,partial
+EMP-0221,Jasa Keuangan,Kalimantan Timur,Besar,72,739,89.6,Critical,Under Review,0.1,0.9,560.0,27,sector_scale,0.87,17,0.43,0.0,0.43,0.86,1.0,0.72,1.0,1.0,complete
+EMP-0222,Jasa Keuangan,Sumatera Utara,Besar,414,,45.5,Medium,Pending,,,560.0,27,sector_scale,0.26,17,0.23,0.0,0.23,0.08,0.11,0.3,1.0,0.7,partial
+EMP-0223,Manufaktur,DKI Jakarta,Mikro,12,47,79.39,High,Under Review,0.26,0.74,38.5,20,sector_scale,0.69,23,0.25,0.0,0.25,0.83,1.0,,1.0,0.9,partial
+EMP-0224,Konstruksi,Kalimantan Timur,Menengah,177,192,10.0,Low,Pending,0.92,0.08,209.0,19,sector_scale,0.15,0,0.13,0.09,0.04,0.1,0.14,,0.1,0.9,partial
+EMP-0225,Manufaktur,Jawa Barat,Mikro,47,51,6.9,Low,Pending,0.92,0.08,38.0,20,sector_scale,-0.24,1,0.08,0.07,0.01,0.11,0.16,0.09,0.14,1.0,complete
+EMP-0226,Perdagangan,Kalimantan Timur,Kecil,93,99,7.35,Low,Pending,0.94,0.06,71.5,18,sector_scale,-0.3,1,0.19,0.12,0.07,0.11,0.16,0.12,0.14,1.0,complete
+EMP-0227,Perdagangan,Jawa Timur,Besar,99,625,87.65,Critical,Verified Non-Compliant,0.16,0.84,651.0,30,sector_scale,0.85,16,0.36,0.0,0.36,0.79,1.0,0.89,1.0,1.0,complete
+EMP-0228,Perhotelan & Restoran,Kalimantan Timur,Mikro,39,41,7.45,Low,Pending,0.95,0.05,35.0,25,sector_scale,-0.11,0,0.11,0.05,0.06,0.17,0.24,0.09,0.19,1.0,complete
+EMP-0229,Jasa Keuangan,Sumatera Utara,Mikro,25,27,16.7,Low,Pending,0.93,0.07,30.0,19,sector_scale,0.17,0,0.1,0.04,0.06,0.25,0.36,0.06,0.54,1.0,complete
+EMP-0230,Manufaktur,Jawa Timur,Besar,336,,62.93,High,Under Review,,,774.0,21,sector_scale,0.57,1,0.22,0.02,0.2,0.79,1.0,0.68,1.0,0.7,partial
+EMP-0231,Perdagangan,Jawa Barat,Besar,635,652,3.56,Low,Pending,0.97,0.03,651.0,30,sector_scale,0.02,0,0.14,0.15,0.0,0.11,0.16,,0.02,0.9,partial
+EMP-0232,Jasa Keuangan,Jawa Timur,Besar,601,,9.17,Low,Pending,,,556.0,27,sector_scale,-0.08,0,0.13,0.08,0.05,0.09,0.13,,0.36,0.6,partial
+EMP-0233,Manufaktur,Kalimantan Timur,Besar,857,,9.17,Low,Pending,,,762.0,21,sector_scale,-0.12,0,0.11,0.13,0.0,0.11,0.16,,0.39,0.6,partial
+EMP-0234,Manufaktur,Jawa Barat,Mikro,36,38,6.55,Low,Pending,0.95,0.05,38.5,20,sector_scale,0.06,0,0.1,0.09,0.01,0.11,0.16,0.08,0.1,1.0,complete
+EMP-0235,Jasa Keuangan,DKI Jakarta,Kecil,51,,37.57,Medium,Pending,,,62.5,18,sector_scale,0.18,0,0.39,0.16,0.23,0.76,1.0,0.06,0.85,0.7,partial
+EMP-0236,Perhotelan & Restoran,Kalimantan Timur,Besar,554,595,7.95,Low,Pending,0.93,0.07,593.0,15,sector_scale,0.07,0,0.1,0.05,0.05,0.09,0.13,0.11,0.11,1.0,complete
+EMP-0237,Konstruksi,Jawa Barat,Kecil,87,,10.71,Low,Pending,,,77.0,21,sector_scale,-0.13,1,0.15,0.09,0.06,0.1,0.14,0.06,0.43,0.7,partial
+EMP-0238,Perhotelan & Restoran,Sumatera Utara,Besar,505,,15.5,Low,Pending,,,593.0,15,sector_scale,0.15,0,0.05,0.07,0.0,0.12,0.17,0.03,0.51,0.7,partial
+EMP-0239,Konstruksi,Jawa Barat,Menengah,123,,54.21,Medium,Under Review,,,209.0,19,sector_scale,0.41,1,0.18,0.0,0.18,0.75,1.0,0.55,0.95,0.7,partial
+EMP-0240,Manufaktur,Sumatera Utara,Kecil,29,94,51.4,Medium,Under Review,0.31,0.69,88.0,17,sector_scale,0.67,0,0.2,0.04,0.16,0.14,0.2,0.21,0.79,1.0,complete
+EMP-0241,Konstruksi,DKI Jakarta,Besar,659,,15.36,Low,Pending,,,746.5,20,sector_scale,0.12,0,0.07,0.03,0.04,0.09,0.13,0.07,0.53,0.7,partial
+EMP-0242,Perdagangan,Jawa Barat,Menengah,181,197,9.05,Low,Pending,0.92,0.08,205.0,18,sector_scale,0.12,0,0.13,0.07,0.06,0.09,0.13,0.02,0.14,1.0,complete
+EMP-0243,Manufaktur,Kalimantan Timur,Besar,641,649,8.05,Low,Pending,0.99,0.01,774.0,21,sector_scale,0.17,0,0.11,0.12,0.0,0.09,0.13,0.01,0.21,1.0,complete
+EMP-0244,Perdagangan,Jawa Timur,Kecil,92,97,28.65,Low,Pending,0.95,0.05,71.5,18,sector_scale,-0.29,14,0.4,0.0,0.4,0.09,0.13,0.6,0.8,1.0,complete
+EMP-0245,Manufaktur,Jawa Timur,Kecil,28,108,79.78,High,Verified Non-Compliant,0.26,0.74,88.0,17,sector_scale,0.68,20,0.3,0.0,0.3,0.86,1.0,,1.0,0.9,partial
+EMP-0246,Perdagangan,DKI Jakarta,Besar,806,819,3.9,Low,Pending,0.98,0.02,645.5,30,sector_scale,-0.25,0,0.13,0.14,0.0,0.09,0.13,0.15,0.05,1.0,complete
+EMP-0247,Kesehatan,Jawa Barat,Menengah,209,220,8.17,Low,Pending,0.95,0.05,241.0,17,sector_scale,0.13,0,0.13,0.17,0.0,0.08,0.11,,0.15,0.9,partial
+EMP-0248,Jasa Keuangan,Jawa Barat,Kecil,66,,9.64,Low,Pending,,,59.0,18,sector_scale,-0.12,0,0.13,0.12,0.01,0.12,0.17,0.29,0.2,0.7,partial
+EMP-0249,Jasa Keuangan,Kalimantan Timur,Mikro,21,22,30.35,Medium,Pending,0.95,0.05,30.0,19,sector_scale,0.3,0,0.29,0.05,0.24,0.85,1.0,0.17,0.68,1.0,complete
+EMP-0250,Perhotelan & Restoran,DKI Jakarta,Menengah,134,,48.14,Medium,Under Review,,,183.0,22,sector_scale,0.27,0,0.26,0.02,0.24,0.84,1.0,0.51,0.9,0.7,partial
+EMP-0251,Manufaktur,DKI Jakarta,Mikro,38,40,6.9,Low,Pending,0.95,0.05,38.5,20,sector_scale,0.01,0,0.18,0.12,0.06,0.15,0.21,0.1,0.13,1.0,complete
+EMP-0252,Perhotelan & Restoran,Jawa Barat,Kecil,88,,5.17,Low,Pending,,,63.5,22,sector_scale,-0.39,0,0.07,0.1,0.0,0.11,0.16,,0.15,0.6,partial
+EMP-0253,Kesehatan,Jawa Barat,Kecil,73,73,6.55,Low,Pending,1.0,0.0,81.5,20,sector_scale,0.1,0,0.18,0.12,0.06,0.1,0.14,0.05,0.14,1.0,complete
+EMP-0254,Perdagangan,Jawa Barat,Besar,801,859,7.95,Low,Pending,0.93,0.07,645.5,30,sector_scale,-0.24,1,0.07,0.05,0.02,0.12,0.17,0.08,0.26,1.0,complete
+EMP-0255,Perhotelan & Restoran,Sumatera Utara,Mikro,34,,16.36,Low,Pending,,,37.0,25,sector_scale,0.08,0,0.06,0.0,0.06,0.16,0.23,0.05,0.59,0.7,partial
+EMP-0256,Konstruksi,Jawa Timur,Mikro,32,33,10.15,Low,Pending,0.97,0.03,36.0,19,sector_scale,0.11,1,0.04,0.03,0.01,0.15,0.21,0.15,0.23,1.0,complete
+EMP-0257,Kesehatan,Sumatera Utara,Menengah,247,,5.71,Low,Pending,,,240.0,17,sector_scale,-0.03,0,0.14,0.12,0.02,0.12,0.17,0.02,0.18,0.7,partial
+EMP-0258,Konstruksi,Jawa Barat,Besar,730,772,5.2,Low,Pending,0.95,0.05,745.0,20,sector_scale,0.02,0,0.09,0.12,0.0,0.08,0.11,0.07,0.14,1.0,complete
+EMP-0259,Konstruksi,Jawa Timur,Mikro,35,41,33.4,Medium,Pending,0.85,0.15,36.0,19,sector_scale,0.03,16,0.51,0.0,0.51,0.06,0.09,0.42,0.91,1.0,complete
+EMP-0260,Manufaktur,Sumatera Utara,Mikro,38,39,4.06,Low,Pending,0.97,0.03,38.5,20,sector_scale,0.01,0,0.12,0.12,0.0,0.13,0.19,,0.06,0.9,partial
+EMP-0261,Jasa Keuangan,DKI Jakarta,Kecil,28,86,49.85,Medium,Under Review,0.33,0.67,62.5,18,sector_scale,0.55,1,0.15,0.17,0.0,0.21,0.3,0.31,0.93,1.0,complete
+EMP-0262,Kesehatan,Sumatera Utara,Besar,919,951,5.5,Low,Pending,0.97,0.03,698.0,15,sector_scale,-0.32,0,0.08,0.08,0.0,0.1,0.14,0.19,0.13,1.0,complete
+EMP-0263,Jasa Keuangan,DKI Jakarta,Mikro,34,37,6.1,Low,Pending,0.92,0.08,29.0,19,sector_scale,-0.17,0,0.15,0.13,0.02,0.13,0.19,0.02,0.13,1.0,complete
+EMP-0264,Perhotelan & Restoran,Sumatera Utara,Kecil,41,87,48.8,Medium,Under Review,0.47,0.53,64.0,22,sector_scale,0.36,1,0.06,0.0,0.06,0.8,1.0,0.34,0.93,1.0,complete
+EMP-0265,Manufaktur,DKI Jakarta,Besar,925,,13.57,Low,Pending,,,762.0,21,sector_scale,-0.21,0,0.17,0.14,0.03,0.11,0.16,0.33,0.43,0.7,partial
+EMP-0266,Konstruksi,Kalimantan Timur,Menengah,176,192,9.3,Low,Pending,0.92,0.08,209.0,19,sector_scale,0.16,0,0.05,0.05,0.0,0.11,0.16,0.01,0.12,1.0,complete
+EMP-0267,Kesehatan,Sumatera Utara,Besar,440,465,32.15,Medium,Pending,0.95,0.05,698.0,15,sector_scale,0.37,0,0.43,0.15,0.28,0.79,1.0,0.04,0.77,1.0,complete
+EMP-0268,Konstruksi,DKI Jakarta,Besar,560,613,16.78,Low,Pending,0.91,0.09,746.5,20,sector_scale,0.25,0,0.11,0.05,0.06,0.12,0.17,,0.37,0.9,partial
+EMP-0269,Konstruksi,Kalimantan Timur,Mikro,39,41,7.8,Low,Pending,0.95,0.05,35.0,19,sector_scale,-0.11,0,0.08,0.08,0.0,0.21,0.3,0.07,0.26,1.0,complete
+EMP-0270,Perdagangan,Jawa Timur,Mikro,19,41,67.0,High,Verified Non-Compliant,0.46,0.54,35.5,20,sector_scale,0.46,20,0.3,0.0,0.3,0.84,1.0,,1.0,0.9,partial
+EMP-0271,Manufaktur,Kalimantan Timur,Menengah,257,279,5.2,Low,Pending,0.92,0.08,226.5,18,sector_scale,-0.13,0,0.05,0.07,0.0,0.1,0.14,0.11,0.03,1.0,complete
+EMP-0272,Konstruksi,Kalimantan Timur,Menengah,219,,6.86,Low,Pending,,,208.0,19,sector_scale,-0.05,0,0.18,0.13,0.05,0.09,0.13,0.01,0.28,0.7,partial
+EMP-0273,Perdagangan,Jawa Barat,Menengah,197,,10.5,Low,Pending,,,205.0,18,sector_scale,0.04,0,0.2,0.15,0.05,0.11,0.16,,0.31,0.6,partial
+EMP-0274,Konstruksi,DKI Jakarta,Besar,489,,54.29,Medium,Under Review,,,746.5,20,sector_scale,0.34,0,0.17,-0.01,0.18,0.74,1.0,0.77,0.97,0.7,partial
+EMP-0275,Perdagangan,Sumatera Utara,Kecil,70,,12.36,Low,Pending,,,74.0,18,sector_scale,0.05,0,0.06,0.04,0.02,0.07,0.1,0.17,0.44,0.7,partial
+EMP-0276,Manufaktur,Kalimantan Timur,Mikro,36,46,36.2,Medium,Pending,0.78,0.22,38.5,20,sector_scale,0.06,14,0.29,0.0,0.29,0.06,0.09,0.77,0.9,1.0,complete
+EMP-0277,Kesehatan,Kalimantan Timur,Kecil,88,102,30.6,Medium,Pending,0.86,0.14,81.0,20,sector_scale,-0.09,19,0.57,0.0,0.57,0.09,0.13,0.24,0.77,1.0,complete
+EMP-0278,Jasa Keuangan,Jawa Timur,Menengah,73,184,58.0,Medium,Under Review,0.4,0.6,170.5,20,sector_scale,0.57,0,0.22,0.06,0.16,0.73,1.0,0.58,0.8,1.0,complete
+EMP-0279,Manufaktur,Kalimantan Timur,Kecil,92,93,6.0,Low,Pending,0.99,0.01,88.0,17,sector_scale,-0.05,0,0.06,0.03,0.03,0.11,0.16,0.38,0.0,1.0,complete
+EMP-0280,Manufaktur,Jawa Timur,Mikro,47,51,6.55,Low,Pending,0.92,0.08,38.0,20,sector_scale,-0.24,1,0.14,0.12,0.02,0.13,0.19,0.0,0.15,1.0,complete
+EMP-0281,Jasa Keuangan,DKI Jakarta,Menengah,171,173,4.3,Low,Pending,0.99,0.01,168.0,20,sector_scale,-0.02,1,0.08,0.08,0.0,0.11,0.16,0.07,0.11,1.0,complete
+EMP-0282,Perdagangan,Jawa Barat,Besar,650,675,3.1,Low,Pending,0.96,0.04,646.5,30,sector_scale,-0.01,0,-0.0,0.03,0.0,0.1,0.14,0.05,0.0,1.0,complete
+EMP-0283,Perhotelan & Restoran,DKI Jakarta,Mikro,38,40,3.9,Low,Pending,0.95,0.05,35.0,25,sector_scale,-0.09,0,0.15,0.12,0.03,0.11,0.16,0.01,0.04,1.0,complete
+EMP-0284,Manufaktur,Sumatera Utara,Besar,817,,9.93,Low,Pending,,,762.0,21,sector_scale,-0.07,0,0.1,0.06,0.04,0.12,0.17,0.09,0.39,0.7,partial
+EMP-0285,Manufaktur,Jawa Timur,Kecil,93,97,7.75,Low,Pending,0.96,0.04,88.0,17,sector_scale,-0.06,1,0.11,0.07,0.04,0.11,0.16,0.34,0.05,1.0,complete
+EMP-0286,Perhotelan & Restoran,Jawa Barat,Menengah,187,202,4.3,Low,Pending,0.93,0.07,173.5,22,sector_scale,-0.08,0,0.13,0.15,0.0,0.09,0.13,0.08,0.01,1.0,complete
+EMP-0287,Konstruksi,Jawa Barat,Kecil,101,104,2.4,Low,Pending,0.97,0.03,77.0,21,sector_scale,-0.31,0,0.09,0.09,0.0,0.1,0.14,0.01,0.0,1.0,complete
+EMP-0288,Kesehatan,DKI Jakarta,Menengah,259,267,3.15,Low,Pending,0.97,0.03,240.0,17,sector_scale,-0.08,0,0.17,0.11,0.06,0.09,0.13,0.0,0.02,1.0,complete
+EMP-0289,Kesehatan,DKI Jakarta,Kecil,72,79,11.95,Low,Pending,0.91,0.09,81.5,20,sector_scale,0.12,2,0.15,0.16,0.0,0.12,0.17,0.01,0.34,1.0,complete
+EMP-0290,Perdagangan,DKI Jakarta,Besar,706,782,29.72,Low,Pending,0.9,0.1,645.5,30,sector_scale,-0.09,16,0.49,0.0,0.49,0.07,0.1,,0.88,0.9,partial
+EMP-0291,Kesehatan,Sumatera Utara,Kecil,103,110,3.7,Low,Pending,0.94,0.06,81.0,20,sector_scale,-0.27,0,0.11,0.11,0.0,0.11,0.16,0.03,0.0,1.0,complete
+EMP-0292,Konstruksi,DKI Jakarta,Kecil,71,,12.07,Low,Pending,,,78.0,21,sector_scale,0.09,0,0.13,0.11,0.02,0.1,0.14,0.11,0.34,0.7,partial
+EMP-0293,Perdagangan,Jawa Timur,Mikro,38,42,8.0,Low,Pending,0.9,0.1,34.5,20,sector_scale,-0.1,0,0.12,0.09,0.03,0.14,0.2,,0.19,0.9,partial
+EMP-0294,Konstruksi,Kalimantan Timur,Kecil,77,78,4.25,Low,Pending,0.99,0.01,78.0,21,sector_scale,0.01,1,0.01,0.04,0.0,0.1,0.14,0.06,0.11,1.0,complete
+EMP-0295,Perhotelan & Restoran,DKI Jakarta,Kecil,32,,52.71,Medium,Under Review,,,64.0,22,sector_scale,0.5,0,0.25,-0.03,0.28,0.81,1.0,0.26,0.85,0.7,partial
+EMP-0296,Manufaktur,Jawa Timur,Kecil,30,87,80.0,High,Need More Data,0.34,0.66,88.0,17,sector_scale,0.66,19,0.45,0.0,0.45,0.8,1.0,0.93,1.0,1.0,complete
+EMP-0297,Perdagangan,Jawa Barat,Mikro,32,,14.71,Low,Pending,,,35.5,20,sector_scale,0.1,0,0.03,0.03,0.0,0.16,0.23,0.05,0.5,0.7,partial
+EMP-0298,Jasa Keuangan,DKI Jakarta,Menengah,214,227,3.3,Low,Pending,0.94,0.06,168.0,20,sector_scale,-0.27,0,0.04,0.06,0.0,0.1,0.14,0.01,0.0,1.0,complete
+EMP-0299,Perhotelan & Restoran,Jawa Timur,Besar,304,,55.71,Medium,Need More Data,,,593.0,15,sector_scale,0.49,0,0.18,-0.01,0.19,0.84,1.0,0.58,0.87,0.7,partial
+EMP-0300,Kesehatan,Jawa Timur,Mikro,46,50,9.4,Low,Pending,0.92,0.08,41.0,15,sector_scale,-0.12,2,0.19,0.12,0.07,0.1,0.14,0.05,0.33,1.0,complete
+EMP-0301,Konstruksi,Jawa Timur,Besar,727,754,3.95,Low,Pending,0.96,0.04,746.5,20,sector_scale,0.03,0,0.06,0.07,0.0,0.1,0.14,0.01,0.05,1.0,complete
+EMP-0302,Perdagangan,Jawa Timur,Kecil,89,91,5.3,Low,Pending,0.98,0.02,71.5,18,sector_scale,-0.24,1,0.04,0.05,0.0,0.13,0.19,0.13,0.09,1.0,complete
+EMP-0303,Perhotelan & Restoran,Kalimantan Timur,Mikro,31,31,10.9,Low,Pending,1.0,0.0,37.0,25,sector_scale,0.16,0,0.08,0.11,0.0,0.19,0.27,0.05,0.37,1.0,complete
+EMP-0304,Perhotelan & Restoran,Jawa Barat,Menengah,163,178,29.15,Low,Pending,0.92,0.08,183.0,22,sector_scale,0.11,0,0.44,0.16,0.28,0.82,1.0,0.35,0.72,1.0,complete
+EMP-0305,Konstruksi,Sumatera Utara,Menengah,143,149,29.7,Low,Pending,0.96,0.04,209.0,19,sector_scale,0.32,1,0.27,0.06,0.21,0.8,1.0,0.02,0.73,1.0,complete
+EMP-0306,Konstruksi,Sumatera Utara,Kecil,79,82,3.0,Low,Pending,0.96,0.04,77.0,21,sector_scale,-0.03,0,0.06,0.07,0.0,0.11,0.16,0.02,0.0,1.0,complete
+EMP-0307,Perhotelan & Restoran,DKI Jakarta,Mikro,33,,42.0,Medium,Verified Compliant,,,37.0,25,sector_scale,0.11,0,0.32,0.06,0.26,0.81,1.0,,0.93,0.6,partial
+EMP-0308,Manufaktur,Jawa Timur,Menengah,278,,5.29,Low,Pending,,,226.5,18,sector_scale,-0.23,0,0.11,0.13,0.0,0.09,0.13,0.0,0.24,0.7,partial
+EMP-0309,Perhotelan & Restoran,Kalimantan Timur,Mikro,37,,5.86,Low,Pending,,,35.0,25,sector_scale,-0.06,0,0.09,0.09,0.0,0.12,0.17,0.02,0.22,0.7,partial
+EMP-0310,Perhotelan & Restoran,Jawa Timur,Kecil,64,65,3.1,Low,Pending,0.98,0.02,63.5,22,sector_scale,-0.01,0,0.06,0.07,0.0,0.13,0.19,0.05,0.01,1.0,complete
+EMP-0311,Perdagangan,Kalimantan Timur,Besar,448,,51.57,Medium,Verified Non-Compliant,,,651.0,30,sector_scale,0.31,1,0.24,0.05,0.19,0.8,1.0,0.55,1.0,0.7,partial
+EMP-0312,Konstruksi,Sumatera Utara,Kecil,37,78,40.35,Medium,Pending,0.47,0.53,78.0,21,sector_scale,0.53,0,0.08,0.0,0.08,0.1,0.14,0.26,0.63,1.0,complete
+EMP-0313,Perdagangan,Sumatera Utara,Mikro,45,,8.14,Low,Pending,,,34.5,20,sector_scale,-0.3,0,0.1,0.05,0.05,0.11,0.16,0.06,0.29,0.7,partial
+EMP-0314,Kesehatan,Jawa Barat,Mikro,38,40,7.05,Low,Pending,0.95,0.05,41.0,15,sector_scale,0.07,0,0.15,0.12,0.03,0.15,0.21,0.03,0.11,1.0,complete
+EMP-0315,Manufaktur,DKI Jakarta,Menengah,229,,6.29,Low,Pending,,,231.0,18,sector_scale,0.01,0,0.09,0.08,0.01,0.1,0.14,0.0,0.26,0.7,partial
+EMP-0316,Manufaktur,Jawa Timur,Menengah,300,304,2.95,Low,Pending,0.99,0.01,226.5,18,sector_scale,-0.32,0,0.16,0.12,0.04,0.1,0.14,0.07,0.01,1.0,complete
+EMP-0317,Konstruksi,Jawa Barat,Mikro,9,49,85.11,Critical,Under Review,0.18,0.82,36.0,19,sector_scale,0.75,23,0.39,0.0,0.39,0.67,0.96,,1.0,0.9,partial
+EMP-0318,Kesehatan,DKI Jakarta,Menengah,279,,5.71,Low,Pending,,,240.0,17,sector_scale,-0.16,0,0.07,0.1,0.0,0.11,0.16,0.06,0.18,0.7,partial
+EMP-0319,Jasa Keuangan,DKI Jakarta,Mikro,31,32,28.56,Low,Pending,0.97,0.03,29.0,19,sector_scale,-0.07,17,0.56,0.0,0.56,0.06,0.09,,0.95,0.9,partial
+EMP-0320,Perdagangan,Sumatera Utara,Besar,795,855,5.0,Low,Pending,0.93,0.07,645.5,30,sector_scale,-0.23,0,0.11,0.12,0.0,0.09,0.13,0.08,0.08,1.0,complete
+EMP-0321,Manufaktur,Sumatera Utara,Besar,640,,18.21,Low,Pending,,,774.0,21,sector_scale,0.17,0,0.11,0.11,0.0,0.11,0.16,0.11,0.58,0.7,partial
+EMP-0322,Jasa Keuangan,Jawa Timur,Menengah,195,214,5.55,Low,Pending,0.91,0.09,168.0,20,sector_scale,-0.16,0,0.13,0.12,0.01,0.1,0.14,0.09,0.04,1.0,complete
+EMP-0323,Perdagangan,DKI Jakarta,Besar,652,,7.33,Low,Pending,,,645.5,30,sector_scale,-0.01,0,0.09,0.09,0.0,0.11,0.16,,0.28,0.6,partial
+EMP-0324,Manufaktur,Kalimantan Timur,Mikro,43,44,2.95,Low,Pending,0.98,0.02,38.0,20,sector_scale,-0.13,0,0.06,0.05,0.01,0.12,0.17,0.02,0.03,1.0,complete
+EMP-0325,Jasa Keuangan,Jawa Barat,Besar,670,700,4.5,Low,Pending,0.96,0.04,556.0,27,sector_scale,-0.21,0,0.13,0.13,0.0,0.12,0.17,0.14,0.02,1.0,complete
+EMP-0326,Konstruksi,Kalimantan Timur,Mikro,39,40,4.85,Low,Pending,0.98,0.03,35.0,19,sector_scale,-0.11,0,0.12,0.11,0.01,0.08,0.11,0.12,0.15,1.0,complete
+EMP-0327,Perhotelan & Restoran,Kalimantan Timur,Mikro,39,42,10.2,Low,Pending,0.93,0.07,35.0,25,sector_scale,-0.11,0,0.13,0.08,0.05,0.21,0.3,0.16,0.29,1.0,complete
+EMP-0328,Perdagangan,Kalimantan Timur,Menengah,236,244,30.3,Medium,Pending,0.97,0.03,200.5,18,sector_scale,-0.18,20,0.57,0.0,0.57,0.08,0.11,0.52,0.81,1.0,complete
+EMP-0329,Perdagangan,Jawa Timur,Mikro,33,33,6.17,Low,Pending,1.0,0.0,35.5,20,sector_scale,0.07,0,0.06,0.03,0.03,0.13,0.19,,0.16,0.9,partial
+EMP-0330,Perdagangan,Sumatera Utara,Besar,593,599,5.95,Low,Pending,0.99,0.01,651.0,30,sector_scale,0.09,0,0.16,0.14,0.02,0.11,0.16,0.05,0.1,1.0,complete
+EMP-0331,Perhotelan & Restoran,Jawa Timur,Kecil,18,72,62.89,High,Under Review,0.25,0.75,64.0,22,sector_scale,0.72,1,0.22,0.06,0.16,0.26,0.37,,1.0,0.9,partial
+EMP-0332,Konstruksi,Kalimantan Timur,Mikro,36,39,7.7,Low,Pending,0.92,0.08,35.0,19,sector_scale,-0.03,0,0.15,0.13,0.02,0.17,0.24,0.05,0.21,1.0,complete
+EMP-0333,Perdagangan,Sumatera Utara,Besar,562,,39.43,Medium,Verified Compliant,,,651.0,30,sector_scale,0.14,0,0.39,0.12,0.27,0.85,1.0,0.08,1.0,0.7,partial
+EMP-0334,Perhotelan & Restoran,Kalimantan Timur,Mikro,37,,10.71,Low,Pending,,,35.0,25,sector_scale,-0.06,1,0.05,0.0,0.05,0.11,0.16,0.07,0.4,0.7,partial
+EMP-0335,Jasa Keuangan,Sumatera Utara,Mikro,37,,13.64,Low,Pending,,,29.0,19,sector_scale,-0.28,0,0.17,0.16,0.01,0.19,0.27,0.19,0.48,0.7,partial
+EMP-0336,Jasa Keuangan,Jawa Barat,Mikro,12,29,54.95,Medium,Under Review,0.41,0.59,30.0,19,sector_scale,0.6,2,0.33,0.0,0.33,0.23,0.33,0.4,1.0,1.0,complete
+EMP-0337,Kesehatan,Kalimantan Timur,Kecil,90,,7.86,Low,Pending,,,81.0,20,sector_scale,-0.11,0,0.09,0.06,0.03,0.08,0.11,0.08,0.33,0.7,partial
+EMP-0338,Manufaktur,Kalimantan Timur,Mikro,46,,6.57,Low,Pending,,,38.0,20,sector_scale,-0.21,0,0.07,0.1,0.0,0.14,0.2,0.01,0.25,0.7,partial
+EMP-0339,Perhotelan & Restoran,Jawa Timur,Menengah,179,196,7.6,Low,Pending,0.91,0.09,177.5,22,sector_scale,-0.01,0,0.1,0.13,0.0,0.12,0.17,0.26,0.06,1.0,complete
+EMP-0340,Konstruksi,Sumatera Utara,Besar,203,651,68.6,High,Need More Data,0.31,0.69,746.5,20,sector_scale,0.73,0,0.16,0.0,0.16,0.81,1.0,0.77,1.0,1.0,complete
+EMP-0341,Perhotelan & Restoran,Jawa Barat,Menengah,168,184,9.06,Low,Pending,0.91,0.09,183.0,22,sector_scale,0.08,0,0.12,0.06,0.06,0.09,0.13,,0.14,0.9,partial
+EMP-0342,Jasa Keuangan,Sumatera Utara,Besar,594,612,3.61,Low,Pending,0.97,0.03,556.0,27,sector_scale,-0.07,0,0.19,0.15,0.04,0.12,0.17,,0.02,0.9,partial
+EMP-0343,Perdagangan,DKI Jakarta,Menengah,186,,11.75,Low,Pending,,,205.0,18,sector_scale,0.09,0,0.06,0.06,0.0,0.09,0.13,,0.35,0.6,partial
+EMP-0344,Perdagangan,Kalimantan Timur,Menengah,178,,49.0,Medium,Under Review,,,205.0,18,sector_scale,0.13,19,0.41,0.0,0.41,0.08,0.11,0.6,1.0,0.7,partial
+EMP-0345,Jasa Keuangan,DKI Jakarta,Besar,560,612,6.39,Low,Pending,0.92,0.08,556.0,27,sector_scale,-0.01,0,0.08,0.02,0.06,0.11,0.16,,0.1,0.9,partial
+EMP-0346,Konstruksi,Sumatera Utara,Mikro,38,40,11.9,Low,Pending,0.95,0.05,35.0,19,sector_scale,-0.09,5,0.05,0.03,0.02,0.11,0.16,0.17,0.44,1.0,complete
+EMP-0347,Konstruksi,Sumatera Utara,Mikro,34,35,7.2,Low,Pending,0.97,0.03,36.0,19,sector_scale,0.06,0,0.1,0.1,0.0,0.13,0.19,0.17,0.12,1.0,complete
+EMP-0348,Perdagangan,Jawa Timur,Mikro,8,37,83.25,Critical,Under Review,0.22,0.78,35.5,20,sector_scale,0.77,23,0.27,0.0,0.27,0.75,1.0,0.83,1.0,1.0,complete
+EMP-0349,Perdagangan,Jawa Barat,Besar,297,824,46.56,Medium,Pending,0.36,0.64,651.0,30,sector_scale,0.54,0,0.17,0.09,0.08,0.09,0.13,,0.7,0.9,partial
+EMP-0350,Konstruksi,Kalimantan Timur,Mikro,22,40,44.65,Medium,Pending,0.55,0.45,36.0,19,sector_scale,0.39,0,0.18,0.1,0.08,0.32,0.46,0.72,0.87,1.0,complete
+EMP-0351,Konstruksi,Jawa Timur,Mikro,16,43,60.1,High,Need More Data,0.37,0.63,36.0,19,sector_scale,0.56,0,0.17,0.07,0.1,0.88,1.0,0.66,0.94,1.0,complete
+EMP-0352,Manufaktur,Jawa Barat,Besar,898,957,5.7,Low,Pending,0.94,0.06,762.0,21,sector_scale,-0.18,0,0.08,0.03,0.05,0.1,0.14,0.04,0.15,1.0,complete
+EMP-0353,Perdagangan,DKI Jakarta,Menengah,163,184,37.5,Medium,Pending,0.89,0.11,205.0,18,sector_scale,0.2,14,0.49,0.0,0.49,0.07,0.1,0.57,0.96,1.0,complete
+EMP-0354,Perhotelan & Restoran,DKI Jakarta,Kecil,61,65,6.8,Low,Pending,0.94,0.06,64.0,22,sector_scale,0.05,0,0.14,0.13,0.01,0.11,0.16,0.14,0.06,1.0,complete
+EMP-0355,Perhotelan & Restoran,DKI Jakarta,Kecil,84,85,5.45,Low,Pending,0.99,0.01,63.5,22,sector_scale,-0.32,2,0.03,0.04,0.0,0.09,0.13,0.06,0.22,1.0,complete
+EMP-0356,Kesehatan,Jawa Timur,Mikro,35,,43.93,Medium,Pending,,,41.0,15,sector_scale,0.15,15,0.51,0.0,0.51,0.06,0.09,0.26,1.0,0.7,partial
+EMP-0357,Kesehatan,Jawa Barat,Kecil,88,88,2.0,Low,Pending,1.0,0.0,81.0,20,sector_scale,-0.09,0,0.07,0.09,0.0,0.09,0.13,0.03,0.04,1.0,complete
+EMP-0358,Manufaktur,Kalimantan Timur,Menengah,98,301,60.95,High,Under Review,0.33,0.67,233.5,18,sector_scale,0.58,0,0.11,0.02,0.09,0.81,1.0,0.59,0.94,1.0,complete
+EMP-0359,Perhotelan & Restoran,Jawa Barat,Menengah,239,,6.0,Low,Pending,,,173.5,22,sector_scale,-0.38,0,0.09,0.1,0.0,0.12,0.17,,0.19,0.6,partial
+EMP-0360,Perdagangan,Sumatera Utara,Mikro,43,,6.79,Low,Pending,,,34.5,20,sector_scale,-0.25,0,0.14,0.13,0.01,0.12,0.17,0.07,0.22,0.7,partial
+EMP-0361,Kesehatan,Jawa Barat,Mikro,47,,6.57,Low,Pending,,,41.0,15,sector_scale,-0.15,0,0.14,0.18,0.0,0.13,0.19,0.03,0.24,0.7,partial
+EMP-0362,Manufaktur,Jawa Barat,Kecil,111,112,2.35,Low,Pending,0.99,0.01,88.0,17,sector_scale,-0.26,0,0.11,0.07,0.04,0.11,0.16,0.0,0.0,1.0,complete
+EMP-0363,Jasa Keuangan,Jawa Barat,Kecil,55,57,6.7,Low,Pending,0.96,0.04,62.5,18,sector_scale,0.12,0,0.12,0.12,0.0,0.11,0.16,0.03,0.06,1.0,complete
+EMP-0364,Kesehatan,Jawa Timur,Kecil,91,93,8.15,Low,Pending,0.98,0.02,81.0,20,sector_scale,-0.12,2,0.15,0.12,0.03,0.1,0.14,0.3,0.18,1.0,complete
+EMP-0365,Jasa Keuangan,DKI Jakarta,Besar,641,699,5.75,Low,Pending,0.92,0.08,556.0,27,sector_scale,-0.15,0,0.13,0.07,0.06,0.09,0.13,0.01,0.12,1.0,complete
+EMP-0366,Jasa Keuangan,Sumatera Utara,Besar,520,561,7.75,Low,Pending,0.93,0.07,560.0,27,sector_scale,0.07,0,0.16,0.16,0.0,0.12,0.17,0.11,0.11,1.0,complete
+EMP-0367,Perdagangan,Jawa Timur,Besar,566,589,9.8,Low,Pending,0.96,0.04,651.0,30,sector_scale,0.13,0,0.09,0.03,0.06,0.12,0.17,0.12,0.17,1.0,complete
+EMP-0368,Konstruksi,DKI Jakarta,Besar,661,721,9.55,Low,Pending,0.92,0.08,746.5,20,sector_scale,0.11,0,0.17,0.12,0.05,0.1,0.14,0.08,0.16,1.0,complete
+EMP-0369,Perdagangan,Sumatera Utara,Besar,400,412,32.8,Medium,Pending,0.97,0.03,651.0,30,sector_scale,0.39,0,0.29,0.1,0.19,0.83,1.0,0.25,0.74,1.0,complete
+EMP-0370,Manufaktur,Jawa Barat,Mikro,45,49,6.0,Low,Pending,0.92,0.08,38.0,20,sector_scale,-0.18,0,0.12,0.07,0.05,0.11,0.16,,0.08,0.9,partial
+EMP-0371,Konstruksi,Jawa Barat,Kecil,83,89,5.05,Low,Pending,0.93,0.07,77.0,21,sector_scale,-0.08,0,0.2,0.14,0.06,0.1,0.14,0.03,0.05,1.0,complete
+EMP-0372,Jasa Keuangan,Sumatera Utara,Kecil,66,70,4.35,Low,Pending,0.94,0.06,59.0,18,sector_scale,-0.12,0,0.13,0.12,0.01,0.13,0.19,0.04,0.01,1.0,complete
+EMP-0373,Konstruksi,Jawa Barat,Besar,791,816,4.95,Low,Pending,0.97,0.03,728.5,20,sector_scale,-0.09,0,0.14,0.1,0.04,0.11,0.16,0.17,0.03,1.0,complete
+EMP-0374,Perdagangan,Jawa Barat,Kecil,50,51,33.3,Medium,Pending,0.98,0.02,74.0,18,sector_scale,0.32,1,0.44,0.14,0.3,0.8,1.0,0.33,0.72,1.0,complete
+EMP-0375,Konstruksi,Kalimantan Timur,Kecil,49,49,28.75,Low,Pending,1.0,0.0,78.0,21,sector_scale,0.37,0,0.34,0.17,0.17,0.84,1.0,0.15,0.59,1.0,complete
+EMP-0376,Konstruksi,Jawa Barat,Besar,825,889,31.25,Medium,Pending,0.93,0.07,728.5,20,sector_scale,-0.13,19,0.39,0.0,0.39,0.08,0.11,0.6,0.84,1.0,complete
+EMP-0377,Manufaktur,Sumatera Utara,Menengah,104,,61.5,High,Verified Non-Compliant,,,233.5,18,sector_scale,0.55,2,0.17,0.03,0.14,0.8,1.0,0.66,1.0,0.7,partial
+EMP-0378,Perhotelan & Restoran,DKI Jakarta,Kecil,84,85,3.65,Low,Pending,0.99,0.01,63.5,22,sector_scale,-0.32,0,0.09,0.08,0.01,0.12,0.17,0.15,0.0,1.0,complete
+EMP-0379,Jasa Keuangan,Jawa Barat,Kecil,56,61,11.33,Low,Pending,0.92,0.08,62.5,18,sector_scale,0.1,1,0.22,0.17,0.05,0.13,0.19,,0.22,0.9,partial
+EMP-0380,Perhotelan & Restoran,DKI Jakarta,Menengah,212,,7.5,Low,Pending,,,173.5,22,sector_scale,-0.22,0,0.09,0.03,0.06,0.1,0.14,0.02,0.29,0.7,partial
+EMP-0381,Manufaktur,Sumatera Utara,Kecil,36,77,51.65,Medium,Need More Data,0.47,0.53,88.0,17,sector_scale,0.59,1,0.2,-0.03,0.23,0.16,0.23,0.7,0.84,1.0,complete
+EMP-0382,Perhotelan & Restoran,Kalimantan Timur,Mikro,34,42,36.45,Medium,Pending,0.81,0.19,37.0,25,sector_scale,0.08,14,0.4,0.0,0.4,0.06,0.09,0.65,0.95,1.0,complete
+EMP-0383,Perhotelan & Restoran,DKI Jakarta,Kecil,60,64,9.75,Low,Pending,0.94,0.06,64.0,22,sector_scale,0.06,0,0.09,0.03,0.06,0.11,0.16,0.29,0.12,1.0,complete
+EMP-0384,Perdagangan,Jawa Barat,Mikro,36,39,9.39,Low,Pending,0.92,0.08,34.5,20,sector_scale,-0.04,2,0.08,0.09,0.0,0.14,0.2,,0.3,0.9,partial
+EMP-0385,Manufaktur,Jawa Timur,Mikro,39,42,9.5,Low,Pending,0.93,0.07,38.0,20,sector_scale,-0.03,1,0.04,0.03,0.01,0.18,0.26,0.15,0.27,1.0,complete
+EMP-0386,Manufaktur,Kalimantan Timur,Kecil,70,75,13.0,Low,Pending,0.93,0.07,88.0,17,sector_scale,0.2,1,0.16,0.15,0.01,0.13,0.19,0.04,0.3,1.0,complete
+EMP-0387,Jasa Keuangan,DKI Jakarta,Besar,707,721,2.6,Low,Pending,0.98,0.02,556.0,27,sector_scale,-0.27,0,0.11,0.11,0.0,0.1,0.14,0.05,0.01,1.0,complete
+EMP-0388,Jasa Keuangan,Kalimantan Timur,Besar,320,573,41.4,Medium,Pending,0.56,0.44,560.0,27,sector_scale,0.43,0,0.2,0.06,0.14,0.12,0.17,0.76,0.65,1.0,complete
+EMP-0389,Perdagangan,Jawa Barat,Besar,815,,9.43,Low,Pending,,,645.5,30,sector_scale,-0.26,0,0.19,0.14,0.05,0.1,0.14,0.07,0.39,0.7,partial
+EMP-0390,Jasa Keuangan,Jawa Barat,Menengah,170,,6.71,Low,Pending,,,168.5,20,sector_scale,-0.01,0,0.11,0.13,0.0,0.12,0.17,0.13,0.17,0.7,partial
+EMP-0391,Jasa Keuangan,DKI Jakarta,Besar,566,612,7.4,Low,Pending,0.92,0.08,556.0,27,sector_scale,-0.02,0,0.05,0.03,0.02,0.08,0.11,0.2,0.16,1.0,complete
+EMP-0392,Jasa Keuangan,Kalimantan Timur,Mikro,26,27,9.25,Low,Pending,0.96,0.04,30.0,19,sector_scale,0.13,0,0.08,0.08,0.0,0.13,0.19,0.06,0.23,1.0,complete
+EMP-0393,Perdagangan,DKI Jakarta,Kecil,49,95,50.55,Medium,Under Review,0.52,0.48,74.0,18,sector_scale,0.34,2,0.08,0.02,0.06,0.82,1.0,0.65,0.95,1.0,complete
+EMP-0394,Konstruksi,Kalimantan Timur,Besar,771,806,4.85,Low,Pending,0.96,0.04,728.5,20,sector_scale,-0.06,0,0.2,0.16,0.04,0.11,0.16,0.13,0.03,1.0,complete
+EMP-0395,Perhotelan & Restoran,DKI Jakarta,Menengah,100,238,43.7,Medium,Pending,0.42,0.58,183.0,22,sector_scale,0.45,0,0.32,0.01,0.31,0.11,0.16,0.2,0.77,1.0,complete
+EMP-0396,Manufaktur,Jawa Timur,Kecil,69,75,12.95,Low,Pending,0.92,0.08,88.0,17,sector_scale,0.22,0,0.19,0.15,0.04,0.12,0.17,0.08,0.21,1.0,complete
+EMP-0397,Perhotelan & Restoran,Jawa Barat,Besar,628,687,9.45,Low,Pending,0.91,0.09,554.0,15,sector_scale,-0.13,1,0.09,0.05,0.04,0.09,0.13,0.17,0.27,1.0,complete
+EMP-0398,Perdagangan,Sumatera Utara,Kecil,85,85,3.1,Low,Pending,1.0,0.0,71.5,18,sector_scale,-0.19,0,0.12,0.12,0.0,0.11,0.16,0.15,0.0,1.0,complete
+EMP-0399,Kesehatan,Sumatera Utara,Besar,880,909,4.55,Low,Pending,0.97,0.03,698.0,15,sector_scale,-0.26,0,0.18,0.14,0.04,0.1,0.14,0.07,0.11,1.0,complete
+EMP-0400,Perhotelan & Restoran,Sumatera Utara,Menengah,198,217,5.6,Low,Pending,0.91,0.09,173.5,22,sector_scale,-0.14,0,0.12,0.15,0.0,0.1,0.14,0.1,0.05,1.0,complete
+EMP-0401,Manufaktur,Kalimantan Timur,Kecil,97,105,7.85,Low,Pending,0.92,0.08,88.0,17,sector_scale,-0.1,1,0.17,0.13,0.04,0.11,0.16,0.16,0.12,1.0,complete
+EMP-0402,Manufaktur,Kalimantan Timur,Kecil,100,106,5.5,Low,Pending,0.94,0.06,88.0,17,sector_scale,-0.14,0,0.05,0.05,0.0,0.1,0.14,0.23,0.0,1.0,complete
+EMP-0403,Perdagangan,Jawa Barat,Mikro,34,,18.25,Low,Pending,,,35.5,20,sector_scale,0.04,0,0.12,0.06,0.06,0.19,0.27,,0.65,0.6,partial
+EMP-0404,Perdagangan,Sumatera Utara,Kecil,38,70,50.0,Medium,Need More Data,0.54,0.46,74.0,18,sector_scale,0.49,0,0.22,0.06,0.16,0.89,1.0,,0.7,0.9,partial
+EMP-0405,Perdagangan,Jawa Barat,Mikro,23,23,30.25,Medium,Pending,1.0,0.0,35.5,20,sector_scale,0.35,2,0.29,0.15,0.14,0.86,1.0,0.01,0.87,1.0,complete
+EMP-0406,Kesehatan,DKI Jakarta,Menengah,243,262,4.1,Low,Pending,0.93,0.07,240.0,17,sector_scale,-0.01,0,0.1,0.08,0.02,0.09,0.13,0.03,0.01,1.0,complete
+EMP-0407,Kesehatan,Jawa Timur,Menengah,241,251,4.45,Low,Pending,0.96,0.04,240.0,17,sector_scale,-0.0,0,0.11,0.07,0.04,0.1,0.14,0.14,0.0,1.0,complete
+EMP-0408,Konstruksi,DKI Jakarta,Menengah,98,214,43.35,Medium,Pending,0.46,0.54,209.0,19,sector_scale,0.53,0,0.14,0.02,0.12,0.09,0.13,0.5,0.61,1.0,complete
+EMP-0409,Konstruksi,Jawa Timur,Menengah,218,239,6.9,Low,Pending,0.91,0.09,208.0,19,sector_scale,-0.05,0,0.04,0.05,0.0,0.09,0.13,0.22,0.07,1.0,complete
+EMP-0410,Jasa Keuangan,DKI Jakarta,Kecil,42,86,46.3,Medium,Pending,0.49,0.51,62.5,18,sector_scale,0.33,2,0.33,-0.05,0.38,0.12,0.17,0.58,0.97,1.0,complete
+EMP-0411,Perdagangan,Jawa Barat,Menengah,215,239,29.25,Low,Pending,0.9,0.1,200.5,18,sector_scale,-0.07,18,0.39,0.0,0.39,0.07,0.1,0.37,0.79,1.0,complete
+EMP-0412,Perdagangan,Jawa Barat,Mikro,35,37,6.8,Low,Pending,0.95,0.05,35.0,20,sector_scale,0.0,0,0.2,0.17,0.03,0.18,0.26,0.02,0.22,1.0,complete
+EMP-0413,Jasa Keuangan,Kalimantan Timur,Menengah,174,204,31.11,Medium,Pending,0.85,0.15,168.0,20,sector_scale,-0.04,17,0.57,0.0,0.57,0.08,0.11,,0.8,0.9,partial
+EMP-0414,Kesehatan,Jawa Barat,Menengah,222,,10.5,Low,Pending,,,241.0,17,sector_scale,0.08,0,0.13,0.09,0.04,0.1,0.14,0.01,0.34,0.7,partial
+EMP-0415,Perhotelan & Restoran,Sumatera Utara,Kecil,75,78,3.4,Low,Pending,0.96,0.04,63.5,22,sector_scale,-0.18,0,0.11,0.12,0.0,0.1,0.14,0.08,0.0,1.0,complete
+EMP-0416,Konstruksi,Jawa Timur,Kecil,89,,6.08,Low,Pending,,,77.0,21,sector_scale,-0.16,0,0.1,0.09,0.01,0.1,0.14,,0.21,0.6,partial
+EMP-0417,Jasa Keuangan,Sumatera Utara,Menengah,199,216,5.65,Low,Pending,0.92,0.08,168.0,20,sector_scale,-0.18,0,0.09,0.03,0.06,0.09,0.13,0.05,0.07,1.0,complete
+EMP-0418,Kesehatan,Sumatera Utara,Besar,755,787,22.2,Low,Pending,0.96,0.04,698.0,15,sector_scale,-0.08,13,0.28,0.0,0.28,0.08,0.11,0.24,0.76,1.0,complete
+EMP-0419,Perdagangan,Jawa Barat,Besar,796,,8.71,Low,Pending,,,645.5,30,sector_scale,-0.23,0,0.07,0.09,0.0,0.09,0.13,0.08,0.4,0.7,partial
+EMP-0420,Perhotelan & Restoran,Sumatera Utara,Mikro,28,30,19.95,Low,Pending,0.93,0.07,37.0,25,sector_scale,0.24,2,0.12,0.12,0.0,0.25,0.36,0.08,0.64,1.0,complete
+EMP-0421,Kesehatan,Kalimantan Timur,Besar,698,,30.64,Medium,Pending,,,698.0,15,sector_scale,0.0,0,0.24,0.1,0.14,0.82,1.0,0.0,0.98,0.7,partial
+EMP-0422,Kesehatan,Jawa Timur,Kecil,53,54,33.2,Medium,Pending,0.98,0.02,81.5,20,sector_scale,0.35,1,0.4,0.06,0.34,0.9,1.0,0.17,0.75,1.0,complete
+EMP-0423,Kesehatan,Jawa Barat,Menengah,215,231,7.3,Low,Pending,0.93,0.07,241.0,17,sector_scale,0.11,0,0.16,0.15,0.01,0.1,0.14,0.03,0.06,1.0,complete
+EMP-0424,Manufaktur,Jawa Timur,Mikro,37,39,6.25,Low,Pending,0.95,0.05,38.5,20,sector_scale,0.04,0,0.04,0.0,0.04,0.14,0.2,0.03,0.1,1.0,complete
+EMP-0425,Konstruksi,Sumatera Utara,Kecil,71,72,7.35,Low,Pending,0.99,0.01,78.0,21,sector_scale,0.09,0,0.07,0.09,0.0,0.12,0.17,0.24,0.07,1.0,complete
+EMP-0426,Jasa Keuangan,DKI Jakarta,Kecil,65,72,29.8,Low,Pending,0.9,0.1,59.0,18,sector_scale,-0.1,20,0.35,0.0,0.35,0.06,0.09,0.51,0.76,1.0,complete
+EMP-0427,Kesehatan,DKI Jakarta,Menengah,167,173,31.35,Medium,Pending,0.97,0.03,241.0,17,sector_scale,0.31,0,0.46,0.09,0.37,0.84,1.0,0.05,0.77,1.0,complete
+EMP-0428,Perhotelan & Restoran,Sumatera Utara,Menengah,97,250,45.9,Medium,Pending,0.39,0.61,183.0,22,sector_scale,0.47,0,0.34,0.0,0.34,0.1,0.14,0.23,0.81,1.0,complete
+EMP-0429,Manufaktur,Sumatera Utara,Besar,715,764,7.22,Low,Pending,0.94,0.06,774.0,21,sector_scale,0.08,0,0.12,0.1,0.02,0.1,0.14,,0.1,0.9,partial
+EMP-0430,Perdagangan,Kalimantan Timur,Besar,423,445,33.28,Medium,Pending,0.95,0.05,651.0,30,sector_scale,0.35,0,0.32,0.15,0.17,0.83,1.0,,0.76,0.9,partial
+EMP-0431,Perdagangan,Jawa Barat,Besar,296,812,49.9,Medium,Verified Non-Compliant,0.36,0.64,651.0,30,sector_scale,0.55,0,0.17,0.13,0.04,0.13,0.19,0.72,0.74,1.0,complete
+EMP-0432,Kesehatan,Jawa Barat,Besar,346,764,47.4,Medium,Need More Data,0.45,0.55,698.0,15,sector_scale,0.5,0,0.32,0.04,0.28,0.1,0.14,0.6,0.77,1.0,complete
+EMP-0433,Perdagangan,Jawa Barat,Menengah,139,,54.86,Medium,Need More Data,,,205.0,18,sector_scale,0.32,0,0.27,-0.01,0.28,0.83,1.0,0.76,0.95,0.7,partial
+EMP-0434,Perhotelan & Restoran,Kalimantan Timur,Kecil,59,64,9.25,Low,Pending,0.92,0.08,64.0,22,sector_scale,0.08,0,0.09,0.05,0.04,0.1,0.14,0.19,0.11,1.0,complete
+EMP-0435,Konstruksi,Sumatera Utara,Besar,851,912,7.0,Low,Pending,0.93,0.07,728.5,20,sector_scale,-0.17,0,0.16,0.14,0.02,0.1,0.14,0.21,0.11,1.0,complete
+EMP-0436,Kesehatan,Jawa Timur,Mikro,34,35,9.25,Low,Pending,0.97,0.03,41.0,15,sector_scale,0.17,0,-0.01,0.0,0.0,0.15,0.21,0.01,0.19,1.0,complete
+EMP-0437,Jasa Keuangan,DKI Jakarta,Menengah,164,176,5.2,Low,Pending,0.93,0.07,170.5,20,sector_scale,0.04,0,0.03,0.05,0.0,0.1,0.14,0.04,0.03,1.0,complete
+EMP-0438,Konstruksi,Jawa Timur,Kecil,96,,8.14,Low,Pending,,,77.0,21,sector_scale,-0.25,0,0.09,0.04,0.05,0.09,0.13,0.07,0.31,0.7,partial
+EMP-0439,Perhotelan & Restoran,DKI Jakarta,Kecil,46,,49.57,Medium,Need More Data,,,64.0,22,sector_scale,0.28,0,0.23,0.0,0.23,0.83,1.0,0.68,0.82,0.7,partial
+EMP-0440,Jasa Keuangan,Sumatera Utara,Mikro,32,32,6.85,Low,Pending,1.0,0.0,29.0,19,sector_scale,-0.1,0,0.04,0.03,0.01,0.17,0.24,0.21,0.22,1.0,complete
+EMP-0441,Perhotelan & Restoran,DKI Jakarta,Mikro,41,42,10.75,Low,Pending,0.98,0.02,35.0,25,sector_scale,-0.17,2,0.14,0.08,0.06,0.14,0.2,0.4,0.25,1.0,complete
+EMP-0442,Perdagangan,DKI Jakarta,Besar,683,728,4.4,Low,Pending,0.94,0.06,645.5,30,sector_scale,-0.06,0,0.08,0.09,0.0,0.1,0.14,0.11,0.01,1.0,complete
+EMP-0443,Kesehatan,Jawa Timur,Kecil,74,76,8.83,Low,Pending,0.97,0.03,81.5,20,sector_scale,0.09,1,0.09,0.04,0.05,0.14,0.2,,0.16,0.9,partial
+EMP-0444,Perdagangan,Kalimantan Timur,Mikro,34,37,10.8,Low,Pending,0.92,0.08,35.5,20,sector_scale,0.04,0,0.05,0.03,0.02,0.19,0.27,0.12,0.32,1.0,complete
+EMP-0445,Perdagangan,Jawa Barat,Kecil,72,74,5.9,Low,Pending,0.97,0.03,73.5,18,sector_scale,0.02,1,0.14,0.16,0.0,0.14,0.2,0.09,0.1,1.0,complete
+EMP-0446,Perdagangan,Sumatera Utara,Besar,605,637,25.55,Low,Pending,0.95,0.05,651.0,30,sector_scale,0.07,0,0.37,0.15,0.22,0.86,1.0,0.13,0.83,1.0,complete
+EMP-0447,Manufaktur,DKI Jakarta,Mikro,45,,9.43,Low,Pending,,,38.0,20,sector_scale,-0.18,0,0.19,0.22,0.0,0.14,0.2,0.21,0.25,0.7,partial
+EMP-0448,Perdagangan,Jawa Barat,Mikro,38,40,3.8,Low,Pending,0.95,0.05,34.5,20,sector_scale,-0.1,0,0.14,0.15,0.0,0.12,0.17,0.02,0.04,1.0,complete
+EMP-0449,Perhotelan & Restoran,Jawa Barat,Menengah,197,,9.71,Low,Pending,,,173.5,22,sector_scale,-0.14,1,0.06,0.08,0.0,0.09,0.13,0.1,0.39,0.7,partial
+EMP-0450,Perhotelan & Restoran,Sumatera Utara,Menengah,233,246,6.7,Low,Pending,0.95,0.05,173.5,22,sector_scale,-0.34,1,0.12,0.11,0.01,0.1,0.14,0.21,0.11,1.0,complete
+EMP-0451,Perhotelan & Restoran,Jawa Timur,Kecil,64,68,5.9,Low,Pending,0.94,0.06,63.5,22,sector_scale,-0.01,1,0.09,0.12,0.0,0.12,0.17,0.1,0.08,1.0,complete
+EMP-0452,Kesehatan,Jawa Barat,Menengah,273,282,27.44,Low,Pending,0.97,0.03,240.0,17,sector_scale,-0.14,18,0.47,0.0,0.47,0.08,0.11,,0.8,0.9,partial
+EMP-0453,Perdagangan,Jawa Barat,Mikro,28,29,26.35,Low,Pending,0.97,0.03,35.5,20,sector_scale,0.21,1,0.37,0.17,0.2,0.76,1.0,0.02,0.7,1.0,complete
+EMP-0454,Jasa Keuangan,Sumatera Utara,Kecil,79,80,4.39,Low,Pending,0.99,0.01,59.0,18,sector_scale,-0.34,1,0.12,0.1,0.02,0.14,0.2,,0.09,0.9,partial
+EMP-0455,Jasa Keuangan,DKI Jakarta,Menengah,222,,5.29,Low,Pending,,,168.0,20,sector_scale,-0.32,0,0.11,0.11,0.0,0.1,0.14,0.04,0.19,0.7,partial
+EMP-0456,Jasa Keuangan,Jawa Timur,Mikro,27,,21.29,Low,Pending,,,30.0,19,sector_scale,0.1,1,0.06,0.08,0.0,0.21,0.3,0.13,0.75,0.7,partial
+EMP-0457,Kesehatan,Kalimantan Timur,Mikro,49,51,5.6,Low,Pending,0.96,0.04,41.0,15,sector_scale,-0.2,0,0.22,0.17,0.05,0.16,0.23,0.02,0.13,1.0,complete
+EMP-0458,Konstruksi,Kalimantan Timur,Mikro,39,43,8.22,Low,Pending,0.91,0.09,35.0,19,sector_scale,-0.11,1,0.1,0.11,0.0,0.14,0.2,,0.21,0.9,partial
+EMP-0459,Manufaktur,Jawa Timur,Menengah,158,164,30.15,Medium,Pending,0.96,0.04,233.5,18,sector_scale,0.32,0,0.4,0.14,0.26,0.77,1.0,0.13,0.65,1.0,complete
+EMP-0460,Perhotelan & Restoran,Kalimantan Timur,Mikro,37,37,4.35,Low,Pending,1.0,0.0,35.0,25,sector_scale,-0.06,0,0.03,-0.03,0.06,0.11,0.16,0.08,0.12,1.0,complete
+EMP-0461,Perdagangan,Jawa Barat,Besar,865,,10.5,Low,Pending,,,645.5,30,sector_scale,-0.34,0,0.19,0.13,0.06,0.1,0.14,0.04,0.48,0.7,partial
+EMP-0462,Kesehatan,Jawa Barat,Besar,466,907,49.05,Medium,Under Review,0.51,0.49,698.0,15,sector_scale,0.33,0,0.28,0.05,0.23,0.77,1.0,0.42,0.92,1.0,complete
+EMP-0463,Perhotelan & Restoran,Jawa Timur,Menengah,167,,17.86,Low,Pending,,,183.0,22,sector_scale,0.09,2,0.08,0.05,0.03,0.09,0.13,0.13,0.63,0.7,partial
+EMP-0464,Kesehatan,Jawa Timur,Kecil,101,110,6.56,Low,Pending,0.92,0.08,81.0,20,sector_scale,-0.25,1,0.19,0.16,0.03,0.1,0.14,,0.12,0.9,partial
+EMP-0465,Konstruksi,Jawa Timur,Menengah,208,,8.43,Low,Pending,,,209.0,19,sector_scale,0.0,0,0.14,0.09,0.05,0.08,0.11,0.05,0.37,0.7,partial
+EMP-0466,Kesehatan,Jawa Barat,Mikro,20,40,48.45,Medium,Under Review,0.5,0.5,41.0,15,sector_scale,0.51,0,0.21,0.25,0.0,0.29,0.41,0.73,0.93,1.0,complete
+EMP-0467,Perhotelan & Restoran,Jawa Timur,Mikro,31,,19.14,Low,Pending,,,37.0,25,sector_scale,0.16,0,0.14,0.11,0.03,0.18,0.26,0.01,0.64,0.7,partial
+EMP-0468,Jasa Keuangan,Jawa Timur,Kecil,76,,44.86,Medium,Pending,,,59.0,18,sector_scale,-0.29,18,0.5,0.0,0.5,0.08,0.11,0.53,1.0,0.7,partial
+EMP-0469,Manufaktur,Jawa Timur,Besar,398,,56.64,Medium,Verified Non-Compliant,,,774.0,21,sector_scale,0.49,0,0.12,0.02,0.1,0.81,1.0,0.7,0.92,0.7,partial
+EMP-0470,Manufaktur,DKI Jakarta,Menengah,216,219,8.75,Low,Pending,0.99,0.01,233.5,18,sector_scale,0.07,1,0.03,0.03,0.0,0.1,0.14,0.29,0.18,1.0,complete
+EMP-0471,Perdagangan,Jawa Barat,Kecil,64,69,9.1,Low,Pending,0.93,0.07,74.0,18,sector_scale,0.14,0,0.1,0.05,0.05,0.1,0.14,0.03,0.12,1.0,complete
+EMP-0472,Jasa Keuangan,Sumatera Utara,Mikro,35,,10.43,Low,Pending,,,29.0,19,sector_scale,-0.21,1,0.07,0.09,0.0,0.12,0.17,0.17,0.33,0.7,partial
+EMP-0473,Perdagangan,DKI Jakarta,Mikro,46,47,5.9,Low,Pending,0.98,0.02,34.5,20,sector_scale,-0.33,1,0.21,0.15,0.06,0.11,0.16,0.11,0.14,1.0,complete
+EMP-0474,Jasa Keuangan,Kalimantan Timur,Kecil,73,77,3.55,Low,Pending,0.95,0.05,59.0,18,sector_scale,-0.24,0,0.07,0.06,0.01,0.1,0.14,0.05,0.0,1.0,complete
+EMP-0475,Kesehatan,Jawa Timur,Mikro,44,,40.29,Medium,Pending,,,41.0,15,sector_scale,-0.07,20,0.4,0.0,0.4,0.09,0.13,0.31,1.0,0.7,partial
+EMP-0476,Perhotelan & Restoran,DKI Jakarta,Besar,792,810,3.25,Low,Pending,0.98,0.02,554.0,15,sector_scale,-0.43,0,0.13,0.09,0.04,0.1,0.14,0.05,0.03,1.0,complete
+EMP-0477,Manufaktur,Sumatera Utara,Besar,774,828,5.6,Low,Pending,0.93,0.07,762.0,21,sector_scale,-0.02,0,0.15,0.15,0.0,0.08,0.11,0.08,0.16,1.0,complete
+EMP-0478,Perdagangan,Sumatera Utara,Mikro,30,,45.64,Medium,Pending,,,35.5,20,sector_scale,0.15,18,0.43,0.0,0.43,0.07,0.1,0.31,1.0,0.7,partial
+EMP-0479,Perdagangan,DKI Jakarta,Menengah,102,,52.25,Medium,Under Review,,,205.0,18,sector_scale,0.5,0,0.08,0.04,0.04,0.78,1.0,,0.84,0.6,partial
+EMP-0480,Kesehatan,Sumatera Utara,Kecil,81,89,8.55,Low,Pending,0.91,0.09,81.5,20,sector_scale,0.01,1,-0.01,0.01,0.0,0.14,0.2,0.1,0.2,1.0,complete
+EMP-0481,Konstruksi,Kalimantan Timur,Besar,765,779,2.61,Low,Pending,0.98,0.02,728.5,20,sector_scale,-0.05,0,0.09,0.08,0.01,0.1,0.14,,0.02,0.9,partial
+EMP-0482,Manufaktur,Sumatera Utara,Menengah,279,302,4.89,Low,Pending,0.92,0.08,226.5,18,sector_scale,-0.23,0,0.16,0.16,0.0,0.11,0.16,,0.04,0.9,partial
+EMP-0483,Konstruksi,DKI Jakarta,Kecil,79,84,4.28,Low,Pending,0.94,0.06,77.0,21,sector_scale,-0.03,0,0.15,0.11,0.04,0.11,0.16,,0.0,0.9,partial
+EMP-0484,Konstruksi,Jawa Timur,Mikro,39,41,4.1,Low,Pending,0.95,0.05,35.0,19,sector_scale,-0.11,0,0.05,0.05,0.0,0.13,0.19,0.03,0.04,1.0,complete
+EMP-0485,Konstruksi,Kalimantan Timur,Kecil,23,77,56.7,Medium,Need More Data,0.3,0.7,78.0,21,sector_scale,0.71,1,0.35,0.21,0.14,0.22,0.31,0.27,0.99,1.0,complete
+EMP-0486,Perdagangan,Kalimantan Timur,Mikro,37,40,8.67,Low,Pending,0.93,0.08,34.5,20,sector_scale,-0.07,1,0.05,0.06,0.0,0.16,0.23,,0.25,0.9,partial
+EMP-0487,Jasa Keuangan,Kalimantan Timur,Besar,436,563,42.1,Medium,Pending,0.77,0.23,560.0,27,sector_scale,0.22,18,0.54,0.0,0.54,0.08,0.11,0.36,1.0,1.0,complete
+EMP-0488,Perdagangan,DKI Jakarta,Besar,851,,11.71,Low,Pending,,,645.5,30,sector_scale,-0.32,0,0.07,0.08,0.0,0.09,0.13,0.26,0.43,0.7,partial
+EMP-0489,Jasa Keuangan,Jawa Barat,Kecil,60,65,6.05,Low,Pending,0.92,0.08,61.5,18,sector_scale,0.02,0,0.04,0.03,0.01,0.13,0.19,0.01,0.1,1.0,complete
+EMP-0490,Perdagangan,Sumatera Utara,Besar,837,841,3.0,Low,Pending,1.0,0.0,645.5,30,sector_scale,-0.3,0,0.11,0.11,0.0,0.09,0.13,0.04,0.13,1.0,complete
+EMP-0491,Kesehatan,Jawa Timur,Mikro,41,,8.5,Low,Pending,,,41.0,15,sector_scale,0.0,0,0.06,0.03,0.03,0.13,0.19,,0.29,0.6,partial
+EMP-0492,Perdagangan,DKI Jakarta,Mikro,41,41,4.8,Low,Pending,1.0,0.0,34.5,20,sector_scale,-0.19,0,0.1,0.08,0.02,0.11,0.16,0.22,0.07,1.0,complete
+EMP-0493,Perdagangan,DKI Jakarta,Menengah,248,257,2.78,Low,Pending,0.96,0.04,200.5,18,sector_scale,-0.24,0,0.03,0.06,0.0,0.09,0.13,,0.0,0.9,partial
+EMP-0494,Konstruksi,Jawa Timur,Kecil,78,85,6.3,Low,Pending,0.92,0.08,77.0,21,sector_scale,-0.01,0,0.04,0.04,0.0,0.09,0.13,0.2,0.06,1.0,complete
+EMP-0495,Perdagangan,Jawa Timur,Besar,641,677,5.7,Low,Pending,0.95,0.05,651.0,30,sector_scale,0.02,0,0.07,0.07,0.0,0.09,0.13,0.2,0.04,1.0,complete
+EMP-0496,Manufaktur,Sumatera Utara,Kecil,88,,5.5,Low,Pending,,,88.0,17,sector_scale,0.0,0,0.04,0.06,0.0,0.1,0.14,,0.19,0.6,partial
+EMP-0497,Perdagangan,Jawa Timur,Kecil,63,68,10.0,Low,Pending,0.93,0.07,74.0,18,sector_scale,0.15,0,0.08,0.07,0.01,0.09,0.13,0.12,0.15,1.0,complete
+EMP-0498,Manufaktur,Jawa Barat,Besar,727,772,7.5,Low,Pending,0.94,0.06,774.0,21,sector_scale,0.06,0,0.11,0.06,0.05,0.1,0.14,0.1,0.12,1.0,complete
+EMP-0499,Perhotelan & Restoran,Sumatera Utara,Mikro,37,38,6.95,Low,Pending,0.97,0.03,35.0,25,sector_scale,-0.06,0,0.12,0.06,0.06,0.18,0.26,0.01,0.26,1.0,complete
+EMP-0500,Manufaktur,Jawa Barat,Mikro,51,52,4.45,Low,Pending,0.98,0.02,38.0,20,sector_scale,-0.34,0,0.07,0.06,0.01,0.13,0.19,0.14,0.04,1.0,complete

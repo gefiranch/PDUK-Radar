@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {hashPassword,verifyPassword,createToken,hashToken,sessionCookie} from '../lib/auth/password.ts';
+test('password hashes are salted and only accept the matching password',async()=>{const password='QA-only-password';const a=await hashPassword(password),b=await hashPassword(password);assert.notEqual(a,b);assert.ok(!a.includes(password));assert.ok(await verifyPassword(password,a));assert.equal(await verifyPassword('incorrect',a),false);});
+test('missing and malformed hashes cannot authenticate',async()=>{for(const hash of [null,'','pbkdf2-sha256$100000$bad$bad','pbkdf2-sha256$1$AA==$AA=='])assert.equal(await verifyPassword('anything',hash),false);});
+test('session tokens are random and stored as one-way hashes',async()=>{const a=createToken(),b=createToken();assert.match(a,/^[A-Za-z0-9_-]{43}$/);assert.notEqual(a,b);const digest=await hashToken(a);assert.match(digest,/^[0-9a-f]{64}$/);assert.equal(await hashToken(a),digest);assert.notEqual(await hashToken(b),digest);});
+test('cookies are HttpOnly, same-site, secure on HTTPS and can be expired',()=>{const request=new Request('https://pduk.test/');assert.match(sessionCookie('token',request),/HttpOnly; SameSite=Lax; Max-Age=28800; Secure$/);assert.match(sessionCookie('',request,true),/^pduk_session=; .*Max-Age=0; Secure$/);assert.ok(!sessionCookie('token',new Request('http://terminal.local/')).includes('Secure'));});

@@ -1,0 +1,227 @@
+{
+  "checks": [
+    {
+      "check": "Cancel edit retains original account",
+      "passed": true
+    },
+    {
+      "check": "Duplicate email rejected inline",
+      "passed": true
+    },
+    {
+      "check": "Edit persists and new email authenticates",
+      "passed": true
+    },
+    {
+      "check": "Cancel deactivation retains active status",
+      "passed": true
+    },
+    {
+      "check": "Confirmed inactive account cannot log in",
+      "passed": true
+    },
+    {
+      "check": "Reactivated user can log in",
+      "passed": true
+    },
+    {
+      "check": "Escape closes action menu",
+      "passed": true
+    },
+    {
+      "check": "Mobile menu remains inside screen",
+      "passed": true
+    },
+    {
+      "check": "Mobile edit popup fits screen",
+      "passed": true
+    }
+  ],
+  "editedLoginResult": {
+    "mode": "edited",
+    "expectedStatus": 200,
+    "status": 200,
+    "name": "Menu QA Edited",
+    "userCannotList": true,
+    "userCannotEdit": true,
+    "dataAccess": true,
+    "oldEmailRejected": true
+  },
+  "inactiveLoginResult": {
+    "mode": "inactive",
+    "expectedStatus": 403,
+    "status": 403,
+    "error": "Akun dinonaktifkan. Hubungi administrator."
+  },
+  "activeLoginResult": {
+    "mode": "active",
+    "expectedStatus": 200,
+    "status": 200,
+    "name": "Menu QA Edited",
+    "userCannotList": true,
+    "userCannotEdit": true,
+    "dataAccess": true
+  },
+  "singleStatusResults": [
+    {
+      "page": "ranking",
+      "width": 390,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "ranking",
+      "width": 768,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "ranking",
+      "width": 1071,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "ranking",
+      "width": 1440,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "verification/EMP-0221",
+      "width": 390,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": 1,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "verification/EMP-0221",
+      "width": 768,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": 1,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "verification/EMP-0221",
+      "width": 1071,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": 1,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "verification/EMP-0221",
+      "width": 1440,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": 1,
+      "noOverflow": true,
+      "profileStatus": null,
+      "singleStatusRows": true
+    },
+    {
+      "page": "detail/EMP-0221",
+      "width": 390,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "detail/EMP-0221",
+      "width": 768,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "detail/EMP-0221",
+      "width": 1071,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "detail/EMP-0221",
+      "width": 1440,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "explain/EMP-0221",
+      "width": 390,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "explain/EMP-0221",
+      "width": 768,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "explain/EMP-0221",
+      "width": 1071,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    },
+    {
+      "page": "explain/EMP-0221",
+      "width": 1440,
+      "extraCaseBadges": 0,
+      "extraCaseHeaders": 0,
+      "formStatus": null,
+      "noOverflow": true,
+      "profileStatus": 1,
+      "singleStatusRows": true
+    }
+  ]
+}

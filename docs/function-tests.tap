@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: 500 records and 12 per page, stable sort and boundary pages
+ok 1 - 500 records and 12 per page, stable sort and boundary pages
+  ---
+  duration_ms: 53.111253
+  type: 'test'
+  ...
+# Subtest: all filters and sort run before pagination
+ok 2 - all filters and sort run before pagination
+  ---
+  duration_ms: 15.269192
+  type: 'test'
+  ...
+# Subtest: empty search and last pagination correct
+ok 3 - empty search and last pagination correct
+  ---
+  duration_ms: 1.431116
+  type: 'test'
+  ...
+# Subtest: verification propagates, persists and resets without changing risk scores
+ok 4 - verification propagates, persists and resets without changing risk scores
+  ---
+  duration_ms: 3.268252
+  type: 'test'
+  ...
+# Subtest: invalid status, IDs, dates, empty inputs are rejected
+ok 5 - invalid status, IDs, dates, empty inputs are rejected
+  ---
+  duration_ms: 6.896456
+  type: 'test'
+  ...
+# Subtest: storage failures are surfaced and do not update effective status
+ok 6 - storage failures are surfaced and do not update effective status
+  ---
+  duration_ms: 0.544756
+  type: 'test'
+  ...
+# Subtest: null stays null and no history/contributions/flags invented
+ok 7 - null stays null and no history/contributions/flags invented
+  ---
+  duration_ms: 0.943688
+  type: 'test'
+  ...
+# Subtest: all 500 employer pages render without undefined, NaN or missing route IDs
+ok 8 - all 500 employer pages render without undefined, NaN or missing route IDs
+  ---
+  duration_ms: 1497.756207
+  type: 'test'
+  ...
+# Subtest: filtered CSV is complete, effective status included and quoted safely
+ok 9 - filtered CSV is complete, effective status included and quoted safely
+  ---
+  duration_ms: 0.996617
+  type: 'test'
+  ...
+# Subtest: corrupt local state fails visibly without overwriting source statuses
+ok 10 - corrupt local state fails visibly without overwriting source statuses
+  ---
+  duration_ms: 0.888653
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1823.74887

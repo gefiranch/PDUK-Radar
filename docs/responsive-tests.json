@@ -1,0 +1,167 @@
+[
+  {
+    "viewport": 390,
+    "route": "/overview",
+    "bodyWidth": 375,
+    "hasInvalidText": false,
+    "heading": "Ringkasan risiko pemberi kerja",
+    "scrollWidth": 375,
+    "tableScroll": [
+      {
+        "content": 860,
+        "width": 339
+      }
+    ]
+  },
+  {
+    "viewport": 390,
+    "route": "/ranking",
+    "bodyWidth": 375,
+    "hasInvalidText": false,
+    "heading": "Peringkat risiko perusahaan",
+    "scrollWidth": 375,
+    "tableScroll": [
+      {
+        "content": 1470,
+        "width": 339
+      }
+    ]
+  },
+  {
+    "viewport": 390,
+    "route": "/detail/EMP-0221",
+    "bodyWidth": 375,
+    "hasInvalidText": false,
+    "heading": "Detail perusahaan",
+    "scrollWidth": 375,
+    "tableScroll": []
+  },
+  {
+    "viewport": 390,
+    "route": "/explain/EMP-0221",
+    "bodyWidth": 375,
+    "hasInvalidText": false,
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "scrollWidth": 375,
+    "tableScroll": []
+  },
+  {
+    "viewport": 390,
+    "route": "/verification/EMP-0221",
+    "bodyWidth": 375,
+    "hasInvalidText": false,
+    "heading": "Ruang kerja verifikasi",
+    "scrollWidth": 375,
+    "tableScroll": []
+  },
+  {
+    "viewport": 768,
+    "route": "/overview",
+    "bodyWidth": 753,
+    "hasInvalidText": false,
+    "heading": "Ringkasan risiko pemberi kerja",
+    "scrollWidth": 753,
+    "tableScroll": [
+      {
+        "content": 860,
+        "width": 707
+      }
+    ]
+  },
+  {
+    "viewport": 768,
+    "route": "/ranking",
+    "bodyWidth": 753,
+    "hasInvalidText": false,
+    "heading": "Peringkat risiko perusahaan",
+    "scrollWidth": 753,
+    "tableScroll": [
+      {
+        "content": 1470,
+        "width": 707
+      }
+    ]
+  },
+  {
+    "viewport": 768,
+    "route": "/detail/EMP-0221",
+    "bodyWidth": 753,
+    "hasInvalidText": false,
+    "heading": "Detail perusahaan",
+    "scrollWidth": 753,
+    "tableScroll": []
+  },
+  {
+    "viewport": 768,
+    "route": "/explain/EMP-0221",
+    "bodyWidth": 753,
+    "hasInvalidText": false,
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "scrollWidth": 753,
+    "tableScroll": []
+  },
+  {
+    "viewport": 768,
+    "route": "/verification/EMP-0221",
+    "bodyWidth": 753,
+    "hasInvalidText": false,
+    "heading": "Ruang kerja verifikasi",
+    "scrollWidth": 753,
+    "tableScroll": []
+  },
+  {
+    "viewport": 1440,
+    "route": "/overview",
+    "bodyWidth": 1425,
+    "hasInvalidText": false,
+    "heading": "Ringkasan risiko pemberi kerja",
+    "scrollWidth": 1425,
+    "tableScroll": [
+      {
+        "content": 1121,
+        "width": 1121
+      }
+    ]
+  },
+  {
+    "viewport": 1440,
+    "route": "/ranking",
+    "bodyWidth": 1425,
+    "hasInvalidText": false,
+    "heading": "Peringkat risiko perusahaan",
+    "scrollWidth": 1425,
+    "tableScroll": [
+      {
+        "content": 1470,
+        "width": 1121
+      }
+    ]
+  },
+  {
+    "viewport": 1440,
+    "route": "/detail/EMP-0221",
+    "bodyWidth": 1425,
+    "hasInvalidText": false,
+    "heading": "Detail perusahaan",
+    "scrollWidth": 1425,
+    "tableScroll": []
+  },
+  {
+    "viewport": 1440,
+    "route": "/explain/EMP-0221",
+    "bodyWidth": 1425,
+    "hasInvalidText": false,
+    "heading": "Mengapa perusahaan ini diprioritaskan?",
+    "scrollWidth": 1425,
+    "tableScroll": []
+  },
+  {
+    "viewport": 1440,
+    "route": "/verification/EMP-0221",
+    "bodyWidth": 1425,
+    "hasInvalidText": false,
+    "heading": "Ruang kerja verifikasi",
+    "scrollWidth": 1425,
+    "tableScroll": []
+  }
+]

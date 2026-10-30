@@ -1,0 +1,146 @@
+[
+  {
+    "page": "explain/EMP-0348",
+    "width": "390",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "explain/EMP-0348",
+    "width": "768",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "explain/EMP-0348",
+    "width": "1071",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "explain/EMP-0348",
+    "width": "1440",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "detail/EMP-0348",
+    "width": "390",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 7,
+    "technicalHeadings": false
+  },
+  {
+    "page": "detail/EMP-0348",
+    "width": "768",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 7,
+    "technicalHeadings": false
+  },
+  {
+    "page": "detail/EMP-0348",
+    "width": "1071",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 7,
+    "technicalHeadings": false
+  },
+  {
+    "page": "detail/EMP-0348",
+    "width": "1440",
+    "badText": false,
+    "categories": 6,
+    "noOverflow": true,
+    "stages": 7,
+    "technicalHeadings": false
+  },
+  {
+    "page": "verification/EMP-0348",
+    "width": "390",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "verification/EMP-0348",
+    "width": "768",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "verification/EMP-0348",
+    "width": "1071",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "verification/EMP-0348",
+    "width": "1440",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "completed",
+    "width": "390",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "completed",
+    "width": "768",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "completed",
+    "width": "1071",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  },
+  {
+    "page": "completed",
+    "width": "1440",
+    "badText": false,
+    "categories": 0,
+    "noOverflow": true,
+    "stages": 0,
+    "technicalHeadings": false
+  }
+]

@@ -1,0 +1,510 @@
+{
+  "passed": 119,
+  "total": 119,
+  "checks": [
+    {
+      "name": "Required form fields valid before saving EMP-0221",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 compliant case remains searchable in all cases",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 1 after refresh compliant case remains searchable in all cases",
+      "passed": true
+    },
+    {
+      "name": "Required form fields valid before saving EMP-0016",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 non-compliant case appears in follow-up list",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 2 after refresh non-compliant case appears in follow-up list",
+      "passed": true
+    },
+    {
+      "name": "Required form fields valid before saving EMP-0278",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 3 after refresh active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Required form fields valid before saving EMP-0001",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 4 after refresh active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Final correction reason is required",
+      "passed": true
+    },
+    {
+      "name": "Required form fields valid before saving EMP-0221",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 non-compliant case appears in follow-up list",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh ranking separates verification and case",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh detail shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh detail preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh explain shows the same result",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh explain preserves risk score",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh workspace status and case agree",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh active queue excludes final results",
+      "passed": true
+    },
+    {
+      "name": "Scenario 5 after refresh non-compliant case appears in follow-up list",
+      "passed": true
+    },
+    {
+      "name": "Correction preserves both results and reason",
+      "passed": true
+    },
+    {
+      "name": "History contains timestamp and simulation actor",
+      "passed": true
+    },
+    {
+      "name": "Reset restores original verification status and clears history",
+      "passed": true
+    },
+    {
+      "name": "After reset dashboard five verification counts",
+      "passed": true
+    },
+    {
+      "name": "After reset risk totals unchanged",
+      "passed": true
+    },
+    {
+      "name": "After reset case summaries match effective states",
+      "passed": true
+    },
+    {
+      "name": "Reset persists after refresh",
+      "passed": true
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "EMP-0221",
+      "risk": "Critical",
+      "status": "Verified Compliant"
+    },
+    {
+      "id": "EMP-0016",
+      "risk": "High",
+      "status": "Verified Non-Compliant"
+    },
+    {
+      "id": "EMP-0278",
+      "risk": "Medium",
+      "status": "Need More Data"
+    },
+    {
+      "id": "EMP-0001",
+      "risk": "Low",
+      "status": "Under Review"
+    },
+    {
+      "id": "EMP-0221",
+      "risk": "Critical",
+      "status": "Verified Non-Compliant"
+    }
+  ],
+  "localOnly": true
+}
