@@ -8,6 +8,27 @@ import {naturalize} from '../public/ui/src/services/terminology.js';
 const read=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const index=read('data/snapshots/employers.json'),dashboard=read('data/snapshots/dashboard.json'),details=read('data/snapshots/details.json');
 const files={'employers.json':index,'dashboard.json':dashboard,'details.json':details};
+const deferred=()=>{let resolve;const promise=new Promise(r=>resolve=r);return {promise,resolve};};
+test('navigation reuses fresh lists, deduplicates detail requests, and fetches stale list/detail in parallel',async()=>{
+ let clock=1000;const calls=[],pending=[];
+ const record={status:'Under Review',version:1,note:'Original',history:[]};
+ const api=async path=>{calls.push(path);if(path.startsWith('/api/data/'))return files[path.split('/').at(-1)];if(calls.filter(p=>p==='/api/cases').length===1&&path==='/api/cases')return {records:{'EMP-0348':record}};const job=deferred();pending.push({path,...job});return job.promise;};
+ const store=await loadWorkspaceStore(api,{now:()=>clock});
+ assert.equal(await store.refresh(undefined,{maxAge:15000}),false);assert.equal(calls.filter(p=>p==='/api/cases').length,1);
+ const first=store.refresh('EMP-0348',{maxAge:15000}),second=store.refresh('EMP-0348',{maxAge:15000});
+ assert.equal(pending.length,1);pending[0].resolve({record});await Promise.all([first,second]);
+ assert.equal(await store.refresh('EMP-0348',{maxAge:15000}),false);
+ clock+=15001;const fresh=store.refresh('EMP-0348',{maxAge:15000});assert.equal(pending.length,3);assert.deepEqual(pending.slice(1).map(p=>p.path),['/api/cases','/api/cases/EMP-0348']);
+ pending[1].resolve({records:{'EMP-0348':record}});pending[2].resolve({record});assert.equal(await fresh,false);
+});
+test('an older background response cannot undo a successfully saved verification',async()=>{
+ const stale=deferred(),record={status:'Under Review',version:1,note:'Original',history:[]};let loaded=false;
+ const api=async(path,options)=>{if(path.startsWith('/api/data/'))return files[path.split('/').at(-1)];if(options)return {record:{...record,status:'Verified Compliant',version:2,note:'Saved',history:[]}};if(path==='/api/cases'&&!loaded){loaded=true;return {records:{'EMP-0348':record}};}return stale.promise;};
+ const store=await loadWorkspaceStore(api),refresh=store.refresh();
+ await store.saveVerification('EMP-0348',{status:'Verified Compliant',expectedVersion:1});
+ stale.resolve({records:{'EMP-0348':record}});await refresh;
+ assert.equal(store.getVerification('EMP-0348').version,2);assert.equal(store.getVerification('EMP-0348').note,'Saved');assert.equal(store.getEmployer('EMP-0348').case_queue,'closed');
+});
 test('remote store never reads old local notes, waits for ACK, shares effective state and rejects offline writes',async()=>{
  globalThis.localStorage={getItem(){throw Error('Must not read legacy notes');}};
  let record={status:'Under Review',version:1,note:'Server only',history:[]},fail=false,calls=[];
