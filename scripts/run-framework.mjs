@@ -1,9 +1,11 @@
+import {existsSync} from 'node:fs';
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { readExecutionProfile } from "./execution-profile.mjs";
 
 const [command, ...args] = process.argv.slice(2);
 if (!["dev", "build"].includes(command)) throw new Error("Expected dev or build.");
+if(command==='build'&&['../public/qa-theme-page.html','../public/qa-theme-responsive.html'].some(path=>existsSync(new URL(path,import.meta.url))))throw Error('Remove local visual fixtures before building: node tools/prepare-theme-qa.mjs --clean');
 const managedLinux = readExecutionProfile() === "managed-linux";
 
 if (managedLinux && command === "build") {

@@ -11,6 +11,9 @@ export const empty=(title,sub,ico='chart')=>`<div class="empty"><span class="emp
 export const metric=(label,value,sub='')=>`<div class="metric"><span>${label}</span><strong>${value}</strong>${sub?`<small>${sub}</small>`:''}</div>`;
 export const scoreBar=r=>`<div class="score-cell"><strong>${num(r.risk_score,2)}</strong><span class="mini-track"><i class="${r.risk_level.toLowerCase()}" style="width:${r.risk_score}%"></i></span></div>`;
 const shapes={
+ sun:'M12 6a6 6 0 1 1 0 12 6 6 0 0 1 0-12ZM11 0h2v4h-2V0ZM11 20h2v4h-2v-4ZM0 11h4v2H0v-2ZM20 11h4v2h-4v-2ZM2.8 4.2l1.4-1.4L7 5.6 5.6 7 2.8 4.2ZM17 18.4l1.4-1.4 2.8 2.8-1.4 1.4-2.8-2.8ZM2.8 19.8 5.6 17 7 18.4l-2.8 2.8-1.4-1.4ZM17 5.6l2.8-2.8 1.4 1.4L18.4 7 17 5.6Z',
+ moon:'M21.5 14.2A10 10 0 0 1 9.8 2.5 10 10 0 1 0 21.5 14.2Z',
+ eye:'M12 4C6 4 2 8 0 12c2 4 6 8 12 8s10-4 12-8C22 8 18 4 12 4Zm0 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z',
  more:'M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM12 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z',
  edit:'m16 2 6 6-13 13-7 1 1-7L16 2ZM4.5 16l-.5 4 4-.5L19 8.5 15.5 5 4.5 16Z',
  grid:'M4 3h6v7H3V4a1 1 0 0 1 1-1ZM14 3h6a1 1 0 0 1 1 1v6h-7V3ZM3 14h7v7H4a1 1 0 0 1-1-1v-6ZM14 14h7v6a1 1 0 0 1-1 1h-6v-7Z',

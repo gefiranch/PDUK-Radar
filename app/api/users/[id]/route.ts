@@ -1,3 +1,5 @@
+import {validatePasswordReset} from '../../../../lib/auth/password-reset';
+import {hashPassword,sessionCookie} from '../../../../lib/auth/password';
 import {eq} from 'drizzle-orm';
 import {users,accountAudit,sessions} from '../../../../db/schema';
 import {requireAdmin,publicUser,json,apiError} from '../../../../lib/auth/session';
@@ -9,6 +11,15 @@ export async function PATCH(request:Request,{params}:{params:Promise<{id:string}
   let body:unknown;try{body=await request.json();}catch{throw new AccessError(400,'Format JSON tidak valid.');}
   const target=await db.select().from(users).where(eq(users.id,id)).get();
   if(!target)throw new AccessError(404,'Pengguna tidak ditemukan.');
+  if(body&&typeof body==='object'&&!Array.isArray(body)&&(body as Record<string,unknown>).action==='reset-password'){
+   const {password}=validatePasswordReset(body);const passwordHash=await hashPassword(password);const now=new Date().toISOString();
+   await db.batch([
+    db.update(users).set({passwordHash,updatedAt:now}).where(eq(users.id,id)),
+    db.delete(sessions).where(eq(sessions.userId,id)),
+    db.insert(accountAudit).values({id:crypto.randomUUID(),actorId:actor.id,targetId:id,action:'password_reset',createdAt:now})
+   ]);
+   return json({ok:true,reauthenticate:target.id===actor.id},200,target.id===actor.id?{'Set-Cookie':sessionCookie('',request,true)}:{});
+  }
   if(target.role==='admin'||target.id===actor.id)throw new AccessError(403,'Akun administrator tidak dapat diubah melalui tindakan ini.');
   const now=new Date().toISOString();
   if(body&&typeof body==='object'&&!Array.isArray(body)&&(body as Record<string,unknown>).action==='edit'){

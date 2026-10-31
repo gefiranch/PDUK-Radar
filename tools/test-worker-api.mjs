@@ -22,7 +22,21 @@ try{
  await request('/api/auth/login',{body:{email:'created@example.test',password:'created-fixture-password'},expected:403});
  await request('/api/users/'+created.id,{cookie:admin.cookie,method:'PATCH',body:{status:'active'}});
  const reactivated=await login('created@example.test','created-fixture-password');await request('/api/cases',{cookie:reactivated.cookie});
- await db.prepare('UPDATE app_sessions SET expires_at=0 WHERE user_id=?').bind(created.id).run();await request('/api/cases',{cookie:reactivated.cookie,expected:401});
+
+ const resetBody={action:'reset-password',password:'replacement-fixture-password',confirmPassword:'replacement-fixture-password'};
+ await request('/api/users/'+created.id,{method:'PATCH',cookie:user.cookie,body:resetBody,expected:403});
+ await request('/api/users/'+created.id,{method:'PATCH',body:resetBody,expected:401});
+ await request('/api/users/'+created.id,{method:'PATCH',cookie:admin.cookie,body:resetBody,requestOrigin:'https://evil.test',expected:403});
+ await request('/api/users/'+created.id,{method:'PATCH',cookie:admin.cookie,body:{...resetBody,confirmPassword:'mismatch'},expected:400});
+ await request('/api/users/'+created.id,{method:'PATCH',cookie:admin.cookie,body:{...resetBody,role:'admin'},expected:400});
+ await request('/api/users/'+created.id,{method:'PATCH',cookie:admin.cookie,body:resetBody});
+ await request('/api/cases',{cookie:reactivated.cookie,expected:401});
+ await request('/api/auth/login',{body:{email:'created@example.test',password:'created-fixture-password'},expected:401});
+ const replaced=await login('created@example.test','replacement-fixture-password');await request('/api/cases',{cookie:replaced.cookie});
+ const passwordAudit=await db.prepare("SELECT action FROM account_audit WHERE target_id=? AND action='password_reset'").bind(created.id).all();assert.equal(passwordAudit.results.length,1);
+ const storedHash=await db.prepare('SELECT password_hash FROM app_users WHERE id=?').bind(created.id).first();assert.ok(storedHash.password_hash.startsWith('pbkdf2-sha256$'));assert.ok(!storedHash.password_hash.includes(resetBody.password));
+ await db.prepare('UPDATE app_sessions SET expires_at=0 WHERE user_id=?').bind(created.id).run();await request('/api/cases',{cookie:replaced.cookie,expected:401});
+
  await request('/api/cases/EMP-0348',{method:'PATCH',cookie:user.cookie,body:{},requestOrigin:'https://evil.test',expected:403});
  await request('/api/cases/EMP-9999',{cookie:user.cookie,expected:404});
  const form=(status,expectedVersion,extra={})=>({action:'verification',status,expectedVersion,date:'2026-10-20',findingType:'Klarifikasi QA sintetis',note:'Simulasi hasil pemeriksaan.',nextAction:'Tinjau data tambahan.',...extra});
@@ -44,5 +58,6 @@ try{
  assert.deepEqual(Object.fromEntries(['Low','Medium','High','Critical'].map(l=>[l,snapshot.filter(r=>r.risk_level===l).length])),{Low:369,Medium:109,High:16,Critical:6});
  await request('/api/cases/EMP-0221?before=invalid',{cookie:user.cookie,expected:400});
  await request('/api/auth/logout',{cookie:user.cookie,body:{}});await request('/api/cases',{cookie:user.cookie,expected:401});
- console.log(JSON.stringify({passed:true,httpChecks:checks,coverage:['admin/user login','auth/roles/origin','validation/conflict','closure/reopening','cross-user D1 reads','fresh HTTP reads','immutable score/distribution','logout session revocation']},null,2));
+ const selfReset=await request('/api/users/'+admin.user.id,{method:'PATCH',cookie:admin.cookie,body:resetBody});assert.equal(selfReset.data.reauthenticate,true);assert.ok(selfReset.res.headers.get('set-cookie').includes('Max-Age=0'));await request('/api/users',{cookie:admin.cookie,expected:401});await request('/api/auth/login',{body:{email:'admin@gmail.com',password:'isolated-admin-fixture'},expected:401});await login('admin@gmail.com','replacement-fixture-password');
+ console.log(JSON.stringify({passed:true,httpChecks:checks,coverage:['admin/user login','admin password reset/self reset and session revocation','auth/roles/origin','validation/conflict','closure/reopening','cross-user D1 reads','fresh HTTP reads','immutable score/distribution','logout session revocation']},null,2));
 }finally{await mf.dispose();}
