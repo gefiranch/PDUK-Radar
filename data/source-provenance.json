@@ -1,0 +1,7 @@
+{
+  "original_upload_sha256": "f1a8791e29898eef55162d3a1d90a3c6097fdfc9340f016b40b400af8f194e5b",
+  "repository_csv_sha256": "6475b6be923d70e79c0d96ab8b646c808b94b5712ab02b3da271c8b791944712",
+  "original_line_endings": "CRLF",
+  "repository_line_endings": "LF",
+  "note": "Git main stores LF CSV bytes. Original upload provenance matches CRLF re-encoding exactly. No CSV fields or source snapshots changed by this revision."
+}

@@ -45,3 +45,36 @@ Nilai persen direpresentasikan sebagai rasio desimal (`0.40` = 40%), kecuali kon
 **Persamaan arus data:** `active[t] = active[t-1] + new[t] - inactive[t]` untuk t = 1..23. `history` memakai array angka untuk mengurangi ukuran payload dibanding 12.000 objek tanggal yang berulang.
 
 **Status data:** `verified_compliant` dan `verified_non_compliant` hanya **hasil simulasi pada demo**, tidak boleh dibaca sebagai status hukum/perusahaan sebenarnya.
+
+## Ketersediaan aktual dan pemisahan revisi komprehensif
+
+Tabel di atas mendeskripsikan kontrak field, **bukan klaim bahwa seluruh field tersedia**. Pada snapshot yang dipakai, `details.months=[]`, `details.employers={}`. `history`, `peer_percentile`, `feature_scores`, `score_contributions`, `rule_flags`, `risk_explanation`, evidence dan catatan awal tidak disertakan. Indikator penilaian tersedia dari CSV, termasuk 131 jumlah pekerja yang null. Jangan mengisi field tidak tersedia dengan nol atau data demo.
+
+- Enam kategori/bobot awal ditentukan satu kali di `services/terminology.js`; label UI dipilih eksplisit, bukan regex pengganti HTML.
+- Rekonstruksi `stagnation_growth = .6 × min(stagnation_months/18,1) + .4 × min(growth_mismatch/.5,1)`. Nilai yang hilang dikeluarkan dari denominator bobot. `peer_deviation` di-clamp ke 0..1 untuk rekonstruksi; nilai mentah CSV dipertahankan.
+- `score_contributions` hanya dipakai jika sumber benar-benar menyediakannya. Estimasi dari indikator dibulatkan dihitung terpisah dan bukan nilai resmi. Selisih tidak dialokasikan ulang.
+- `data/source-provenance.json` memuat hash CSV LF yang dilacak Git dan hash CRLF unggahan asli. Ketiga snapshot masih menyimpan provenance CRLF asli; validator memeriksa kedua encoding dan seluruh nilai.
+
+## State dan audit D1
+
+| Field | Makna |
+| --- | --- |
+| `case_records.employer_id` | ID yang harus ada dalam indeks 500 perusahaan |
+| `payload` | JSON state pemeriksaan; tidak memuat edit skor sumber |
+| `version` | Integer naik satu per perubahan; `expectedVersion` wajib saat PATCH |
+| `last_change_id` | UUID perubahan untuk memasangkan update atomik dengan audit |
+| `updated_at` | Waktu UTC server |
+| `case_events` | Append-only, unik per `(employer_id,version)`; SQL menolak UPDATE/DELETE |
+| `actor_id/name/role` | Dari sesi aktif pada server, bukan request body |
+| `previous_status/new_status/reason` | Transisi dan alasan koreksi/pembukaan kembali |
+| `case_events.payload` | Snapshot peristiwa, termasuk progres lama/baru, tanggal, catatan dan tindakan |
+
+`status` memakai enum verifikasi asli. `followUpStatus` memakai `Pending`, `In Progress`, `Completed`; hanya berlaku untuk Tidak Sesuai. `closureNote` wajib saat Completed, sedangkan hasil Sesuai memakai catatan pemeriksaan sebagai alasan penutupan. `date` YYYY-MM-DD valid dan tidak lebih dari tanggal hari ini Asia/Jakarta. Note/closure maksimal 2.000 karakter, finding/action 500, correction/reopen reason 1.000. String kontrol ditolak; HTML diperlakukan sebagai teks dan di-escape saat render.
+
+GET detail mengembalikan `history` kronologis untuk 100 event terbaru, `historyCount`, dan `nextBefore`. Riwayat lebih lama diambil dengan cursor versi. Case status/queue diturunkan oleh `caseForStatus`; tidak mengubah `risk_score/risk_level`.
+
+## Lampiran demonstrasi
+
+`data/demo/demo_details_500.json`, `demo_verifications_500.json`, dan `demo_scenarios.json` adalah tambahan sintetis opt-in, terpisah dari sumber dan D1. `synthetic=true`, `demo_mode_required=true`, serta marker alokasi dipertahankan. Semua ID dan anchor bulan terakhir sudah diuji cocok dengan indeks; kecocokan bukan bukti observasi.
+
+`demo_peer_percentile`, `demo_rule_flags`, `demo_score_contributions`, `demo_risk_explanation` tidak menggantikan nama field sumber. `demo_xai_status=ILLUSTRATIVE_ALLOCATION_NOT_MODEL_OUTPUT` berarti alokasi latihan, bukan kontribusi model ataupun hasil metode rekonstruksi. Evidence tambahan berstatus belum tersedia; UI tidak mengklaim dokumen telah diunggah. Histori demo selalu dilabeli sintetis. Catatan latihan memakai browser key terpisah, tidak diimpor ke D1.

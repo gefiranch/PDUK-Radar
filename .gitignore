@@ -54,3 +54,5 @@ dist/
 public/qa-*.html
 
 !.env.example
+
+/node_modules

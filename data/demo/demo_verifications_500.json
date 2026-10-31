@@ -1,0 +1,5249 @@
+{
+  "schema_version": "demo-1.0.0",
+  "synthetic": true,
+  "demo_mode_required": true,
+  "warning": "DATA SINTETIS UNTUK DEMONSTRASI SAJA. Bukan data historis, hasil model, bukti pemeriksaan, atau keputusan BPJS Kesehatan yang nyata.",
+  "employers": {
+    "EMP-0001": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0002": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0003": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0004": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0005": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-20",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-20T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-20",
+          "updatedAt": "2026-10-20T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0006": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0007": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0008": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0009": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0010": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0011": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0012": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0013": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-14",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-14T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-14",
+          "updatedAt": "2026-10-14T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0014": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0015": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0016": {
+      "status": "Need More Data",
+      "date": "2026-10-20",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-20T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-20",
+          "updatedAt": "2026-10-20T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0017": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0018": {
+      "status": "Under Review",
+      "date": "2026-10-17",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-17T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-17",
+          "updatedAt": "2026-10-17T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0019": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0020": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0021": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0022": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0023": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0024": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0025": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0026": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0027": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0028": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0029": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0030": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0031": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0032": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0033": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0034": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0035": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0036": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0037": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0038": {
+      "status": "Need More Data",
+      "date": "2026-10-09",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-09T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-09",
+          "updatedAt": "2026-10-09T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0039": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0040": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0041": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-25",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-25T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-25",
+          "updatedAt": "2026-10-25T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0042": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0043": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0044": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0045": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0046": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0047": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0048": {
+      "status": "Under Review",
+      "date": "2026-10-24",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-24T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-24",
+          "updatedAt": "2026-10-24T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0049": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0050": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0051": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0052": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0053": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0054": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0055": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0056": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0057": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0058": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0059": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0060": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-23",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-23T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-23",
+          "updatedAt": "2026-10-23T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0061": {
+      "status": "Under Review",
+      "date": "2026-10-10",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-10T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-10",
+          "updatedAt": "2026-10-10T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0062": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0063": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0064": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0065": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0066": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0067": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0068": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0069": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0070": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0071": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0072": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0073": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0074": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0075": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0076": {
+      "status": "Under Review",
+      "date": "2026-10-07",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-07T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-07",
+          "updatedAt": "2026-10-07T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0077": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0078": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0079": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0080": {
+      "status": "Under Review",
+      "date": "2026-10-07",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-07T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-07",
+          "updatedAt": "2026-10-07T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0081": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0082": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0083": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0084": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0085": {
+      "status": "Under Review",
+      "date": "2026-10-10",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-10T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-10",
+          "updatedAt": "2026-10-10T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0086": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0087": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0088": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0089": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0090": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0091": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0092": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0093": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0094": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0095": {
+      "status": "Need More Data",
+      "date": "2026-10-22",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-22T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-22",
+          "updatedAt": "2026-10-22T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0096": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0097": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0098": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0099": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0100": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0101": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0102": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0103": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0104": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0105": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0106": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0107": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0108": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0109": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0110": {
+      "status": "Under Review",
+      "date": "2026-10-12",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-12T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-12",
+          "updatedAt": "2026-10-12T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0111": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0112": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0113": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0114": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0115": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0116": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0117": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0118": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0119": {
+      "status": "Under Review",
+      "date": "2026-10-19",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-19T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-19",
+          "updatedAt": "2026-10-19T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0120": {
+      "status": "Under Review",
+      "date": "2026-10-11",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-11T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-11",
+          "updatedAt": "2026-10-11T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0121": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0122": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0123": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0124": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0125": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0126": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0127": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0128": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0129": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0130": {
+      "status": "Need More Data",
+      "date": "2026-10-16",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-16T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-16",
+          "updatedAt": "2026-10-16T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0131": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0132": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0133": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0134": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0135": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0136": {
+      "status": "Verified Compliant",
+      "date": "2026-10-18",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi telah diperiksa dan dinyatakan sesuai; bukan hasil pemeriksaan nyata.",
+      "nextAction": "Arsipkan contoh kasus sesuai kebijakan demonstrasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-18T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-18",
+          "updatedAt": "2026-10-18T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi telah diperiksa dan dinyatakan sesuai; bukan hasil pemeriksaan nyata.",
+          "nextAction": "Arsipkan contoh kasus sesuai kebijakan demonstrasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0137": {
+      "status": "Under Review",
+      "date": "2026-10-05",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-05T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-05",
+          "updatedAt": "2026-10-05T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0138": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0139": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0140": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0141": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0142": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0143": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0144": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0145": {
+      "status": "Under Review",
+      "date": "2026-10-14",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-14T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-14",
+          "updatedAt": "2026-10-14T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0146": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0147": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0148": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0149": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0150": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0151": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0152": {
+      "status": "Under Review",
+      "date": "2026-10-12",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-12T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-12",
+          "updatedAt": "2026-10-12T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0153": {
+      "status": "Under Review",
+      "date": "2026-10-23",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-23T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-23",
+          "updatedAt": "2026-10-23T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0154": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0155": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0156": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0157": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0158": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0159": {
+      "status": "Under Review",
+      "date": "2026-10-19",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-19T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-19",
+          "updatedAt": "2026-10-19T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0160": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0161": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0162": {
+      "status": "Under Review",
+      "date": "2026-10-25",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-25T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-25",
+          "updatedAt": "2026-10-25T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0163": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0164": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0165": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0166": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0167": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0168": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0169": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0170": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0171": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0172": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0173": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0174": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0175": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0176": {
+      "status": "Under Review",
+      "date": "2026-10-11",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-11T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-11",
+          "updatedAt": "2026-10-11T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0177": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0178": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0179": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0180": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-16",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-16T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-16",
+          "updatedAt": "2026-10-16T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0181": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0182": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0183": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0184": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0185": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0186": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0187": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0188": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0189": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0190": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0191": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0192": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0193": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0194": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0195": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0196": {
+      "status": "Under Review",
+      "date": "2026-10-15",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-15T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-15",
+          "updatedAt": "2026-10-15T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0197": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0198": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0199": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0200": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0201": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0202": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0203": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0204": {
+      "status": "Under Review",
+      "date": "2026-10-05",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-05T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-05",
+          "updatedAt": "2026-10-05T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0205": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-09",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-09T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-09",
+          "updatedAt": "2026-10-09T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0206": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0207": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0208": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0209": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0210": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0211": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0212": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0213": {
+      "status": "Under Review",
+      "date": "2026-10-13",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-13T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-13",
+          "updatedAt": "2026-10-13T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0214": {
+      "status": "Under Review",
+      "date": "2026-10-17",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-17T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-17",
+          "updatedAt": "2026-10-17T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0215": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0216": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0217": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-14",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-14T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-14",
+          "updatedAt": "2026-10-14T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0218": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0219": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0220": {
+      "status": "Under Review",
+      "date": "2026-10-19",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-19T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-19",
+          "updatedAt": "2026-10-19T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0221": {
+      "status": "Under Review",
+      "date": "2026-10-02",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-02T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-02",
+          "updatedAt": "2026-10-02T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0222": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0223": {
+      "status": "Under Review",
+      "date": "2026-10-14",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-14T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-14",
+          "updatedAt": "2026-10-14T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0224": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0225": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0226": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0227": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-16",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-16T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-16",
+          "updatedAt": "2026-10-16T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0228": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0229": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0230": {
+      "status": "Under Review",
+      "date": "2026-10-13",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-13T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-13",
+          "updatedAt": "2026-10-13T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0231": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0232": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0233": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0234": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0235": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0236": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0237": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0238": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0239": {
+      "status": "Under Review",
+      "date": "2026-10-23",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-23T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-23",
+          "updatedAt": "2026-10-23T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0240": {
+      "status": "Under Review",
+      "date": "2026-10-24",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-24T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-24",
+          "updatedAt": "2026-10-24T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0241": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0242": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0243": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0244": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0245": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-03",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-03T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-03",
+          "updatedAt": "2026-10-03T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0246": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0247": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0248": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0249": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0250": {
+      "status": "Under Review",
+      "date": "2026-10-23",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-23T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-23",
+          "updatedAt": "2026-10-23T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0251": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0252": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0253": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0254": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0255": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0256": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0257": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0258": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0259": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0260": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0261": {
+      "status": "Under Review",
+      "date": "2026-10-22",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-22T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-22",
+          "updatedAt": "2026-10-22T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0262": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0263": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0264": {
+      "status": "Under Review",
+      "date": "2026-10-08",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-08T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-08",
+          "updatedAt": "2026-10-08T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0265": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0266": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0267": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0268": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0269": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0270": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-04",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-04T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-04",
+          "updatedAt": "2026-10-04T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0271": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0272": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0273": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0274": {
+      "status": "Under Review",
+      "date": "2026-10-20",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-20T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-20",
+          "updatedAt": "2026-10-20T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0275": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0276": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0277": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0278": {
+      "status": "Under Review",
+      "date": "2026-10-23",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-23T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-23",
+          "updatedAt": "2026-10-23T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0279": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0280": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0281": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0282": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0283": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0284": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0285": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0286": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0287": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0288": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0289": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0290": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0291": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0292": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0293": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0294": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0295": {
+      "status": "Under Review",
+      "date": "2026-10-09",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-09T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-09",
+          "updatedAt": "2026-10-09T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0296": {
+      "status": "Need More Data",
+      "date": "2026-10-11",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-11T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-11",
+          "updatedAt": "2026-10-11T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0297": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0298": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0299": {
+      "status": "Need More Data",
+      "date": "2026-10-20",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-20T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-20",
+          "updatedAt": "2026-10-20T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0300": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0301": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0302": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0303": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0304": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0305": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0306": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0307": {
+      "status": "Verified Compliant",
+      "date": "2026-10-08",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi telah diperiksa dan dinyatakan sesuai; bukan hasil pemeriksaan nyata.",
+      "nextAction": "Arsipkan contoh kasus sesuai kebijakan demonstrasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-08T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-08",
+          "updatedAt": "2026-10-08T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi telah diperiksa dan dinyatakan sesuai; bukan hasil pemeriksaan nyata.",
+          "nextAction": "Arsipkan contoh kasus sesuai kebijakan demonstrasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0308": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0309": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0310": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0311": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-17",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-17T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-17",
+          "updatedAt": "2026-10-17T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0312": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0313": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0314": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0315": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0316": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0317": {
+      "status": "Under Review",
+      "date": "2026-10-23",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-23T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-23",
+          "updatedAt": "2026-10-23T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0318": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0319": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0320": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0321": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0322": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0323": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0324": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0325": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0326": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0327": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0328": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0329": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0330": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0331": {
+      "status": "Under Review",
+      "date": "2026-10-06",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-06T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-06",
+          "updatedAt": "2026-10-06T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0332": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0333": {
+      "status": "Verified Compliant",
+      "date": "2026-10-25",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi telah diperiksa dan dinyatakan sesuai; bukan hasil pemeriksaan nyata.",
+      "nextAction": "Arsipkan contoh kasus sesuai kebijakan demonstrasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-25T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-25",
+          "updatedAt": "2026-10-25T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi telah diperiksa dan dinyatakan sesuai; bukan hasil pemeriksaan nyata.",
+          "nextAction": "Arsipkan contoh kasus sesuai kebijakan demonstrasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0334": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0335": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0336": {
+      "status": "Under Review",
+      "date": "2026-10-13",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-13T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-13",
+          "updatedAt": "2026-10-13T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0337": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0338": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0339": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0340": {
+      "status": "Need More Data",
+      "date": "2026-10-04",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-04T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-04",
+          "updatedAt": "2026-10-04T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0341": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0342": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0343": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0344": {
+      "status": "Under Review",
+      "date": "2026-10-16",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-16T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-16",
+          "updatedAt": "2026-10-16T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0345": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0346": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0347": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0348": {
+      "status": "Under Review",
+      "date": "2026-10-06",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-06T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-06",
+          "updatedAt": "2026-10-06T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0349": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0350": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0351": {
+      "status": "Need More Data",
+      "date": "2026-10-02",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-02T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-02",
+          "updatedAt": "2026-10-02T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0352": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0353": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0354": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0355": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0356": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0357": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0358": {
+      "status": "Under Review",
+      "date": "2026-10-13",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-13T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-13",
+          "updatedAt": "2026-10-13T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0359": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0360": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0361": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0362": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0363": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0364": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0365": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0366": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0367": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0368": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0369": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0370": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0371": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0372": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0373": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0374": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0375": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0376": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0377": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-17",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-17T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-17",
+          "updatedAt": "2026-10-17T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0378": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0379": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0380": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0381": {
+      "status": "Need More Data",
+      "date": "2026-10-01",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-01T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-01",
+          "updatedAt": "2026-10-01T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0382": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0383": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0384": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0385": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0386": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0387": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0388": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0389": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0390": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0391": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0392": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0393": {
+      "status": "Under Review",
+      "date": "2026-10-14",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-14T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-14",
+          "updatedAt": "2026-10-14T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0394": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0395": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0396": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0397": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0398": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0399": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0400": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0401": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0402": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0403": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0404": {
+      "status": "Need More Data",
+      "date": "2026-10-12",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-12T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-12",
+          "updatedAt": "2026-10-12T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0405": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0406": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0407": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0408": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0409": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0410": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0411": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0412": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0413": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0414": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0415": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0416": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0417": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0418": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0419": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0420": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0421": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0422": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0423": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0424": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0425": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0426": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0427": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0428": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0429": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0430": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0431": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-08",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-08T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-08",
+          "updatedAt": "2026-10-08T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0432": {
+      "status": "Need More Data",
+      "date": "2026-10-02",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-02T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-02",
+          "updatedAt": "2026-10-02T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0433": {
+      "status": "Need More Data",
+      "date": "2026-10-06",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-06T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-06",
+          "updatedAt": "2026-10-06T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0434": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0435": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0436": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0437": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0438": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0439": {
+      "status": "Need More Data",
+      "date": "2026-10-09",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-09T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-09",
+          "updatedAt": "2026-10-09T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0440": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0441": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0442": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0443": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0444": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0445": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0446": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0447": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0448": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0449": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0450": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0451": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0452": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0453": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0454": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0455": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0456": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0457": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0458": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0459": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0460": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0461": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0462": {
+      "status": "Under Review",
+      "date": "2026-10-08",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-08T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-08",
+          "updatedAt": "2026-10-08T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0463": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0464": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0465": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0466": {
+      "status": "Under Review",
+      "date": "2026-10-17",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-17T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-17",
+          "updatedAt": "2026-10-17T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0467": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0468": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0469": {
+      "status": "Verified Non-Compliant",
+      "date": "2026-10-22",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+      "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-22T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Verified Non-Compliant",
+          "previousStatus": "Pending",
+          "date": "2026-10-22",
+          "updatedAt": "2026-10-22T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi menunjukkan hal yang perlu ditindaklanjuti; bukan temuan resmi.",
+          "nextAction": "Catat dan pantau progres tindak lanjut simulasi.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0470": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0471": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0472": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0473": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0474": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0475": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0476": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0477": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0478": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0479": {
+      "status": "Under Review",
+      "date": "2026-10-09",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+      "nextAction": "Minta klarifikasi kelengkapan data.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-09T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Under Review",
+          "previousStatus": "Pending",
+          "date": "2026-10-09",
+          "updatedAt": "2026-10-09T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Pemeriksaan ilustratif sedang berlangsung. Belum ada kesimpulan.",
+          "nextAction": "Minta klarifikasi kelengkapan data.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0480": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0481": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0482": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0483": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0484": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0485": {
+      "status": "Need More Data",
+      "date": "2026-10-06",
+      "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+      "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+      "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+      "actor": "Petugas Simulasi",
+      "updatedAt": "2026-10-06T09:00:00+07:00",
+      "history": [
+        {
+          "status": "Need More Data",
+          "previousStatus": "Pending",
+          "date": "2026-10-06",
+          "updatedAt": "2026-10-06T09:00:00+07:00",
+          "findingType": "Klarifikasi kesesuaian data pekerja dan peserta (simulasi)",
+          "note": "Skenario simulasi membutuhkan data tambahan sebelum penutupan.",
+          "nextAction": "Lengkapi data dan lanjutkan penelaahan.",
+          "actor": "Petugas Simulasi",
+          "synthetic": true
+        }
+      ],
+      "evidence_count": 0,
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0486": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0487": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0488": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0489": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0490": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0491": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0492": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0493": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0494": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0495": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0496": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0497": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0498": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0499": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    },
+    "EMP-0500": {
+      "status": "Pending",
+      "date": null,
+      "note": null,
+      "history": [],
+      "synthetic": true,
+      "source": "demo_only"
+    }
+  }
+}

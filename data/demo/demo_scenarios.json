@@ -1,0 +1,36 @@
+{
+  "schema_version": "demo-scenarios-1.0",
+  "synthetic": true,
+  "warning": "SKENARIO LATIHAN, bukan hasil pemeriksaan perusahaan nyata. Tidak otomatis mengubah data sumber.",
+  "scenarios": [
+    {
+      "name": "Perusahaan Critical menjadi terverifikasi sesuai",
+      "employer_id": "EMP-0348",
+      "source_status": "Under Review",
+      "source_risk_score": 83.25,
+      "demo_action": {
+        "status": "Verified Compliant",
+        "date": "2026-10-30",
+        "findingType": "Klarifikasi data pendaftaran pekerja — simulasi",
+        "note": "Dalam skenario demonstrasi, data pekerja dan kepesertaan telah diklarifikasi. Ini bukan hasil verifikasi nyata.",
+        "nextAction": "Tutup kasus simulasi dan simpan catatan keputusan."
+      },
+      "expected": "Kasus Selesai — Sesuai; Risk Score tetap 83.25 dan Risk Level tetap Critical."
+    },
+    {
+      "name": "Perusahaan Critical perlu tindak lanjut lalu dituntaskan",
+      "employer_id": "EMP-0221",
+      "source_status": "Under Review",
+      "source_risk_score": 89.6,
+      "demo_action": {
+        "status": "Verified Non-Compliant",
+        "date": "2026-10-30",
+        "findingType": "Kebutuhan penyesuaian data peserta — simulasi",
+        "note": "Skenario demonstrasi memerlukan tindak lanjut administratif. Tidak menyatakan terjadi pelanggaran nyata.",
+        "nextAction": "Catat progres tindak lanjut dan lakukan pemeriksaan ulang simulasi."
+      },
+      "follow_up_demo": {"followUpStatus": "Completed", "closureNote": "Tindak lanjut skenario demo dinyatakan tuntas; tidak ada klaim hasil lapangan."},
+      "expected": "Kasus Selesai — Tindak Lanjut Tuntas; Risk Score tetap 89.60 dan Risk Level tetap Critical."
+    }
+  ]
+}

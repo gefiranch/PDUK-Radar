@@ -7,4 +7,5 @@ export const CATEGORIES=[
  ['historical_compliance','Riwayat Kepatuhan',.10,'Indikator kepatuhan historis yang tersedia pada dataset.','Tinjau konteks riwayat kepatuhan dan kelengkapan dokumennya.'],
  ['anomaly_model','Pola Tidak Biasa dari Model AI',.10,'Sinyal anomali dari Isolation Forest; bukan probabilitas pelanggaran.','Bandingkan sinyal anomali dengan indikator lain sebelum pemeriksaan.']
 ];
-export function naturalize(html){return html.replace(/Peer Median|Median peer/g,TERMS.median).replace(/Peer Percentile/g,TERMS.percentile).replace(/Peer Deviation|Peer deviation|deviasi peer/g,TERMS.deviation).replace(/Peer grouping|kelompok peer/gi,TERMS.group).replace(/Coverage Gap/g,'Kesenjangan pendaftaran').replace(/Coverage Ratio/g,'Rasio pendaftaran').replace(/Skor risiko(?! analitik)/g,TERMS.score).replace(/Kelengkapan data(?! penilaian)/g,TERMS.completeness);}
+// Labels are selected explicitly at the component boundary, never by rewriting rendered HTML.
+export function naturalize(html){return html;}

@@ -15,6 +15,13 @@
       "when": 1793314957503,
       "tag": "0001_warm_proteus",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793404800000,
+      "tag": "0002_case_records",
+      "breakpoints": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 """Audit CSV fidelity and derived aggregates. Never generates missing history."""
-import csv,json,math,hashlib
+import csv,json,hashlib
 from pathlib import Path
 from collections import Counter
 root=Path(__file__).resolve().parents[1]
@@ -12,7 +12,13 @@ def check(name,condition):
     assert condition,name
     checks.append(name)
 check('500 rows and unique IDs',len(rows)==500==len({r['employer_id'] for r in rows}))
-check('CSV SHA-256 matches provenance',idx['source_sha256']==hashlib.sha256((root/'data/employers_500.csv').read_bytes()).hexdigest())
+csv_bytes=(root/'data/employers_500.csv').read_bytes()
+provenance=json.loads((root/'data/source-provenance.json').read_text())
+check('Repository CSV bytes match pinned SHA-256',hashlib.sha256(csv_bytes).hexdigest()==provenance['repository_csv_sha256'])
+# Git main had already normalized the uploaded CRLF CSV to LF before this revision.
+# Preserve both hashes and explicitly verify that only newline encoding differs.
+original_bytes=csv_bytes.replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')
+check('Original CRLF upload SHA-256 matches snapshot provenance',idx['source_sha256']==provenance['original_upload_sha256']==hashlib.sha256(original_bytes).hexdigest())
 check('Every CSV value retained',all(all((v=='' and r[k] is None) or str(r[k])==v or isinstance(r[k],(int,float)) and float(v)==r[k] for k,v in a.items()) for a,r in zip(raw,rows)))
 check('Risk levels match score boundaries',all(r['risk_level']==('Low' if r['risk_score']<=30 else 'Medium' if r['risk_score']<=60 else 'High' if r['risk_score']<=80 else 'Critical') for r in rows))
 check('KPI matches all rows',d['summary']['risk_counts']==dict(Counter(r['risk_level'] for r in rows)))
@@ -27,6 +33,6 @@ check('Peer group min 12',all(r['peer_count']>=12 for r in rows))
 check('Data completeness equals available weights',all(abs(r['data_completeness']-(1-(.3 if r['coverage_gap'] is None else 0)-(.1 if r['historical_compliance_score'] is None else 0)))<1e-6 for r in rows))
 check('No invented historical data',details['months']==[] and details['employers']=={})
 check('No QA internal labels served',not any('INTERNAL_ONLY' in p.name for p in (root/'public').rglob('*')))
-report={'passed':len(checks),'checks':checks,'limitations':['24 month histories, peer percentile, official contribution totals, and original flags cannot be validated: source files not attached.'],'risk_counts':d['summary']['risk_counts'],'high_critical':sum(r['risk_score']>60 for r in rows)}
+report={'passed':len(checks),'checks':checks,'limitations':['Source snapshot has no observed monthly histories, peer percentile, official contributions, flags or evidence. Attached demo enrichment is synthetic and opt-in, not source/model output.'],'provenance':provenance,'risk_counts':d['summary']['risk_counts'],'high_critical':sum(r['risk_score']>60 for r in rows)}
 (root/'docs/data-validation.json').write_text(json.dumps(report,indent=2))
 print(json.dumps(report,indent=2))
