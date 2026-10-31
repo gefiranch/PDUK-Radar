@@ -1,5 +1,6 @@
 import {caseForStatus} from '../services/caseStatus.js';
 import {esc,num,riskNames} from '../utils/formatters.js';
+export const brandMark=()=>`<svg class="brand-mark" viewBox="0 0 302 310" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" focusable="false"><path d="M74 0h116a112 112 0 0 1 0 224h-21c0-39 32-69 72-69v-16c-40 0-72-31-72-69h-17c0 38-31 70-69 70h-9Z"/><path d="M0 155h83c40 0 72 32 72 72v83H73v-72H0Z"/></svg>`;
 export const badge=r=>`<span class="risk-badge ${esc(r.toLowerCase())}"><i></i>${esc(riskNames[r])}<span class="sr-only"> (${esc(r)})</span></span>`;
 export const statusBadge=s=>{const c=caseForStatus(s),labels={'Pending':'Belum diperiksa','Under Review':'Diperiksa','Need More Data':'Perlu data','Verified Compliant':'Sesuai','Verified Non-Compliant':'Tidak sesuai'};return `<span class="status-badge ${c.tone}" data-verification-status="${esc(s)}" title="${esc(c.label)}">${icon(s==='Under Review'?'search':c.icon)}<span>${esc(labels[s]||c.label)}</span></span>`;};
 export const infoButton=(label,action,attrs='')=>`<button type="button" class="info-button" data-action="${action}" aria-label="${esc(label)}" title="${esc(label)}" aria-haspopup="dialog" aria-controls="modal" ${attrs}>${icon('info')}</button>`;
