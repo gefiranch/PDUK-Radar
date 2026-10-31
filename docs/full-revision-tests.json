@@ -1,0 +1,87 @@
+{
+  "baseline_commit": "eacaab94b127c29090654eb96208ac6dc2ea12d0",
+  "branch": "feat/pduk-radar-full-revision",
+  "unit_integration": {
+    "command": "npm test",
+    "passed": 36,
+    "failed": 0
+  },
+  "worker_http": {
+    "passed": true,
+    "httpChecks": 40,
+    "coverage": [
+      "admin/user login",
+      "auth/roles/origin",
+      "validation/conflict",
+      "closure/reopening",
+      "cross-user D1 reads",
+      "fresh HTTP reads",
+      "immutable score/distribution",
+      "logout session revocation"
+    ]
+  },
+  "lint": {
+    "passed": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "typescript": {
+    "command": "npx tsc --noEmit",
+    "passed": true
+  },
+  "build": {
+    "command": "npm run build",
+    "passed": true
+  },
+  "data_validation": {
+    "passed": 17,
+    "risk_counts": {
+      "Low": 369,
+      "Medium": 109,
+      "High": 16,
+      "Critical": 6
+    },
+    "csv_and_snapshots_changed": false,
+    "provenance": {
+      "original_upload_sha256": "f1a8791e29898eef55162d3a1d90a3c6097fdfc9340f016b40b400af8f194e5b",
+      "repository_csv_sha256": "6475b6be923d70e79c0d96ab8b646c808b94b5712ab02b3da271c8b791944712",
+      "original_line_endings": "CRLF",
+      "repository_line_endings": "LF",
+      "note": "Git main stores LF CSV bytes. Original upload provenance matches CRLF re-encoding exactly. No CSV fields or source snapshots changed by this revision."
+    }
+  },
+  "migrations": {
+    "new": "0002_case_records.sql",
+    "old_migrations_changed": false,
+    "tested": "isolated local D1 emulator",
+    "production_applied": false
+  },
+  "enrichment": {
+    "ids": 500,
+    "anchors_matched": 500,
+    "history_arrays_checked": 1500,
+    "source_model_contributions_overridden": false
+  },
+  "browser": {
+    "before_public_login_observed": true,
+    "revised_click_flow": "unverified",
+    "screenshots_after": "not captured",
+    "responsive_widths": {
+      "390": "unverified",
+      "768": "unverified",
+      "1024": "unverified",
+      "1440": "unverified"
+    },
+    "reason": "Initial preview connection refused; subsequent error-tab binding blocked by browser protocol policy. No bypass attempted."
+  },
+  "github": {
+    "branch_write": "blocked",
+    "status": 403,
+    "reason": "Resource not accessible by integration",
+    "pr_created": false
+  },
+  "production": {
+    "deployed": false,
+    "merged_to_main": false
+  }
+}

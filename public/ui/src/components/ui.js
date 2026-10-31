@@ -1,5 +1,5 @@
 import {caseForStatus} from '../services/caseStatus.js';
-import {esc,num,riskNames,statusNames} from '../utils/formatters.js';
+import {esc,num,riskNames} from '../utils/formatters.js';
 export const badge=r=>`<span class="risk-badge ${esc(r.toLowerCase())}"><i></i>${esc(riskNames[r])}<span class="sr-only"> (${esc(r)})</span></span>`;
 export const statusBadge=s=>{const c=caseForStatus(s),labels={'Pending':'Belum diperiksa','Under Review':'Diperiksa','Need More Data':'Perlu data','Verified Compliant':'Sesuai','Verified Non-Compliant':'Tidak sesuai'};return `<span class="status-badge ${c.tone}" data-verification-status="${esc(s)}" title="${esc(c.label)}">${icon(s==='Under Review'?'search':c.icon)}<span>${esc(labels[s]||c.label)}</span></span>`;};
 export const infoButton=(label,action,attrs='')=>`<button type="button" class="info-button" data-action="${action}" aria-label="${esc(label)}" title="${esc(label)}" aria-haspopup="dialog" aria-controls="modal" ${attrs}>${icon('info')}</button>`;
