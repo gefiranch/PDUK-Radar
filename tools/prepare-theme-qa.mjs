@@ -45,7 +45,7 @@ const mockApi=`async function api(path,options={}){
  if(path==='/api/session')return {user:currentUser};
  if(path.startsWith('/api/data/'))return fixtureData[['employers.json','dashboard.json','details.json'].indexOf(path.split('/').at(-1))];
  await new Promise(resolve=>setTimeout(resolve,1200));
- if(path==='/api/users')return {users:[{...currentUser,email:'admin@example.test',status:'active'}]};
+ if(path==='/api/users')return {users:[{...currentUser,email:'admin@example.test',status:'active'},{id:'visual-user',name:'User Visual QA',email:'user@example.test',role:'user',status:'active',hasSignedIn:false}]};
  if(path==='/api/cases')return {records:{'EMP-0348':fixtureRecord}};
  if(path.startsWith('/api/cases/'))return {record:fixtureRecord};
  throw Error('Unknown visual fixture route.');
