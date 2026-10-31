@@ -33,7 +33,29 @@
 :root p {color:var(--secondary)}
 :root .app-shell {max-width:1840px;margin:0 auto;padding:18px;position:relative;min-height:100vh}
 :root .sidebar {inset:18px auto 18px max(18px,calc((100vw - 1804px)/2));width:222px;padding:28px 14px 18px;border:1px solid var(--stroke);border-radius:26px;background:var(--surface);color:var(--secondary);box-shadow:var(--shadow)}
-:root .brand {padding:0 14px 32px}:root .brand strong,:root .brand strong.product-title{color:var(--ink);font-size:23px;font-weight:650;letter-spacing:-1px}
+:root .brand-mark {display:block;flex:0 0 auto;width:30px;height:30px;color:var(--accent)}
+:root .app-shell .sidebar .brand {display:flex;align-items:center;justify-content:center;gap:10px;padding:0 0 32px;min-height:66px}
+:root .brand strong,:root .brand strong.product-title{color:var(--ink);font-size:19px;font-weight:650;letter-spacing:-.8px}
+:root .sidebar-toggle {position:absolute;right:-16px;top:60px;width:32px;height:32px;display:grid;place-items:center;padding:0;border-radius:50%;border:1px solid var(--stroke);background:var(--surface-raised);color:var(--secondary);box-shadow:var(--shadow);z-index:2;transition:color .15s,border-color .15s}
+:root .sidebar-toggle .icon {width:16px;height:16px}
+:root .sidebar-toggle:hover {color:var(--accent);border-color:var(--accent)}
+:root .sidebar-toggle-icon {display:flex}
+:root .sidebar-info {position:relative}
+@media(min-width:801px){
+ :root[data-sidebar="collapsed"] .sidebar {width:80px;padding-left:12px;padding-right:12px}
+ :root[data-sidebar="collapsed"] .app-body {margin-left:98px}
+ :root[data-sidebar="collapsed"] .app-shell .sidebar .brand {gap:0}
+ :root[data-sidebar="collapsed"] .brand .product-title {display:none}
+ :root[data-sidebar="collapsed"] .brand .brand-mark {width:34px;height:34px}
+ :root[data-sidebar="collapsed"] .workspace-label {visibility:hidden;height:28px;padding:0}
+ :root[data-sidebar="collapsed"] .nav-item,:root[data-sidebar="collapsed"] .sidebar-info {justify-content:center;padding:12px 0;min-height:46px;gap:0}
+ :root[data-sidebar="collapsed"] .nav-item>span,:root[data-sidebar="collapsed"] .nav-item>small,:root[data-sidebar="collapsed"] .sidebar-info>span {display:none}
+ :root[data-sidebar="collapsed"] .nav-item .icon,:root[data-sidebar="collapsed"] .sidebar-info .icon {width:18px;height:18px;margin:0}
+ :root[data-sidebar="collapsed"] .sidebar-toggle-icon {transform:rotate(180deg)}
+ :root[data-sidebar="collapsed"] [data-tooltip]::after {content:attr(data-tooltip);position:absolute;left:calc(100% + 24px);top:50%;transform:translateY(-50%) translateX(-4px);opacity:0;visibility:hidden;pointer-events:none;white-space:nowrap;padding:9px 12px;border:1px solid var(--stroke);border-radius:10px;background:var(--surface-raised);color:var(--ink);box-shadow:var(--float-shadow);font-size:12px;font-weight:500;line-height:1.5;z-index:70;transition:opacity .12s,transform .12s}
+ :root[data-sidebar="collapsed"] [data-tooltip]:hover::after,:root[data-sidebar="collapsed"] [data-tooltip]:focus-visible::after {visibility:visible;opacity:1;transform:translateY(-50%) translateX(0)}
+}
+@media(max-width:800px){:root .sidebar-toggle {display:none}}
 :root .workspace-label {padding:0 14px 14px;color:var(--subtle);font-size:9px;letter-spacing:1.8px}
 :root .nav-item {min-height:46px;padding:12px 14px;border-radius:14px;color:var(--secondary);font-weight:500;font-size:12px;gap:12px}
 :root .nav-item .icon {color:var(--subtle);width:17px;height:17px}
@@ -168,7 +190,8 @@
 :root .login-password-layout {display:grid;grid-template-columns:.93fr 1.07fr;max-width:1080px;width:100%;min-height:650px;margin:0 auto;padding:12px;background:var(--surface);border:1px solid var(--stroke);border-radius:30px;box-shadow:var(--float-shadow);overflow:hidden}
 :root .login-password-layout .login-story {padding:36px;background:radial-gradient(ellipse at 10% 10%,#b7edffbb 0,transparent 48%),radial-gradient(ellipse at 90% 80%,#b39cfa 0,transparent 55%),linear-gradient(145deg,#7860d5,#352174 55%,#9384e0);border-radius:21px;min-height:620px;color:#fff;display:flex}
 :root[data-theme="dark"] .login-password-layout .login-story {background:radial-gradient(ellipse at 90% 85%,#67607666 0,transparent 60%),radial-gradient(ellipse at 15% 10%,#60699855 0,transparent 50%),linear-gradient(145deg,#242335,#29233b 55%,#373047)}
-:root .login-password-layout .login-product-name {color:#fff;font-size:24px;letter-spacing:-.8px;font-weight:600;position:relative;z-index:1}
+:root .login-password-layout .login-product-name {display:flex;align-items:center;gap:12px;color:#fff;font-size:24px;letter-spacing:-.8px;font-weight:600;position:relative;z-index:1}
+:root .login-product-name .brand-mark {width:34px;height:34px;color:inherit}
 :root .login-password-layout .login-copy {display:block;margin:auto 0 0;padding:80px 0 42px;max-width:350px}
 :root .login-password-layout .login-copy h2 {color:#fff;font-size:36px;line-height:1.25;font-weight:550;letter-spacing:-1px}
 :root .login-password-layout .login-copy>p {color:#f0ecff;line-height:1.8;font-size:12px;margin-top:20px}
