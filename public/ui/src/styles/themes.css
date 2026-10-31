@@ -1,7 +1,8 @@
+@font-face {font-family:"Geist Sans";src:url("/ui/assets/fonts/geist-sans-variable.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 /* Neutral workspace surfaces; risk and verification colors keep their semantic meaning. */
 :root {
   color-scheme:dark;
-  --canvas:#090909; --surface:#111111; --surface-soft:#191919; --surface-raised:#202020;
+  --canvas:#090909; --surface:#0a0a0a; --surface-soft:#191919; --surface-raised:#202020;
   --ink:#ededed; --secondary:#a3a3a3; --subtle:#929292; --stroke:#2c2c2c;
   --accent:#ededed; --accent-hover:#d6d6d6; --accent-soft:#232323; --on-accent:#111111; --control-bg:#0d0d0d;
   --shadow:none;
@@ -291,7 +292,7 @@
 
 /* Workspace system: shared type, spacing, surfaces and interaction states. */
 :root {--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-8:32px;--radius-panel:20px;--radius-control:12px;--radius-badge:8px}
-:root body {font-family:Inter,'Segoe UI',Arial,sans-serif;font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+:root body {font-family:'Geist Sans',Inter,'Segoe UI',Arial,sans-serif;font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
 :root button,:root input,:root select,:root textarea {font-family:inherit}
 :root h1,:root h2,:root h3,:root p {overflow-wrap:break-word}
 :root .sidebar {width:232px;border-radius:24px;padding:26px 14px 20px}
@@ -630,9 +631,59 @@
 :root #toast {border-radius:9px}
 :root body.auth-view {background:var(--canvas)}
 :root .login-password-layout {border-radius:18px;box-shadow:none}
-:root .login-password-layout .login-story,:root[data-theme="dark"] .login-password-layout .login-story {background:#141414;border:1px solid #2c2c2c;border-radius:11px}
+:root .login-password-layout .login-story,:root[data-theme="dark"] .login-password-layout .login-story {background:var(--surface);border:1px solid var(--stroke);border-radius:11px}
 :root .login-story::after {display:none}
 :root .login-password-layout .login-copy>p {color:#b0b0b0}
 :root .login-password-layout .login-product-name .brand-mark {color:inherit}
 :root .login-password-layout .form-field input {background:var(--control-bg);border-radius:8px}
 :root .login-password-layout .login-submit.btn {color:var(--on-accent);border-radius:8px;box-shadow:none}
+
+/* Geist-inspired type hierarchy and a 4 px spacing scale. Canvas stays independent. */
+:root {--radius-panel:12px;--radius-control:8px}
+:root body {line-height:1.5}
+:root .topbar {padding:var(--space-4) var(--space-6);gap:var(--space-6);border-radius:12px}
+:root .card,:root .kpi,:root .case-stat.card,:root .queue-panel {border-radius:var(--radius-panel)}
+:root .card:not(.table-card):not(.case-stat):not(.admin-stat):not(.queue-panel) {padding:var(--space-6)}
+:root .page-heading {gap:var(--space-6);margin-bottom:var(--space-6)}
+:root .page-heading h1 {font-size:32px;line-height:1.25;font-weight:600;letter-spacing:-.9px}
+:root .page-heading p,:root .card-head p {font-size:13px;line-height:20px}
+:root .card-head h2 {font-size:16px;line-height:24px;letter-spacing:-.2px;font-weight:600}
+:root .card-head {gap:var(--space-4);margin-bottom:var(--space-6)}
+:root .btn {font-size:14px;line-height:20px;min-height:40px;padding:9px 16px;gap:var(--space-2)}
+:root .btn.small {font-size:13px;line-height:18px;min-height:32px;padding:6px 12px}
+:root .icon-btn {padding:0;min-height:36px;line-height:1}
+:root .nav-item {font-size:13px;line-height:20px}
+:root table th {font-size:12px;line-height:16px;letter-spacing:0;padding:var(--space-4)}
+:root td {font-size:13px;line-height:20px;padding:var(--space-4)}
+:root .heading-actions {display:flex;gap:var(--space-6);align-items:center}
+:root .dashboard-period {display:flex;flex-direction:column;gap:2px;min-width:0;padding:0;background:transparent;border:0;box-shadow:none;color:var(--ink);line-height:20px;cursor:default}
+:root .dashboard-period>span {font-size:12px;line-height:16px;color:var(--secondary)}
+:root .dashboard-period time {font-size:14px;font-weight:500;white-space:nowrap}
+:root .topbar-right {display:flex;gap:var(--space-4);min-width:0;flex-shrink:0}
+:root .account-summary {display:flex;align-items:center;gap:var(--space-3);min-width:0}
+:root .topbar .account-summary .account-avatar {display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--surface-soft);color:var(--ink);border:1px solid var(--stroke);font-size:12px;line-height:1;flex:0 0 36px}
+:root .topbar .account-summary .user-label {display:flex;flex-direction:column;justify-content:center;gap:2px;min-width:0;line-height:18px}
+:root .topbar .account-summary .user-label strong {font-size:13px;font-weight:500;max-width:150px;line-height:18px}
+:root .account-role {display:block;font-size:12px;line-height:16px;color:var(--secondary)}
+:root .logout-btn {width:36px;height:36px;min-height:36px;border-radius:8px;flex-shrink:0}
+:root .logout-draft-warning {margin-top:var(--space-4)}
+:root dialog.logout-dialog {max-width:440px}
+:root .logout-dialog .modal-body p {font-size:14px;line-height:22px}
+@media(max-width:1000px){:root .global-search{order:3;flex-basis:100%;max-width:none}}
+@media(max-width:620px){
+ :root .topbar{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;padding:var(--space-4);gap:var(--space-4) var(--space-3)}
+ :root .topbar-left{min-width:0;gap:var(--space-2)}
+ :root .breadcrumb{min-width:0}
+ :root .breadcrumb strong{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ :root .topbar-right{order:2;gap:var(--space-3);margin:0}
+ :root .global-search{grid-column:1/-1;width:100%;order:3}
+ :root .account-summary{gap:var(--space-2)}
+ :root .topbar .account-summary .account-avatar{width:32px;height:32px;flex-basis:32px;font-size:11px}
+ :root .topbar .account-summary .user-label strong{max-width:88px;font-size:12px;line-height:16px}
+ :root .account-role{font-size:11px;line-height:14px}
+ :root .page-heading{gap:var(--space-4)}
+ :root .page-heading h1{font-size:26px;line-height:32px;letter-spacing:-.6px}
+ :root .heading-actions{gap:var(--space-4);width:100%;justify-content:space-between}
+ :root .card:not(.table-card):not(.case-stat):not(.admin-stat):not(.queue-panel){padding:var(--space-5)}
+ :root .btn{font-size:13px}
+}
