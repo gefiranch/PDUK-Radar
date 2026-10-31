@@ -1,30 +1,18 @@
 /* Neutral workspace surfaces; risk and verification colors keep their semantic meaning. */
 :root {
-  color-scheme:light;
-  --canvas:#fafafa; --surface:#ffffff; --surface-soft:#f5f5f5; --surface-raised:#fff;
-  --ink:#171717; --secondary:#525252; --subtle:#6b6b6b; --stroke:#e5e5e5;
-  --accent:#11774f; --accent-hover:#0b6541; --accent-soft:#eaf6ef; --on-accent:#fff; --control-bg:#fff;
-  --shadow:none;
-  --float-shadow:0 12px 36px #00000016;
-  --nav:var(--surface); --teal:var(--accent); --dark:var(--ink); --text:var(--ink);
-  --muted:var(--secondary); --line:var(--stroke); --bg:var(--canvas); --white:var(--surface);
-  --low:#1a7f50; --medium:#9a7500; --high:#b75b18; --critical:#c42b3a;
-  --ok-bg:#edf8f1; --ok-ink:#18794e; --warn-bg:#fff8e6; --warn-ink:#8d6200;
-  --bad-bg:#fff0f0; --bad-ink:#b4232c; --review-bg:#eef5ff; --review-ink:#2463a6;
-  --neutral-bg:#f2f2f2; --neutral-ink:#525252;
-  background:var(--canvas); color:var(--ink);
-}
-:root[data-theme="dark"] {
   color-scheme:dark;
   --canvas:#090909; --surface:#111111; --surface-soft:#191919; --surface-raised:#202020;
   --ink:#ededed; --secondary:#a3a3a3; --subtle:#929292; --stroke:#2c2c2c;
-  --accent:#3ecf8e; --accent-hover:#59dda2; --accent-soft:#11251b; --on-accent:#062b19; --control-bg:#0d0d0d;
+  --accent:#ededed; --accent-hover:#d6d6d6; --accent-soft:#232323; --on-accent:#111111; --control-bg:#0d0d0d;
   --shadow:none;
   --float-shadow:0 12px 36px #00000066;
   --low:#3ecf8e; --medium:#e3b341; --high:#f29d5c; --critical:#f27b86;
   --ok-bg:#10281d; --ok-ink:#5ed29c; --warn-bg:#2b220f; --warn-ink:#efc561;
   --bad-bg:#301719; --bad-ink:#f28b94; --review-bg:#14243a; --review-ink:#89b9ff;
   --neutral-bg:#202020; --neutral-ink:#b5b5b5;
+  --nav:var(--surface); --teal:var(--accent); --dark:var(--ink); --text:var(--ink);
+  --muted:var(--secondary); --line:var(--stroke); --bg:var(--canvas); --white:var(--surface);
+  background:var(--canvas); color:var(--ink);
 }
 :root body {background:var(--canvas);color:var(--ink);transition:none}
 :root ::selection {background:var(--accent-soft);color:var(--accent)}
@@ -96,8 +84,6 @@
 :root .date-pill {border-radius:12px;color:var(--secondary);font-size:11px;padding:11px 13px}
 :root .text-link,:root .employer-link {color:var(--accent)}:root .text-link{font-size:12px}:root .employer-link{font-size:12px;font-weight:600}
 :root .avatar,:root .company-avatar {border:1px solid var(--stroke);background:var(--accent-soft);color:var(--accent)}
-:root .theme-toggle {display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--stroke);background:var(--surface-soft);color:var(--secondary);border-radius:12px;min-height:38px;padding:9px 11px;font-size:11px;white-space:nowrap}
-:root .theme-toggle:hover{color:var(--accent);border-color:var(--accent)}:root .theme-toggle .icon{width:16px;height:16px}:root .theme-sun{display:none}:root .theme-moon{display:flex}:root[data-theme="dark"] .theme-sun{display:flex}:root[data-theme="dark"] .theme-moon{display:none}
 :root input,:root textarea,:root select,:root .filter-field select,:root .form-grid select,:root .form-field select,:root .sort-label select,:root select:not([multiple]) {background-color:var(--surface-soft);color:var(--ink);border-color:var(--stroke);border-radius:12px}
 :root input,:root textarea {padding:12px 14px;min-height:44px}
 :root select:not([multiple]),:root .filter-field select,:root .form-grid select,:root .form-field select,:root .sort-label select {padding:12px 42px 12px 14px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23828a9c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")}
@@ -186,7 +172,6 @@
 /* A restrained aurora treatment, contained within the login frame. */
 :root body.auth-view {min-height:100vh;background:radial-gradient(ellipse at 15% 15%,#b8acf521,transparent 50%),var(--canvas)}
 :root body.auth-view #app {min-height:100vh;padding:70px 28px 32px;display:flex;align-items:center;justify-content:center;position:relative}
-:root .login-theme-bar {position:absolute;inset:20px 28px auto;display:flex;align-items:center;justify-content:space-between;color:var(--subtle);font-size:11px;gap:12px}
 :root .login-password-layout {display:grid;grid-template-columns:.93fr 1.07fr;max-width:1080px;width:100%;min-height:650px;margin:0 auto;padding:12px;background:var(--surface);border:1px solid var(--stroke);border-radius:30px;box-shadow:var(--float-shadow);overflow:hidden}
 :root .login-password-layout .login-story {padding:36px;background:radial-gradient(ellipse at 10% 10%,#b7edffbb 0,transparent 48%),radial-gradient(ellipse at 90% 80%,#b39cfa 0,transparent 55%),linear-gradient(145deg,#7860d5,#352174 55%,#9384e0);border-radius:21px;min-height:620px;color:#fff;display:flex}
 :root[data-theme="dark"] .login-password-layout .login-story {background:radial-gradient(ellipse at 90% 85%,#67607666 0,transparent 60%),radial-gradient(ellipse at 15% 10%,#60699855 0,transparent 50%),linear-gradient(145deg,#242335,#29233b 55%,#373047)}
@@ -349,7 +334,6 @@
 :root .text-link .icon {width:15px;height:15px}
 :root .date-pill {font-size:12px;padding:10px 13px;min-height:42px;border-radius:12px;gap:8px;background:var(--surface);border-color:var(--stroke);color:var(--secondary)}
 :root .date-pill .icon {width:15px;height:15px}
-:root .theme-toggle {font-size:12px;min-height:38px;padding:9px 12px;border-radius:11px}
 :root :is(button,a,summary):focus-visible {outline:2px solid var(--accent);outline-offset:3px}
 :root .searchbox input:focus-visible {outline:0;box-shadow:none}
 :root input,:root textarea,:root select {font-size:14px;line-height:1.6}
@@ -610,7 +594,6 @@
 :root .kpi.low .kpi-icon{background:var(--ok-bg);color:var(--ok-ink)}
 :root .text-link,:root .employer-link {color:var(--ink)}
 :root .text-link:hover,:root .employer-link:hover {color:var(--accent)}
-:root .theme-toggle {background:var(--surface)}
 :root input,:root textarea,:root select,:root .filter-field select,:root .form-grid select,:root .form-field select,:root .sort-label select,:root select:not([multiple]) {background-color:var(--control-bg);border-radius:8px}
 :root .searchbox {background:var(--control-bg);border-radius:8px}
 :root .searchbox input,:root .global-search .searchbox input {background:transparent}
@@ -637,8 +620,8 @@
 :root .verification-shortcut>span .icon {color:var(--secondary)}
 :root .form-field.correction-field {background:var(--surface-soft);border-color:var(--stroke);border-radius:10px}
 :root .correction-field textarea {background:var(--control-bg)}
-:root .growth-comparison {--growth-participant:var(--ink);--growth-business:var(--accent)}
-:root[data-theme="dark"] .growth-comparison {--growth-business:var(--accent)}
+:root .growth-comparison {--growth-participant:var(--ink);--growth-business:#6aa8ff}
+:root[data-theme="dark"] .growth-comparison {--growth-business:#6aa8ff}
 :root .notice:not(.warn) {background:var(--surface-soft);border:1px solid var(--stroke);color:var(--secondary);border-radius:10px}
 :root .formula,:root .method-explanation .formula {color:var(--ink);border-radius:9px}
 :root .user-action-menu {border-radius:9px}
