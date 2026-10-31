@@ -1,0 +1,386 @@
+[
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 768
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 768
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 768
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 768
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 768
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 768
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 768
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 768
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1024
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1024
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1024
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1024
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "page": "overview",
+    "heading": "Ringkasan risiko pemberi kerja",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "page": "users",
+    "heading": "Kelola pengguna",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "page": "explain",
+    "heading": "Penjelasan Skor Risiko",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "page": "login",
+    "heading": "Masuk ke PDUK-Radar",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 768
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 768
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1024
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "page": "verification",
+    "heading": "Ruang kerja verifikasi",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1440
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 768
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 768
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1024
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1024
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "light",
+    "width": 1440
+  },
+  {
+    "page": "detail",
+    "heading": "Detail Risiko Perusahaan",
+    "lowContrast": [],
+    "overflow": false,
+    "theme": "dark",
+    "width": 1440
+  }
+]

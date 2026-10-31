@@ -15,11 +15,19 @@ Lihat [laporan revisi dan audit](docs/REVISION_DOSEN.md), [hasil uji](docs/TEST_
 - Verifikasi: form terhubung API, konfirmasi penyimpanan server, riwayat petugas, alasan koreksi dan konflik versi. Sidebar Kasus Selesai mendukung `#/completed/EMP-0348`.
 - ID perusahaan dipertahankan antara Detail, Penjelasan Skor, dan Verifikasi. Skor analitik tidak berubah ketika kasus ditutup.
 
+## Tema dan ganti kata sandi (revisi 31 Oktober 2026)
+
+Tampilan memakai panel floating, sidebar/header terpisah, kartu lebih bersih, serta palet ungu lembut dan charcoal. Tombol Tema tersedia pada login dan topbar. Preferensi light/dark disimpan per browser (`pduk-radar:theme`); jika belum dipilih mengikuti preferensi sistem. Tidak ada perubahan dataset, isi analisis, atau alur kasus.
+
+Admin dapat membuka Kelola pengguna → menu titik tiga user → **Ganti kata sandi**. Pada baris admin tersedia tombol Ganti kata sandi, termasuk akun admin sendiri. Isi password baru dan konfirmasi (6–128 karakter), lalu simpan. Password di-hash menggunakan mekanisme yang sama; seluruh sesi target dicabut. Jika mengganti akun sendiri, admin diarahkan ke login. Hanya admin aktif yang boleh melakukan tindakan ini; role, email, dan status akun tidak ikut diubah. Audit hanya merekam `password_reset`, tidak password-nya. Tidak memerlukan migrasi baru.
+
+Lihat [laporan tema/password](docs/FLOATING_THEMES_PASSWORD.md). Untuk fixture visual lokal: `node tools/prepare-theme-qa.mjs`; bersihkan dengan `node tools/prepare-theme-qa.mjs --clean` sebelum build. Build sengaja menolak fixture ini agar data QA tidak ikut aset publik. Fixture hanya memeriksa tampilan komponen; tidak memiliki sesi/API aktif.
+
 ## Akun dan hak akses
 
 | Peran | Hak akses |
 | --- | --- |
-| Admin aktif | Membaca dan memperbarui seluruh kasus sintetis; mengelola akun user |
+| Admin aktif | Membaca dan memperbarui seluruh kasus sintetis; mengelola akun user dan mengganti kata sandi akun |
 | User aktif | Membaca dan memperbarui seluruh kasus sintetis; tanpa pengelolaan akun |
 | Tanpa sesi / nonaktif | Tidak dapat membaca data perusahaan, demo, atau kasus |
 
@@ -81,6 +89,8 @@ npm run dev
 
 Jika 0000/0001 sudah diterapkan, jalankan hanya 0002. Jangan mengulang atau mengubah migrasi lama. `npm start` menjalankan Worker hasil build secara lokal. Ikuti konfigurasi lingkungan masing-masing; identitas project dan binding `DB` dipertahankan. Tidak ada secret baru untuk fitur kasus.
 
-## Batas verifikasi revisi ini
+## Status revisi saat ini
 
-D1, login/role, validasi, audit, konflik, serta pembacaan silang akun diuji secara lokal. Sinkronisasi hosting produksi belum diuji atau dideploy. Pengujian visual browser dan viewport 390/768/1024/1440 belum terverifikasi karena akses preview browser terhambat; lakukan checklist pada laporan sebelum merge/deploy. PR remote belum dapat dibuat: integrasi GitHub menolak create branch (403). Source ZIP dan patch commit disediakan sebagai alternatif; `main` dan produksi tidak diubah.
+Revisi tema/password didasarkan pada `main` `b8758d1711954cf2aca6b04eafdea613800305a4`, setelah pemilik menggabungkan PR #1. Hasil terbaru: 39 tes otomatis, 54 pemeriksaan HTTP Worker, lint/TypeScript/build dan validasi data lulus. Komponen UI diperiksa pada 48 kombinasi halaman/tema/viewport lewat fixture visual tanpa sesi/API; login aktual diuji untuk tema, persistensi reload, dan visibilitas password. Uji simpan password berjalan pada Worker/D1 terisolasi, bukan kredensial hosting. Rincian dan batas pengujian ada di `docs/FLOATING_THEMES_PASSWORD.md`.
+
+Tidak ada deployment/migrasi remote atau perubahan password hosting. Tidak ada migrasi baru untuk reset password/tema. Source ZIP dan patch dapat diterapkan pada branch `feat/admin-password-floating-themes`; tinjau dan uji authenticated UI di staging sebelum merge/deploy. Laporan revisi komprehensif lama tetap disimpan sebagai riwayat pekerjaan.
