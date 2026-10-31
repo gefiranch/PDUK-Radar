@@ -241,3 +241,33 @@
 :root .current-verification>span,:root .form-footer>span{color:var(--secondary)}
 :root .detail-section-nav{flex-direction:row}
 :root .btn,:root .icon-btn,:root .theme-toggle,:root .searchbox {transition:border-color .15s,box-shadow .15s}
+
+/* Motion: immediate route feedback, then short, staggered content entrances. */
+:root {--motion-ease:cubic-bezier(.22,1,.36,1)}
+:root .btn,:root .icon-btn,:root .theme-toggle,:root .info-button,:root .sidebar-toggle {transition:transform .2s var(--motion-ease),background-color .18s,border-color .18s,color .18s,box-shadow .2s}
+:root .nav-item,:root .sidebar-info,:root .queue-item,:root .queue-tabs .btn,:root .kpi,:root .case-stat {transition:transform .22s var(--motion-ease),background-color .18s,border-color .18s,color .18s,box-shadow .22s}
+:root tbody tr {transition:background-color .18s}
+:root .nav-item .icon,:root .sidebar-toggle-icon {transition:transform .24s var(--motion-ease),color .18s}
+:root input,:root select,:root textarea,:root .password-input {transition:border-color .18s,box-shadow .2s,background-color .18s}
+:root .btn:active:not(:disabled),:root .icon-btn:active:not(:disabled),:root .theme-toggle:active,:root .info-button:active,:root .kpi:active,:root .case-stat:active {transform:scale(.975)}
+@media(hover:hover) and (pointer:fine){
+ :root .btn:hover:not(:disabled),:root .icon-btn:hover:not(:disabled),:root .theme-toggle:hover,:root .info-button:hover {transform:translateY(-2px)}
+ :root .kpi:hover,:root .case-stat:hover {transform:translateY(-3px)}
+ :root .nav-item:hover .icon {transform:translateX(2px)}
+ :root .queue-item:hover {transform:translateX(2px)}
+}
+@media(min-width:801px){
+ :root .sidebar {transition:width .28s var(--motion-ease),padding .28s var(--motion-ease)}
+ :root .app-body {transition:margin-left .28s var(--motion-ease)}
+}
+:root .topbar {position:relative;isolation:isolate}
+:root[data-sync="loading"] .topbar::after {content:'';position:absolute;bottom:0;left:5%;right:5%;height:2px;border-radius:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent);transform-origin:left;opacity:0;animation:pduk-sync 1.15s ease-in-out .18s infinite;pointer-events:none}
+:root dialog[open] {animation:pduk-dialog .24s var(--motion-ease)}
+:root dialog[open]::backdrop {animation:pduk-backdrop .2s ease-out}
+:root .user-action-menu:popover-open {animation:pduk-menu .18s var(--motion-ease);transform-origin:top right}
+:root .login-password-layout {animation:pduk-dialog .45s var(--motion-ease)}
+@keyframes pduk-dialog {from{opacity:0;transform:translateY(14px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes pduk-backdrop {from{opacity:0}to{opacity:1}}
+@keyframes pduk-menu {from{opacity:0;transform:translateY(-5px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes pduk-sync {0%{opacity:0;transform:scaleX(.15)}45%{opacity:.75;transform:scaleX(.7)}100%{opacity:0;transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){:root *,:root *::before,:root *::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}:root[data-sync="loading"] .topbar::after{opacity:.5;transform:none}}
