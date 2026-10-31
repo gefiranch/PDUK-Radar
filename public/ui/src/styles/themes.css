@@ -1,30 +1,18 @@
-/* Floating surfaces. Only presentation tokens change; source risk colors retain their meaning. */
+/* Neutral workspace surfaces; risk and verification colors keep their semantic meaning. */
 :root {
-  color-scheme:light;
-  --canvas:#f3f5fa; --surface:#ffffff; --surface-soft:#f6f7fb; --surface-raised:#fff;
-  --ink:#202638; --secondary:#566174; --subtle:#657187; --stroke:#e2e6ef;
-  --accent:#6250d3; --accent-hover:#5945c6; --accent-soft:#efecfd;
-  --shadow:0 6px 24px #22254906,0 1px 3px #22254904;
-  --float-shadow:0 15px 55px #28234e0c;
+  color-scheme:dark;
+  --canvas:#090909; --surface:#111111; --surface-soft:#191919; --surface-raised:#202020;
+  --ink:#ededed; --secondary:#a3a3a3; --subtle:#929292; --stroke:#2c2c2c;
+  --accent:#ededed; --accent-hover:#d6d6d6; --accent-soft:#232323; --on-accent:#111111; --control-bg:#0d0d0d;
+  --shadow:none;
+  --float-shadow:0 12px 36px #00000066;
+  --low:#3ecf8e; --medium:#e3b341; --high:#f29d5c; --critical:#f27b86;
+  --ok-bg:#10281d; --ok-ink:#5ed29c; --warn-bg:#2b220f; --warn-ink:#efc561;
+  --bad-bg:#301719; --bad-ink:#f28b94; --review-bg:#14243a; --review-ink:#89b9ff;
+  --neutral-bg:#202020; --neutral-ink:#b5b5b5;
   --nav:var(--surface); --teal:var(--accent); --dark:var(--ink); --text:var(--ink);
   --muted:var(--secondary); --line:var(--stroke); --bg:var(--canvas); --white:var(--surface);
-  --low:#168653; --medium:#a67812; --high:#ab4f20; --critical:#c13c56;
-  --ok-bg:#e9f6ef; --ok-ink:#216b47; --warn-bg:#fff4da; --warn-ink:#88600e;
-  --bad-bg:#fcecef; --bad-ink:#b53450; --review-bg:#eaf1fc; --review-ink:#3d68aa;
-  --neutral-bg:#eef0f6; --neutral-ink:#626a7c;
   background:var(--canvas); color:var(--ink);
-}
-:root[data-theme="dark"] {
-  color-scheme:dark;
-  --canvas:#101218; --surface:#191d26; --surface-soft:#212631; --surface-raised:#252c39;
-  --ink:#f0f3fa; --secondary:#b8c1d3; --subtle:#9ba8be; --stroke:#30394a;
-  --accent:#b2a2ff; --accent-hover:#c2b6ff; --accent-soft:#312b49;
-  --shadow:0 6px 24px #00000010,0 1px 3px #00000010;
-  --float-shadow:0 15px 55px #00000025;
-  --low:#71d7a3; --medium:#f0cd70; --high:#ffac77; --critical:#ff96a9;
-  --ok-bg:#203c32; --ok-ink:#9ae0b8; --warn-bg:#403722; --warn-ink:#f1d28c;
-  --bad-bg:#452a34; --bad-ink:#ffafbf; --review-bg:#26364e; --review-ink:#b0ceff;
-  --neutral-bg:#2c313c; --neutral-ink:#c1c8d7;
 }
 :root body {background:var(--canvas);color:var(--ink);transition:none}
 :root ::selection {background:var(--accent-soft);color:var(--accent)}
@@ -96,8 +84,6 @@
 :root .date-pill {border-radius:12px;color:var(--secondary);font-size:11px;padding:11px 13px}
 :root .text-link,:root .employer-link {color:var(--accent)}:root .text-link{font-size:12px}:root .employer-link{font-size:12px;font-weight:600}
 :root .avatar,:root .company-avatar {border:1px solid var(--stroke);background:var(--accent-soft);color:var(--accent)}
-:root .theme-toggle {display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--stroke);background:var(--surface-soft);color:var(--secondary);border-radius:12px;min-height:38px;padding:9px 11px;font-size:11px;white-space:nowrap}
-:root .theme-toggle:hover{color:var(--accent);border-color:var(--accent)}:root .theme-toggle .icon{width:16px;height:16px}:root .theme-sun{display:none}:root .theme-moon{display:flex}:root[data-theme="dark"] .theme-sun{display:flex}:root[data-theme="dark"] .theme-moon{display:none}
 :root input,:root textarea,:root select,:root .filter-field select,:root .form-grid select,:root .form-field select,:root .sort-label select,:root select:not([multiple]) {background-color:var(--surface-soft);color:var(--ink);border-color:var(--stroke);border-radius:12px}
 :root input,:root textarea {padding:12px 14px;min-height:44px}
 :root select:not([multiple]),:root .filter-field select,:root .form-grid select,:root .form-field select,:root .sort-label select {padding:12px 42px 12px 14px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23828a9c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")}
@@ -186,7 +172,6 @@
 /* A restrained aurora treatment, contained within the login frame. */
 :root body.auth-view {min-height:100vh;background:radial-gradient(ellipse at 15% 15%,#b8acf521,transparent 50%),var(--canvas)}
 :root body.auth-view #app {min-height:100vh;padding:70px 28px 32px;display:flex;align-items:center;justify-content:center;position:relative}
-:root .login-theme-bar {position:absolute;inset:20px 28px auto;display:flex;align-items:center;justify-content:space-between;color:var(--subtle);font-size:11px;gap:12px}
 :root .login-password-layout {display:grid;grid-template-columns:.93fr 1.07fr;max-width:1080px;width:100%;min-height:650px;margin:0 auto;padding:12px;background:var(--surface);border:1px solid var(--stroke);border-radius:30px;box-shadow:var(--float-shadow);overflow:hidden}
 :root .login-password-layout .login-story {padding:36px;background:radial-gradient(ellipse at 10% 10%,#b7edffbb 0,transparent 48%),radial-gradient(ellipse at 90% 80%,#b39cfa 0,transparent 55%),linear-gradient(145deg,#7860d5,#352174 55%,#9384e0);border-radius:21px;min-height:620px;color:#fff;display:flex}
 :root[data-theme="dark"] .login-password-layout .login-story {background:radial-gradient(ellipse at 90% 85%,#67607666 0,transparent 60%),radial-gradient(ellipse at 15% 10%,#60699855 0,transparent 50%),linear-gradient(145deg,#242335,#29233b 55%,#373047)}
@@ -349,7 +334,6 @@
 :root .text-link .icon {width:15px;height:15px}
 :root .date-pill {font-size:12px;padding:10px 13px;min-height:42px;border-radius:12px;gap:8px;background:var(--surface);border-color:var(--stroke);color:var(--secondary)}
 :root .date-pill .icon {width:15px;height:15px}
-:root .theme-toggle {font-size:12px;min-height:38px;padding:9px 12px;border-radius:11px}
 :root :is(button,a,summary):focus-visible {outline:2px solid var(--accent);outline-offset:3px}
 :root .searchbox input:focus-visible {outline:0;box-shadow:none}
 :root input,:root textarea,:root select {font-size:14px;line-height:1.6}
@@ -587,3 +571,68 @@
  :root .app-shell .sidebar .brand{padding-left:10px;padding-right:10px}
  :root .workspace-label,:root .sidebar-info{padding-left:10px;padding-right:10px}
 }
+
+/* Neutral product tone: color marks actions and status, while the workspace stays quiet. */
+:root {--radius-panel:14px;--radius-control:8px;--radius-badge:6px}
+:root .sidebar {background:var(--surface);border-radius:18px}
+:root .topbar {border-radius:14px}
+:root .brand-mark {color:var(--ink)}
+:root .nav-item,:root .sidebar-info {border-radius:8px}
+:root .nav-item.active {background:var(--surface-soft);color:var(--ink);box-shadow:inset 0 0 0 1px var(--stroke)}
+:root .nav-item.active .icon {color:var(--ink)}
+:root .nav-item small {background:var(--neutral-bg);color:var(--secondary);border-radius:5px}
+:root .btn,:root .icon-btn,:root .date-pill,:root .theme-toggle {border-radius:8px;box-shadow:none}
+:root .btn.primary,:root[data-theme="dark"] .btn.primary {color:var(--on-accent);box-shadow:none}
+:root .btn:not(.primary):not(.danger):hover,:root .icon-btn:hover {border-color:color-mix(in srgb,var(--ink) 24%,var(--stroke))}
+:root .priority-banner {background:var(--surface);border-color:var(--stroke);border-radius:14px}
+:root .priority-icon {background:var(--surface-soft);color:var(--ink);border-radius:9px}
+:root .kpi,:root .case-stat.card {border-radius:14px}
+:root .kpi>strong,:root .kpi.critical>strong,:root .kpi.high>strong,:root .kpi.medium>strong,:root .kpi.low>strong {color:var(--ink)}
+:root .kpi-icon,:root .avatar,:root .company-avatar,:root .admin-card-icon,:root .admin-stat-icon {background:var(--surface-soft);color:var(--secondary);border-radius:9px}
+:root .kpi.critical .kpi-icon{background:var(--bad-bg);color:var(--critical)}
+:root .kpi.high .kpi-icon,:root .kpi.medium .kpi-icon{background:var(--warn-bg);color:var(--warn-ink)}
+:root .kpi.low .kpi-icon{background:var(--ok-bg);color:var(--ok-ink)}
+:root .text-link,:root .employer-link {color:var(--ink)}
+:root .text-link:hover,:root .employer-link:hover {color:var(--accent)}
+:root input,:root textarea,:root select,:root .filter-field select,:root .form-grid select,:root .form-field select,:root .sort-label select,:root select:not([multiple]) {background-color:var(--control-bg);border-radius:8px}
+:root .searchbox {background:var(--control-bg);border-radius:8px}
+:root .searchbox input,:root .global-search .searchbox input {background:transparent}
+:root .status-badge,:root .risk-badge,:root .role-tag,:root .account-status,:root .tag {border-radius:6px}
+:root .role-tag.admin,:root .role-tag.user,:root .admin-access-pill {background:var(--neutral-bg);color:var(--neutral-ink)}
+:root .admin-help {background:var(--surface-soft);border:1px solid var(--stroke);border-radius:10px}
+:root .admin-help .icon {background:transparent;color:var(--secondary)}
+:root .info-button {background:var(--surface-soft);color:var(--secondary);border:1px solid var(--stroke);border-radius:8px}
+:root .info-button:hover,:root .info-button:focus-visible {background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+:root .focus-rank,:root .detail-section-title>span {background:var(--surface-soft);color:var(--secondary);border:1px solid var(--stroke);border-radius:6px}
+:root .assessment-category,:root .review-top li {background:var(--surface);border-radius:10px}
+:root .detail-section-nav {border-radius:10px}
+:root .detail-section-nav .btn {border-radius:6px}
+:root .detail-section-nav .btn[aria-current="location"] {background:var(--surface-soft);color:var(--ink);border-color:var(--stroke)}
+:root .detail-section-nav .btn>span {color:var(--subtle)}
+:root .queue-panel {border-radius:14px}
+:root .queue-tabs {background:var(--canvas);border-radius:8px}
+:root .queue-tabs .btn {border-radius:5px}
+:root .queue-tabs .btn.selected {background:var(--surface-raised);color:var(--ink);border-color:var(--stroke);box-shadow:none}
+:root .queue-item {border-radius:9px}
+:root .queue-item.selected,:root .queue-item.selected:hover {background:var(--surface-soft);border-color:color-mix(in srgb,var(--ink) 30%,var(--stroke))}
+:root .verification-shortcut {border:1px solid var(--stroke);background:var(--surface);border-radius:9px}
+:root .verification-shortcut:hover {background:var(--surface-soft);border-color:color-mix(in srgb,var(--ink) 28%,var(--stroke))}
+:root .verification-shortcut>span .icon {color:var(--secondary)}
+:root .form-field.correction-field {background:var(--surface-soft);border-color:var(--stroke);border-radius:10px}
+:root .correction-field textarea {background:var(--control-bg)}
+:root .growth-comparison {--growth-participant:var(--ink);--growth-business:#6aa8ff}
+:root[data-theme="dark"] .growth-comparison {--growth-business:#6aa8ff}
+:root .notice:not(.warn) {background:var(--surface-soft);border:1px solid var(--stroke);color:var(--secondary);border-radius:10px}
+:root .formula,:root .method-explanation .formula {color:var(--ink);border-radius:9px}
+:root .user-action-menu {border-radius:9px}
+:root dialog {border-radius:16px}
+:root dialog::backdrop {background:#00000080;backdrop-filter:blur(3px)}
+:root #toast {border-radius:9px}
+:root body.auth-view {background:var(--canvas)}
+:root .login-password-layout {border-radius:18px;box-shadow:none}
+:root .login-password-layout .login-story,:root[data-theme="dark"] .login-password-layout .login-story {background:#141414;border:1px solid #2c2c2c;border-radius:11px}
+:root .login-story::after {display:none}
+:root .login-password-layout .login-copy>p {color:#b0b0b0}
+:root .login-password-layout .login-product-name .brand-mark {color:inherit}
+:root .login-password-layout .form-field input {background:var(--control-bg);border-radius:8px}
+:root .login-password-layout .login-submit.btn {color:var(--on-accent);border-radius:8px;box-shadow:none}
