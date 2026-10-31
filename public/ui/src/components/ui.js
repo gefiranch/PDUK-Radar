@@ -44,11 +44,11 @@ const shapes={
  help:'M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20ZM8 8h3c0-1 2-1 2 0s-3 2-3 5h3c0-1 3-2 3-5 0-5-8-5-8 0ZM10 16v3h3v-3h-3Z',
  user:'M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10ZM3 22v-3c0-8 18-8 18 0v3H3Z',
  users:'M9 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM18 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6ZM1 21v-4c0-8 16-8 16 0v4H1ZM18 12c3 0 5 2 5 5v4h-4v-4c0-2-.4-3.5-1-5Z',
- userplus:'M8 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM1 22v-4c0-8 14-8 14 0v4H1ZM18 6h3v4h4v3h-4v4h-3v-4h-4v-3h4V6Z',
+ userplus:'M8 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM1 22v-4c0-8 14-8 14 0v4H1ZM18 7h2v4h4v2h-4v4h-2v-4h-4v-2h4V7Z',
  lock:'M6 9V7a6 6 0 0 1 12 0v2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2ZM9 9h6V7a3 3 0 0 0-6 0v2ZM10 14v5h4v-5h-4Z',
  mail:'M2 4h20v16H2V4ZM4 6l8 6 8-6H4ZM4 9v3l8 6 8-6V9l-8 6-8-6Z',
  logout:'M3 3h9v1.5H4.5v15H12V21H3V3ZM16.53 6.47 22.06 12l-5.53 5.53-1.06-1.06 3.72-3.72H9v-1.5h10.19l-3.72-3.72 1.06-1.06Z'
 };
-const lineShapes={search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/>',arrow:'<path d="M4 12h16m-6-6 6 6-6 6"/>',right:'<path d="m9 5 7 7-7 7"/>',left:'<path d="m15 5-7 7 7 7"/>',down:'<path d="m5 9 7 7 7-7"/>'};
+const lineShapes={download:'<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',refresh:'<path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 7a7 7 0 0 1 11.5-1L20 9M4 15l2.5 3A7 7 0 0 0 18 17"/>',external:'<path d="M14 3h7v7m0-7L10 14M10 4H4v16h16v-6"/>',logout:'<path d="M10 4H4v16h6m5-13 5 5-5 5m-6-5h11"/>',search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/>',arrow:'<path d="M4 12h16m-6-6 6 6-6 6"/>',right:'<path d="m9 5 7 7-7 7"/>',left:'<path d="m15 5-7 7 7 7"/>',down:'<path d="m5 9 7 7 7-7"/>'};
 export const solidIcon=(name,cl='')=>lineShapes[name]?`<svg class="icon icon-line icon-${name} ${cl}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${lineShapes[name]}</svg>`:`<svg class="icon icon-solid icon-${name} ${cl}" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="${shapes[name]||shapes.grid}"/></svg>`;
 export const icon=solidIcon;
