@@ -9,6 +9,7 @@ const navItems=source.match(/const navItems=(.*);/)[1];
 const shell=source.match(/function shell\(\)\{(.*)\}\nfunction render/)[1];
 const passwordReset=source.match(/function openPasswordReset\(u\)\{(.*)\}\nmodal.addEventListener/)[1];
 const script=`
+import {accountProfile,logoutMessage} from '/ui/src/components/account.js';
 import {initializeSidebar,toggleSidebar,syncSidebarToggle} from '/ui/src/services/sidebar.js';
 import {methodPanel,categoryExplanation} from '/ui/src/components/assessment.js';
 import {brandMark,icon,solidIcon,button} from '/ui/src/components/ui.js';
@@ -40,7 +41,9 @@ console.log('Created ignored public/qa-theme-{page,responsive}.html (visual fixt
 // Exercise the actual router, sync coordinator, and animations against read-only fixture data.
 // Only API/bootstrap are replaced; no login credentials or server writes are involved.
 const apiStart=source.indexOf('async function api('),apiEnd=source.indexOf('async function loadUsers()',apiStart);
-const mockApi=`async function api(path,options={}){
+const mockApi=`let fixtureLogoutCalls=0;
+async function api(path,options={}){
+ if(path==='/api/auth/logout'&&options.method==='POST'){document.documentElement.dataset.fixtureLogoutCalls=String(++fixtureLogoutCalls);if(new URLSearchParams(location.search).get('logoutError')==='1')throw Error('Fixture: logout gagal.');return {ok:true};}
  if(options.method&&options.method!=='GET')throw Error('Visual fixture: changes are disabled.');
  if(path==='/api/session')return {user:currentUser};
  if(path.startsWith('/api/data/'))return fixtureData[['employers.json','dashboard.json','details.json'].indexOf(path.split('/').at(-1))];
