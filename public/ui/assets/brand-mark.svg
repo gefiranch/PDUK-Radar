@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302 310" fill="#0d0923">
-  <style>@media(prefers-color-scheme:dark){svg{fill:#c6baff}}</style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302 310" fill="#171717">
+  <style>@media(prefers-color-scheme:dark){svg{fill:#ededed}}</style>
   <path d="M74 0h116a112 112 0 0 1 0 224h-21c0-39 32-69 72-69v-16c-40 0-72-31-72-69h-17c0 38-31 70-69 70h-9Z"/>
   <path d="M0 155h83c40 0 72 32 72 72v83H73v-72H0Z"/>
 </svg>
